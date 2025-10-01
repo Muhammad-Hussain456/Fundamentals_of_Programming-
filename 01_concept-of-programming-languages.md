@@ -56,6 +56,21 @@ It acts as a medium between humans and computers:
 
 ---
 
+### IDEs (Integrated Development Environments)
+
+An IDE is a software application that helps programmers write, debug, and run programs easily.
+
+It usually includes:
+
+Code Editor – for writing code.
+
+Compiler/Interpreter – for translating code.
+
+Debugger – for finding and fixing errors.
+
+Execution Environment – to run programs.
+
+Examples: Code::Blocks, Dev-C++, Visual Studio, Eclipse, PyCharm, VS Code.
 ## Summary
 - A language is a communication system.  
 - Programming languages are formal languages designed to instruct computers.  
