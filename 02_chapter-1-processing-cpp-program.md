@@ -42,7 +42,7 @@ My first C++ program.
    * Translates into machine language (**object program**).
 4. **Linker** –
 
-   * Combines the object program with other programs provided by the SDK.
+   * Combines the object program with other programs such as libraries provided by the SDK.
    * Produces executable code.
 5. **Loader** – Loads the executable program into main memory.
 6. **Execution** – The CPU executes the program instructions.
