@@ -25,7 +25,7 @@ Programming is a process/method of problem solving
 A programming language is a **formal language** used to instruct computers to solve a problem.  
 It acts as a medium between humans and computers:
 
-- Programmers write instructions in languages like C, C++, Java, Python.  
+- Programmers write instructions in languages like C, C#(C-sharp), C++(C-plus plus), Java, Python.  
 - A **translator** converts them into **machine language** (binary).  
 - The **computer** executes the machine language.  
 
@@ -38,7 +38,7 @@ It acts as a medium between humans and computers:
 
 3. **High-Level Languages**
    - Procedural Languages (e.g., C, Pascal, FORTRAN, COBOL)  
-   - Object-Oriented Languages (e.g., Java, C++, Python)  
+   - Object-Oriented Languages (e.g., Java, C++(C-plus plus), Python)  
    - Functional Languages (e.g., Lisp, Haskell)  
    - Scripting Languages (e.g., JavaScript, PHP, Python)  
    - Markup/Query Languages (e.g., HTML, SQL)
@@ -51,7 +51,7 @@ It acts as a medium between humans and computers:
 - Translators (compilers, interpreters, assemblers) convert source code to machine code.
 
 ### Translators
-- **Compiler** – Translates entire high-level code to machine code (C, C++, Java).  
+- **Compiler** – Translates entire high-level code to machine code (C, C++(C-plus plus), Java).  
 - **Interpreter** – Translates line by line (Python).  
 - **Assembler** – Converts assembly to machine code (binary).
 
