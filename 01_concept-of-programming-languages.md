@@ -20,8 +20,11 @@ A language is a system of communication that uses symbols, sounds, or signs to c
 
 ---
 
+## Programming:
+Programming is a process/method of problem solving
+
 ## What is a Programming Language?
-A programming language is a **formal language** used to instruct computers to perform tasks.  
+A programming language is a **formal language** used to instruct computers to solve a problem.  
 It acts as a medium between humans and computers:
 
 - Programmers write instructions in languages like C, C++, Java, Python.  
@@ -36,7 +39,7 @@ It acts as a medium between humans and computers:
    - Assembly Language – Symbolic mnemonics for machine instructions.
 
 2. **High-Level Languages**
-   - Procedural Languages (e.g., C, Pascal)  
+   - Procedural Languages (e.g., C, Pascal, FORTRAN, COBOL)  
    - Object-Oriented Languages (e.g., Java, C++, Python)  
    - Functional Languages (e.g., Lisp, Haskell)  
    - Scripting Languages (e.g., JavaScript, PHP, Python)  
@@ -56,11 +59,25 @@ It acts as a medium between humans and computers:
 
 ---
 
+To execute/run a program:
+#### Linker: 
+Combines object program with other programs provided by the SDK to create executable code
+#### Loader: 
+Loads executable program into main memory
+The last step is to execute the program
+
+
+### Software Development Kit (SDK)
+
+A Software Development Kit (SDK) is a bundled collection of software tools and programs used by developers to create applications for a specific platform, operating system, or programming language. It typically includes libraries of pre-written code, compilers, debuggers, documentation, and code samples. Instead of coding everything from scratch, developers use an SDK to integrate platform-specific components and features. 
+
+
 ### IDEs (Integrated Development Environments)
 
 An IDE is a software application that helps programmers write, debug, and run programs easily.
+While an SDK is a separate set of tools, some IDEs automatically install and manage the correct SDKs for you, creating a single, integrated package.
 
-It usually includes:
+IDES usually includes:
 
 Code Editor – for writing code.
 
@@ -71,6 +88,7 @@ Debugger – for finding and fixing errors.
 Execution Environment – to run programs.
 
 Examples: Code::Blocks, Dev-C++, Visual Studio, Eclipse, PyCharm, VS Code.
+
 ## Summary
 - A language is a communication system.  
 - Programming languages are formal languages designed to instruct computers.  
