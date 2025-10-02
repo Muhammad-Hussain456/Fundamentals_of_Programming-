@@ -69,13 +69,27 @@ The last step is to execute the program
 
 ### Software Development Kit (SDK)
 
-A Software Development Kit (SDK) is a bundled collection of software tools and programs used by developers to create applications for a specific platform, operating system, or programming language. It typically includes libraries of pre-written code, compilers, debuggers, documentation, and code samples. Instead of coding everything from scratch, developers use an SDK to integrate platform-specific components and features. 
+SDK (Software Development Kit):
+A set of headers, libraries, and tools provided by the platform (Windows, Linux, etc.) so programs can run. It does not depend on language (C++, Python, Java) or editor — only on the platform.
+
+On Windows → the Windows SDK comes built-in with Visual Studio (so no need to install separately).
+
+But if you use VS Code, Dev-C++, Eclipse, PyCharm, IntelliJ, etc., then you must install the SDK separately.
+
+
+On Linux → standard libraries (glibc, libstdc++, etc.) are already part of the system, so normally no extra SDK installation.
+
+On Android -> 
+
+
+👉 In short: SDK = extra files and tools given by the platform your program is targeting.
 
 
 ### IDEs (Integrated Development Environments)
 
 An IDE is a software application that helps programmers write, debug, and run programs easily.
-While an SDK is a separate set of tools, some IDEs automatically install and manage the correct SDKs for you, creating a single, integrated package.
+While an SDK is a sep
+arate set of tools, some IDEs automatically install and manage the correct SDKs for you, creating a single, integrated package.
 
 IDES usually includes:
 
