@@ -15,8 +15,6 @@ A language is a system of communication that uses symbols, sounds, or signs to c
 3. **Sign Languages** – Visual-manual languages used primarily by deaf communities.  
    Example: American Sign Language (ASL).
 
-4. **Machine Language** – The most basic language understood directly by computers.  
-   Consists of binary code (0s and 1s).
 
 ---
 
@@ -35,10 +33,10 @@ It acts as a medium between humans and computers:
 
 ## Types of Programming Languages
 1. **Low-Level Languages**
-   - Machine Language – Direct binary instructions.  
+   - Machine Language – **Machine Language** – The most basic language understood directly by computers. Consists of binary code (0s and 1s)..  
    - Assembly Language – Symbolic mnemonics for machine instructions.
 
-2. **High-Level Languages**
+3. **High-Level Languages**
    - Procedural Languages (e.g., C, Pascal, FORTRAN, COBOL)  
    - Object-Oriented Languages (e.g., Java, C++, Python)  
    - Functional Languages (e.g., Lisp, Haskell)  
