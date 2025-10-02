@@ -103,10 +103,12 @@ flowchart TD
     F -->|Error| D
     F --> G[Linker]
     G -->|Error| D
+    G --> L[Library]
     G --> H[Loader]
     H --> I[Execution]
     I -->|Error| D
     I --> J[Results]
+
 
 ```
 
