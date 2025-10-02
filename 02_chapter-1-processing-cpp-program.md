@@ -95,8 +95,19 @@ flowchart LR
 
 ```mermaid
 flowchart TD
-    A[Problem Analysis] --> B[Coding]
-    B --> C[Execution]
+    A[Problem] --> B[Analysis]
+    B --> C[Algorithm Design]
+    C --> D[Coding]
+    D --> E[Preprocessor]
+    E --> F[Compiler]
+    F -->|Error| D
+    F --> G[Linker]
+    G -->|Error| D
+    G --> H[Loader]
+    H --> I[Execution]
+    I -->|Error| D
+    I --> J[Results]
+
 ```
 
 ---
