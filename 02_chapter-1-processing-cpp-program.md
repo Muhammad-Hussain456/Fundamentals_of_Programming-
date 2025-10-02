@@ -55,9 +55,9 @@ flowchart LR
     B --> C[Preprocessor]
     C --> D[Compiler]
     D --> E[Linker]
-    E -->  F[Library] + [Object Program}]
-    E --> F[Loader]
-    F --> G[Execution]
+    E -->  F[Library] 
+    E --> G[Loader]
+    G --> I[Execution]
 ```
 
 ---
