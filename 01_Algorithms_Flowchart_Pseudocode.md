@@ -66,6 +66,8 @@ Easy to visualize.
 
 Each operation has a specific symbol.
 ہر عمل کے لیے خاص علامت ہے۔
+
+
 **Example**
 
 ![Alt Text](Flowcharts/01_LargestOfTwoNumbers.png)
