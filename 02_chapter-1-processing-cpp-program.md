@@ -120,7 +120,7 @@ flowchart LR
 2. **Coding** – Write in C++, compile, fix errors.  
    * If compiler finds errors → correct and recompile.  
    * If no syntax errors → compiler generates machine code.  
-   * Linker links machine code with system resources.  
+   * Linker links machine code with other programs such as libraries provided by sdk.  
    2. **کوڈنگ (Coding)** – C++ میں لکھنا، کمپائل کرنا اور غلطیاں درست کرنا۔  
       * اگر غلطی ہو → درست کریں اور دوبارہ کمپائل کریں۔  
       * اگر غلطی نہ ہو → کمپائلر مشین کوڈ بناتا ہے۔  
