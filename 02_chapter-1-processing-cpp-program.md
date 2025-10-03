@@ -47,6 +47,8 @@ How programming languages changed and improved step by step from old to modern.
 
 
 
+
+
 **Compiler:** A compiler is a special program that translates the entire code at once from a high-level language into machine language.
 کمپائلر (Compiler): کمپائلر ایک پروگرام ہے جو ہائی لیول لینگویج کے پورے کوڈ کو ایک ساتھ مشین لینگویج میں بدل دیتا ہے۔
 
@@ -54,8 +56,9 @@ How programming languages changed and improved step by step from old to modern.
 
 انٹرپریٹر (Interpreter): انٹرپریٹر ایک پروگرام ہے جو ہائی لیول لینگویج میں لکھے گئے کوڈ کو لائن بہ لائن ترجمہ کرتا ہے اور ساتھ ہی ساتھ چل بھیاتا ہے۔
 
-
 **Compiler** is used to translate C++ language and some other high level languages into machine language.
+
+
 ---
 
 ## Processing a C++ Program
@@ -149,11 +152,10 @@ flowchart LR
 
 ### Algorithm
 
-* A **step-by-step process** for problem solving.  
-* الگوردم ایک **قدم بہ قدم طریقہ** ہے جس سے مسئلہ حل کیا جاتا ہے۔  
+ A **step-by-step process** for problem solving.  
+**الگورتھم ایک بالترتیب عمل ** ہے جس سے مسئلہ حل کیا جاتا ہے۔  
 
-* Provides a solution in a finite amount of time.  
-* یہ ایک محدود وقت میں حل فراہم کرتا ہے۔  
+Steps are followed in sequence →  کو تسلسل(ترتیب) کے ساتھ کیا جاتا ہے steps
 
 ---
 
