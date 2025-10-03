@@ -294,15 +294,7 @@ English:
 
 🔹 Step-04: Flowchart
 
-```mermaid
-flowchart TD
-    A[Start] --> B[Input Length]
-    B --> C[Input Width]
-    C --> D[Perimeter = 2*Length+Width]
-    D --> E[Area = Length*Width]
-    E --> F[Display Perimeter and Area]
-    F --> G[End]
-```
+![Alt Text](flowcharts/01_flowchart.png)
 ---
 
 🔹 Step-05: Coding using C++ language 
