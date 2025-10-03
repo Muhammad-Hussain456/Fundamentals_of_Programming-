@@ -125,14 +125,13 @@ My first C++ program.
 ### Mermaid Diagram – Processing a C++ Program
 
 ```mermaid
-flowchart LR
-    A[C++ Program] --> B[Editor]
-    B --> C[Preprocessor]
-    C --> D[Compiler]
-    D --> E[Linker]
-    F[Library] --> E 
-    E --> G[Loader]
-    G --> I[Execution]
+flowchart TD
+    A([Start]) --> B[/Input Length/]
+    B --> C[/Input Width/]
+    C --> D[Perimeter = 2*Length + 2*Width]
+    D --> E[Area = Length*Width]
+    E --> F[/Display Perimeter and Area/]
+    F --> G([End])
 ```
 
 ---
