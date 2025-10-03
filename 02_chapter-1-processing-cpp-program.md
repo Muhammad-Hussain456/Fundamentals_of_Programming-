@@ -221,7 +221,7 @@ We need to calculate the perimeter and area of a rectangle when its length and w
 
 ---
 
-🔹 Step-02: Analysis
+🔹 Step-02: Analysis.                                                                                            تجزیہ ۔
 
 Formulas:
 
