@@ -209,28 +209,196 @@ flowchart TD
 
 ---
 
-## Example 1-1 – Rectangle Perimeter and Area
+## Example:
+Here’s your final .md formatted version with everything included:
 
-**Formulas:**  
-* Perimeter = `2 * (length + width)`  
-* Area = `length * width`  
-
-**فارمولے:**  
-* پَرا میٹر = `2 * (لمبائی + چوڑائی)`  
-* ایریا = `لمبائی * چوڑائی`  
 
 ---
 
-**Algorithm:**  
-1. Get length of the rectangle.  
-2. Get width of the rectangle.  
-3. Compute perimeter = `2 * (length + width)`.  
-4. Compute area = `length * width`.  
+Problem Analysis – Coding – Execution Cycle
 
-**الگوردم:**  
-1. مستطیل کی لمبائی لیں۔  
-2. مستطیل کی چوڑائی لیں۔  
-3. پَرا میٹر نکالیں = `2 * (لمبائی + چوڑائی)`۔  
-4. ایریا نکالیں = `لمبائی * چوڑائی`۔  
 
 ---
+
+📝 Example Problem 1-1
+
+Find the Perimeter and Area of Rectangle
+
+
+---
+
+🔹 Step-01: Problem
+
+We need to calculate the perimeter and area of a rectangle when its length and width are given.
+
+
+---
+
+🔹 Step-02: Analysis
+
+Formulas:
+
+Perimeter = 2 * (length + width)
+
+Area = length * width
+
+
+فارمولے:
+
+پَرا میٹر = 2 * (لمبائی + چوڑائی)
+
+ایریا = لمبائی * چوڑائی
+
+
+
+---
+
+🔹 Step-03: Algorithm
+
+English:
+
+1. Start
+
+
+2. Input length of rectangle
+
+
+3. Input width of rectangle
+
+
+4. Compute perimeter = 2 * (length + width)
+
+
+5. Compute area = length * width
+
+
+6. Display perimeter and area
+
+
+7. End
+
+
+
+اردو:
+
+1. شروع کریں
+
+
+2. مستطیل کی لمبائی لیں
+
+
+3. مستطیل کی چوڑائی لیں
+
+
+4. پَرا میٹر نکالیں = 2 * (لمبائی + چوڑائی)
+
+
+5. ایریا نکالیں = لمبائی * چوڑائی
+
+
+6. پَرا میٹر اور ایریا دکھائیں
+
+
+7. ختم کریں
+
+
+
+
+---
+
+🔹 Step-04: Flowchart
+
+flowchart TD
+    A([Start]) --> B[Input Length]
+    B --> C[Input Width]
+    C --> D[Perimeter = 2*(Length+Width)]
+    D --> E[Area = Length*Width]
+    E --> F[Display Perimeter and Area]
+    F --> G([End])
+
+
+---
+
+🔹 Step-05: Coding with Comments (C++)
+
+#include <iostream>  // Preprocessor directive for input/output
+using namespace std;
+
+// Note:- Comments are used to explain code and make it easier to understand and translator ignore the comments and don't translates the comments.
+
+
+int main() {
+    // Purpose of this program: Calculate Perimeter and Area of a rectangle
+   
+    // Step 1: Declare variables
+    float length, width, perimeter, area;  // Variables to store input and results
+
+    // Step 2: Take input from user
+    cout << "Enter length of rectangle: ";  // Asking user for length
+    cin >> length;                          // Reading length
+    cout << "Enter width of rectangle: ";   // Asking user for width
+    cin >> width;                           // Reading width
+
+    // Step 3: Perform calculations
+    perimeter = 2 * (length + width);  // Formula for perimeter
+    area = length * width;             // Formula for area
+
+    // Step 4: Display the results
+    cout << "Perimeter of Rectangle = " << perimeter << endl;  // Print perimeter
+    cout << "Area of Rectangle = " << area << endl;            // Print area
+
+    return 0;  // End of program
+}
+
+
+---
+
+🔹 Step-06: Preprocessing
+
+👉 The preprocessor handles #include <iostream> and other directives.
+
+
+---
+
+🔹 Step-07: Compilation
+
+👉 Compiler checks syntax and converts source code into object code.
+
+
+---
+
+🔹 Step-08: Linking
+
+👉 The linker connects object code with libraries like iostream.
+
+
+---
+
+🔹 Step-09: Loading
+
+👉 The loader loads the executable into memory.
+
+
+---
+
+🔹 Step-10: Execution
+
+👉 Program runs, takes input, performs calculations, and shows results.
+
+
+---
+
+🔹 Step-11: Output / Results
+
+Input:
+
+Enter length of rectangle: 10
+Enter width of rectangle: 5
+
+Output:
+
+Perimeter of Rectangle = 30
+Area of Rectangle = 50
+
+---
+
