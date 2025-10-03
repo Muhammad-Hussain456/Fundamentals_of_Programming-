@@ -84,12 +84,6 @@ int main() {
 My first C++ program.
 ```
 
-**مثال چلانے کا نتیجہ:**  
-```
-میرا پہلا C++ پروگرام۔
-```
-
----
 
 ### Steps to Execute a C++ Program
 
