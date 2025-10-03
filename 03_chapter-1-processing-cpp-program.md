@@ -117,7 +117,7 @@ My first C++ program.
 
 ### Mermaid Diagram – Processing a C++ Program
 
-![Alt Text](Flowcharts/03_processing_a_C++_program.jpg)
+![Alt Text](Figures/01_processing_a_C++_program.jpg)
 
 ---
 
@@ -176,7 +176,7 @@ Steps are followed in sequence →  کو تسلسل(ترتیب) کے ساتھ ک
 
 ### Mermaid Diagram – Problem Analysis–Coding–Execution Cycle
 
-![Alt Text](Flowcharts/04_Problem_ACE_Cycle.jpg)
+![Alt Text](Figures/02_Problem_ACE_Cycle.jpg)
 
 ---
 
@@ -269,7 +269,7 @@ English:
 Islye practice karna zaruri hai, taake exam me easily draw ya likh sakein).
 
 
-![Alt Text](Flowcharts/01_flowchart.png)
+![Alt Text](Flowcharts/02_Rectangle_AreaAndPerimeter.png)
 ---
 
 
