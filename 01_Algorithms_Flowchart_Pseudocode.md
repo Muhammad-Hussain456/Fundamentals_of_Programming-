@@ -68,7 +68,7 @@ Each operation has a specific symbol.
 ہر عمل کے لیے خاص علامت ہے۔
 **Example**
 
-![Alt Text](Flowcharts/01_FindLargestNumber.png)
+![Alt Text](Flowcharts/01_LargestOfTwoNumbers.png)
 
 **Common Symbols in Flowcharts / عام علامات:**
 
