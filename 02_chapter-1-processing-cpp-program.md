@@ -4,13 +4,53 @@ _From C++ Programming: From Problem Analysis to Program Design, Fifth Edition_
 
 ---
 
-## The Evolution of Programming Languages
-- High-level languages include: **BASIC, FORTRAN, COBOL, Pascal, C, C++, C#, Java**.  
-- **ہائی لیول لینگویجز (High-level languages)** میں شامل ہیں: **BASIC, FORTRAN, COBOL, Pascal, C, C++, C#, Java**۔  
+## The Evolution of Programming Languages  
 
-- **Compiler**: translates a program written in a high-level language into machine language.  
-- **کمپائلر (Compiler)**: ایک پروگرام ہے جو ہائی لیول لینگویج میں لکھے گئے پروگرام کو **مشین لینگویج** میں بدلتا ہے۔  
+1. **Machine Language (مشین لینگویج) – 1940s**  
+   - Programs written only in **0s and 1s (binary code)**.  
+   - Directly understood by computer hardware.  
+   - Very hard for humans to write and understand.  
 
+   **مشین لینگویج (1940s)**  
+   - پروگرام صرف **0 اور 1** میں لکھے جاتے تھے۔  
+   - یہ زبان براہِ راست کمپیوٹر سمجھتا تھا۔  
+   - انسانوں کے لیے لکھنا اور سمجھنا بہت مشکل تھا۔  
+
+---
+
+2. **Assembly Language (اسمبلی لینگویج) – 1950s**  
+   - Used short symbolic words (mnemonics) like **ADD, SUB, MOV** instead of 0s and 1s.  
+   - Needed an **Assembler (اسمبلر)** to translate into machine language.  
+
+   **اسمبلی لینگویج (1950s)**  
+   - اس میں **ADD, SUB, MOV** جیسے الفاظ استعمال ہوتے تھے بجائے 0 اور 1 کے۔  
+   - اسے مشین لینگویج میں بدلنے کے لیے **اسمبلر** کی ضرورت تھی۔  
+
+---
+
+3. **High-Level Languages (ہائی لیول لینگویجز) – late 1950s to 1990s**  
+   - Programs written in English-like words.  
+   - Needed a **Compiler (کمپائلر)** or **Interpreter (انٹرپریٹر)**.  
+   - Examples: **FORTRAN (1957), COBOL (1959), BASIC (1964), Pascal (1970), C (1972)****C++ (1983), Java (1995), C# (2000)**, **Python, JavaScript, PHP, Swift (2014), Kotlin (2016), Rust (2010), Go (2009), TypeScript (2012)**.  
+
+
+پروگرام ایسے الفاظ میں لکھے جاتے ہیں جو انگلش جیسے ہوتے ہیں۔
+
+ان پروگرامز کو چلانے کے لیے کمپائلر (Compiler) یا انٹرپریٹر (Interpreter) کی ضرورت ہوتی ہے۔
+
+مثالیں: FORTRAN (1957), COBOL (1959), BASIC (1964), Pascal (1970), C (1972), C++ (1983), Java (1995), C# (2000)، اور جدید زبانیں جیسے Python, JavaScript, PHP, Swift (2014), Kotlin (2016), Rust (2010), Go (2009), TypeScript (2012)۔
+
+
+
+**Compiler:** A compiler is a special program that translates the entire code at once from a high-level language into machine language.
+کمپائلر (Compiler): کمپائلر ایک پروگرام ہے جو ہائی لیول لینگویج کے پورے کوڈ کو ایک ساتھ مشین لینگویج میں بدل دیتا ہے۔
+
+**Interpreter:** An interpreter is a program that translates and executes the code line by line written in a high-level language.
+
+انٹرپریٹر (Interpreter): انٹرپریٹر ایک پروگرام ہے جو ہائی لیول لینگویج میں لکھے گئے کوڈ کو لائن بہ لائن ترجمہ کرتا ہے اور ساتھ ہی ساتھ چل بھیاتا ہے۔
+
+
+**Compiler** is used to translate C++ language and some other high level languages into machine language.
 ---
 
 ## Processing a C++ Program
