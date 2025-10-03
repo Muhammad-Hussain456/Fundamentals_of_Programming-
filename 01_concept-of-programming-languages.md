@@ -26,15 +26,18 @@ Used for communication among people.
 ---
 
 2. Formal Languages – Artificially created languages with precise syntax and semantics.
+3. 
 رسمی زبانیں – انسانوں کی بنائی ہوئی زبانیں جن میں واضح جملوں کی ساخت (سینٹیکس) اور معنی/اصول (سمینٹکس) ہوں۔
 
 
 
 Examples: Mathematics, Logic notation, Programming languages.
 
+
 مثالیں: ریاضی، منطقی علامات، پروگرامنگ زبانیں۔
 
 Used in science, computing, and mathematics to avoid ambiguity.
+
 سائنس، کمپیوٹنگ اور ریاضی میں ابہام سے بچنے کے لیے استعمال ہوتی ہیں۔
 
 
