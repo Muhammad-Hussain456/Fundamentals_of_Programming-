@@ -33,7 +33,7 @@ How programming languages changed and improved step by step from old to modern.
 
 ---
 
-3. **High-Level Languages (ہائی لیول لینگویجز) – late 1950s to 1990s**  
+3. **High-Level Languages (ہائی لیول لینگویجز) – late 1950s to present**  
    - Programs written in English-like words.  
    - Needed a **Compiler (کمپائلر)** or **Interpreter (انٹرپریٹر)**.  
    - Examples: **FORTRAN (1957), COBOL (1959), BASIC (1964), Pascal (1970), C (1972)****C++ (1983), Java (1995), C# (2000)**, **Python, JavaScript, PHP, Swift (2014), Kotlin (2016), Rust (2010), Go (2009), TypeScript (2012)**.  
@@ -49,12 +49,16 @@ How programming languages changed and improved step by step from old to modern.
 
 
 
-**Compiler:** A compiler is a special program that translates the entire code at once from a high-level language into machine language.
+**Compiler:**
+A compiler is a special program that translates the entire code at once from a high-level language into machine language.
+
 کمپائلر (Compiler): کمپائلر ایک پروگرام ہے جو ہائی لیول لینگویج کے پورے کوڈ کو ایک ساتھ مشین لینگویج میں بدل دیتا ہے۔
+
 
 **Interpreter:** An interpreter is a program that translates and executes the code line by line written in a high-level language.
 
 انٹرپریٹر (Interpreter): انٹرپریٹر ایک پروگرام ہے جو ہائی لیول لینگویج میں لکھے گئے کوڈ کو لائن بہ لائن ترجمہ کرتا ہے اور ساتھ ہی ساتھ چل بھیاتا ہے۔
+
 
 **Compiler** is used to translate C++ language and some other high level languages into machine language.
 
