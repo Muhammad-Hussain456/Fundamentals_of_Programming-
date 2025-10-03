@@ -117,15 +117,7 @@ My first C++ program.
 
 ### Mermaid Diagram – Processing a C++ Program
 
-```mermaid
-flowchart TD
-    A([Start]) --> B[/Input Length/]
-    B --> C[/Input Width/]
-    C --> D[Perimeter = 2*Length + 2*Width]
-    D --> E[Area = Length*Width]
-    E --> F[/Display Perimeter and Area/]
-    F --> G([End])
-```
+![Alt Text](Flowcharts/03_processing_a_C++_program.jpg)
 
 ---
 
@@ -184,22 +176,7 @@ Steps are followed in sequence →  کو تسلسل(ترتیب) کے ساتھ ک
 
 ### Mermaid Diagram – Problem Analysis–Coding–Execution Cycle
 
-```mermaid
-flowchart TD
-    A[Problem] --> B[Analysis]
-    B --> C[Algorithm Design]
-    C --> D[Coding]
-    D --> E[Preprocessor]
-    E --> F[Compiler]
-    F -->|Error| D
-    F --> G[Linker]
-    G -->|Error| D
-    G --> L[Library]
-    G --> H[Loader]
-    H --> I[Execution]
-    I -->|Error| D
-    I --> J[Results]
-```
+![Alt Text](Flowcharts/04_Problem_ACE_Cycle.jpg)
 
 ---
 
@@ -302,7 +279,7 @@ Islye practice karna zaruri hai, taake exam me easily draw ya likh sakein).
 
 Use an appropriate **code editor** to write and execute(run) the code.
 
-
+```cpp
 #include <iostream>  // Preprocessor directive for input/output
 using namespace std;
 
@@ -332,7 +309,7 @@ int main() {
     return 0;  // End of program
 }
 
-
+```
 ---
 
 🔹 Step-06: Preprocessing
@@ -388,5 +365,5 @@ Note:-
 Koi b problem solve krtay waqt:
 Algorithm hamesha banana mandatory hai.
 
-Flowchart aur Pseudocode optional hain kiunki ye donu **Problem - Analysis - Coding - Execution Cycle** m include nahi h, lekin alagh questions in par bhi aa sakte hain.Islye practice karna zaruri hai, taake exam me easily draw ya likh sakein.
+Flowchart aur Pseudocode optional hain kiunki ye donu **Problem  Analysis-Coding-Execution Cycle** m include nahi h, lekin alagh questions in par bhi aa sakte hain.Islye practice karna zaruri hai, taake exam me easily draw ya likh sakein.
 
