@@ -4,7 +4,11 @@ _From C++ Programming: From Problem Analysis to Program Design, Fifth Edition_
 
 ---
 
-## The Evolution of Programming Languages  
+## Evolution of Programming Languages۔                                                                                   
+پروگرامنگ لینگویجز کا ارتقا
+How programming languages changed and improved step by step from old to modern.
+
+مطلب: پروگرامنگ لینگویجز میں وقت کے ساتھ ہونے والی تبدیلی اور بہتری۔
 
 1. **Machine Language (مشین لینگویج) – 1940s**  
    - Programs written only in **0s and 1s (binary code)**.  
