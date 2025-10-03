@@ -294,7 +294,7 @@ English:
 
 🔹 Step-04: Flowchart
 
-![Alt Text](flowcharts/01_flowchart.png)
+![Alt Text](Flowcharts/01_flowchart.png)
 ---
 
 🔹 Step-05: Coding using C++ language 
