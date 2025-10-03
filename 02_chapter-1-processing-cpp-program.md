@@ -210,22 +210,9 @@ flowchart TD
 ---
 
 ## Example:
-Here’s your final .md formatted version with everything included:
 
+**📝 Problem 1-1: Find the Perimeter and Area of Rectangle**
 
----
-
-Problem Analysis – Coding – Execution Cycle
-
-
----
-
-📝 Example Problem 1-1
-
-Find the Perimeter and Area of Rectangle
-
-
----
 
 🔹 Step-01: Problem
 
@@ -319,7 +306,10 @@ flowchart TD
 
 ---
 
-🔹 Step-05: Coding with Comments (C++)
+🔹 Step-05: Coding using C++ language 
+
+Use an appropriate **code editor** to write and execute(run) the code.
+
 
 #include <iostream>  // Preprocessor directive for input/output
 using namespace std;
