@@ -84,7 +84,6 @@ int main() {
 My first C++ program.
 ```
 
-
 ### Steps to Execute a C++ Program
 
 1. **Editor** – Create a source program in C++.  
