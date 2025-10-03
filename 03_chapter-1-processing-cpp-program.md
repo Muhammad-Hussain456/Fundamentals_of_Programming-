@@ -157,9 +157,11 @@ Steps are followed in sequence →  کو تسلسل(ترتیب) کے ساتھ ک
 
 ## The Problem Analysis–Coding–Execution Cycle
 
-1. **Problem Analysis** – Define and design algorithm.  
+1. **Problem Analysis** – Define the problem .  
    1. **پروبلم اینالیسز** – مسئلہ سمجھنا اور الگوردم ڈیزائن کرنا۔  
 
+2. **Algorithm** - write steps that will be used to solve the problem 
+   
 2. **Coding** – Write in C++, compile, fix errors.  
    * If compiler finds errors → correct and recompile.  
    * If no syntax errors → compiler generates machine code.  
@@ -232,7 +234,7 @@ Area = length * width
 
 ---
 
-🔹 Step-03: Algorithm
+🔹 Step-03: Algorithm (Algorithm hamesha banana mandatory(zarori) hai.
 
 English:
 
@@ -285,7 +287,9 @@ English:
 
 ---
 
-🔹 Step-04: Flowchart
+🔹 Step-04: Flowchart (Flowchart optional hain, lekin alagh questions is par bhi aa sakte hain.
+
+Islye practice karna zaruri hai, taake exam me easily draw ya likh sakein).
 
 
 ![Alt Text](Flowcharts/01_flowchart.png)
@@ -379,4 +383,10 @@ Perimeter of Rectangle = 30
 Area of Rectangle = 50
 
 ---
+
+Note:-
+Koi b problem solve krtay waqt:
+Algorithm hamesha banana mandatory hai.
+
+Flowchart aur Pseudocode optional hain kiunki ye donu **Problem - Analysis - Coding - Execution Cycle** m include nahi h, lekin alagh questions in par bhi aa sakte hain.Islye practice karna zaruri hai, taake exam me easily draw ya likh sakein.
 
