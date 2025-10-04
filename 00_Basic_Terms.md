@@ -1,4 +1,4 @@
-# Basic Programming and Language Terms
+# Basic Terms
 
 ## 1. Syntax vs Semantics
 
