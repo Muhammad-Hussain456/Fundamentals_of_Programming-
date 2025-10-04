@@ -35,7 +35,7 @@ Output refers to displaying data on the screen (using cout).
 Without including iostream, you cannot use cin or cout in your program.
 
 
-#### 2. using namespace std;
+#### 2. ```cpp using namespace std; ```
 
 Allows using standard C++ names without std:: prefix.
 
