@@ -25,7 +25,7 @@ int main() {
 ```
 - This line includes the **Input/Output stream library**.
 - It allows the use of `cin` (for input) and `cout` (for output).
-- Without this, `cout` would be undefined.
+- Without this, `cout` would be undefined(error).
 
 ---
 
