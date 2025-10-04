@@ -277,7 +277,7 @@ Islye practice karna zaruri hai, taake exam me easily draw ya likh sakein).
 
 🔹 Step-05: Coding using C++ language 
 
-Use an appropriate **code editor** to write and execute(run) the code.
+Use an appropriate **code editor** or **use your notebook** to write and execute(run) the code.
 
 ```cpp
 #include <iostream>  // Preprocessor directive for input/output
