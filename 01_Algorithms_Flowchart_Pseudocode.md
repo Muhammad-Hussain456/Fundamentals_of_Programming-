@@ -58,6 +58,8 @@ No graphical symbols; uses numbered steps or bullets.
 **Definition:**
 A flowchart is a graphical representation of an algorithm, showing the flow of steps using symbols.
 فلوچارٹ (Flowchart)
+
+
 مطلب: فلوچارٹ الگورتھم کی گرافیکل تصویر ہے، جس میں مراحل کی ترتیب علامات (symbols) کے ذریعے دکھائی جاتی ہے۔
 
 **Key points / اہم نکات:**
@@ -98,6 +100,8 @@ Each operation has a specific symbol.
 **Definition:**
 Pseudocode is a detailed, structured version of an algorithm, written in plain English (or simple programming-like statements), before actual coding.
 پسوڈو کوڈ (Pseudocode)
+
+
 مطلب: پسوڈو کوڈ الگورتھم کا مرتب اور واضح انداز ہے، جو سادہ انگریزی یا پروگرامنگ جیسے جملوں میں لکھا جاتا ہے، اصل کوڈ سے پہلے۔
 
 **Key points / اہم نکات:**
