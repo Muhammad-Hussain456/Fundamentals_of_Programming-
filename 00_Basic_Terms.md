@@ -10,10 +10,10 @@
 - Rules for forming grammatically correct sentences in a language.  
   زبان میں جملے درست بنانے کے قواعد۔  
 **Example (Programming):** 
-  ```cpp
+  ``cpp
   int x = 10;  // Correct syntax in C++
   int = x 10;  // Incorrect syntax
-
+  ``
 صحیح: int x = 10;
 غلط: int = x 10;
 
@@ -36,12 +36,12 @@ The meaning conveyed by a sentence in a language.
 جملے کا مطلب۔
 
 **Example (Programming):**
-
+``cpp
 int x = 10;
 int y = x / 0; // Syntax correct, but semantic error
+``
 
 کوڈ درست ہے مگر تقسیم بر صفر کی غلطی ہے۔
-
 **Example (Natural Language):**
 "I drank the book."
 یہ جملہ گرامر کے لحاظ سے درست مگر مطلب میں بے معنی ہے۔
@@ -58,9 +58,9 @@ A single command given to a computer to perform a specific task.
 کمپیوٹر کو ایک کام کرنے کا ایک حکم/ہدایت ۔
 
 **Example:**
-
+``cpp
 cout << "Hello World";        // One instruction to print text
-
+``
 یہ ایک حکم ہے جو پیغام دکھاتا ہے۔
 
 
@@ -70,12 +70,12 @@ A single instruction or a collection of instructions written in a programming la
 ہدایات کا مجموعہ جو ایک ساتھ کام کرتا ہے۔
 
 **Example:**
-
+``cpp
 int a = 5;
 int b = 10;
 int sum = a + b;
 cout << sum;
-
+``
 یہ ہدایات کا مجموعہ ہے جو جمع دکھاتا ہے۔
 
 
