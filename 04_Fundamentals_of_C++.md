@@ -91,7 +91,7 @@ isPassed = true;
 
 ---
 
-## 5. Data Types, What They Store, and Range
+## 5. Data Types, What They Store, and Range(limit - حد)
 
 Data types define what type of data a variable can store. Range tells the limits of that type.
 
@@ -114,7 +114,7 @@ Range ensures that the value stored fits within the data type limits to avoid ov
 
 ```cpp
 int smallNumber = 2000000000;   // Correct
-int tooBig = 3000000000;        // Incorrect, out of range
+int tooBig = 3000000000;        // Incorrect, out of range(سے زیادہ(limit)حد)
 float pi = 3.14159;             // Fractional number
 char letter = 'A';              // Single character
 bool passed = true;             // True or False
