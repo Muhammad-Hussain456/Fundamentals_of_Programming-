@@ -19,7 +19,7 @@ int main() {
 
 ### First Two Lines Explained
 
-#### 1. #include <iostream>
+#### 1. #include **<iostream>**
 
 Includes Input/Output library so cin and cout can be used.
 
@@ -42,15 +42,6 @@ Allows using standard C++ names without std:: prefix.
 
 Standard names براہ راست استعمال کرو، std:: لکھنے کی ضرورت نہیں۔
 
-
----
-**streams** are paths through which data flows into (input) or out of (output) a program.
-
-Streams ایسے راستے ہیں جن کے ذریعے ڈیٹا پروگرام میں آتا (input) یا پروگرام سے باہر جاتا (output) ہے۔
-
-cin → input stream
-
-cout → output stream
 
 
 
