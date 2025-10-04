@@ -124,19 +124,6 @@ No graphical symbols. Uses keywords like BEGIN, END, IF, ELSE, WHILE, FOR, etc.
 کوئی گرافیکل علامت نہیں؛ صرف keywords جیسے BEGIN, END, IF, ELSE, WHILE, FOR استعمال ہوتے ہیں۔
 
 
----
-
-## Comparison Table / موازنہ جدول
-
-Feature	Algorithm	Flowchart	Pseudocode
-
-Definition	Step-by-step solution in words / لفظوں میں بالترتیب حل	Graphical representation of steps / علامات کے ذریعے مراحل دکھانا	Structured, code-like description / مرتب، کوڈ نما وضاحت
-Representation	Textual, numbered steps / متن اور نمبر	Symbols connected by arrows / علامات اور تیر کے ساتھ	Text using programming-like keywords / پروگرامنگ جیسے keywords استعمال
-Symbols	None / کوئی نہیں	Rectangle, Diamond, Oval, Parallelogram, Arrow / مختلف علامات	Keywords like IF, ELSE, WHILE, FOR / keywords جیسے IF, ELSE, WHILE, FOR
-Ease of Understanding	Medium / درمیانہ	Very easy visually / دیکھنے میں بہت آسان	Medium (closer to code) / درمیانہ، کوڈ کے قریب
-Use	Planning logic / منطق کی منصوبہ بندی	Visualizing logic / منطق دیکھنے میں آسانی	Bridging algorithm to code / الگورتھم کو کوڈ میں تبدیل کرنا
-
-
 
 ---
 
