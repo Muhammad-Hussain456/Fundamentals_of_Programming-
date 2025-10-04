@@ -19,17 +19,18 @@ int main() {
 
 ### First Two Lines Explained
 
-1. ```cpp #include <iostream> ```
+```cpp
+1. #include <iostream> 
 
 Includes Input/Output library so cin and cout can be used.
 
 
 
-2. ```cpp using namespace std; ```
+2. using namespace std; 
 
 Allows using standard C++ names without std:: prefix.
 
-
+```
 ---
 
 ## Variables
