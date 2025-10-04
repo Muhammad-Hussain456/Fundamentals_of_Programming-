@@ -55,7 +55,7 @@ int y = x / 0; // Syntax correct, but semantic error
 ### Instruction
 
 A single command given to a computer to perform a specific task.
-کمپیوٹر کو ایک کام کرنے کا ایک حکم۔
+کمپیوٹر کو ایک کام کرنے کا ایک حکم/ہدایت ۔
 
 **Example:**
 
