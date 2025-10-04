@@ -262,7 +262,7 @@ On Linux → standard libraries (glibc, libstdc++, etc.) are already part of the
 
 ## IDEs (Integrated Development Environments)
 
-An IDE is a software application that helps programmers write, debug, and run programs easily.
+An IDE is a application  software that helps programmers write, debug, and run programs easily.
 
 IDE
 ایک سافٹ ویئر ہے جو پروگرامرز کو آسانی سے کوڈ لکھنے، غلطیاں تلاش کرنے اور پروگرام چلانے میں مدد دیتا ہے
