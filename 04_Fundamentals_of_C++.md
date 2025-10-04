@@ -92,7 +92,7 @@ Range tells the limits of that type.
 
 
 
-| Data Type       | Storage       | What It Stores (Examples)          | Range (32-bit)                       | Purpose                          |
+| Data Type       | Storage       | What The Variable Declared with the Data Type Stores (Examples)          | Range (32-bit)                       | Purpose                          |
 |-----------------|---------------|----------------------------------|-------------------------------------|----------------------------------|
 | int             | 4 bytes       | Whole numbers (10, -5, 200)      | -2,147,483,648 to 2,147,483,647    | Counting, whole numbers          |
 | short int       | 2 bytes       | Small whole numbers (-300, 500)  | -32,768 to 32,767                   | Small numbers                     |
