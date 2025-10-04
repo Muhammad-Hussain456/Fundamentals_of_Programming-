@@ -1,6 +1,6 @@
-📘 Concept of Programming Languages
+# 📘 Concept of Programming Languages
 
-Language – Definition
+## Language – Definition
 
 A language is a system of communication that uses symbols, sounds, or signs to convey ideas, share information, and enable understanding between people or systems.                                                                            
 ایک زبان ایک رابطے کا طریقہ ہے جو علامات، آوازیں یا اشارے استعمال کرتی ہے تاکہ خیالات پہنچائے، معلومات بانٹے اور لوگوں یا نظاموں کے درمیان سمجھ پیدا کرے۔
@@ -8,14 +8,14 @@ A language is a system of communication that uses symbols, sounds, or signs to c
 
 ---
 
-Types of Languages
+### Types of Languages
 
-1. Natural Languages – Human languages that develop naturally over time.                                                     
+**1. Natural Languages** – Human languages that develop naturally over time.                                                     
 قدرتی زبانیں – وہ زبانیں جو وقت کے ساتھ خودبخود انسانوں میں پیدا ہوتی ہیں۔
 
 
 
-Examples: English, Urdu, Arabic.   
+**Examples:** English, Urdu, Arabic.   
 
 مثالیں: انگریزی، اردو، عربی۔
 
@@ -25,13 +25,12 @@ Used for communication among people.
 
 ---
 
-2. Formal Languages – Artificially created languages with precise syntax and semantics.
-3. 
+**2. Formal Languages** – Artificially created languages with precise syntax and semantics.
 رسمی زبانیں – انسانوں کی بنائی ہوئی زبانیں جن میں واضح جملوں کی ساخت (سینٹیکس) اور معنی/اصول (سمینٹکس) ہوں۔
 
 
 
-Examples: Mathematics, Logic notation, Programming languages.
+**Examples:** Mathematics, Logic notation, Programming languages.
 
 
 مثالیں: ریاضی، منطقی علامات، پروگرامنگ زبانیں۔
@@ -43,19 +42,18 @@ Used in science, computing, and mathematics to avoid ambiguity.
 
 ---
 
-3. Sign Languages – Visual-manual languages used primarily by deaf communities.
-4. 
+**3. Sign Languages** – Visual-manual languages used primarily by deaf communities.
 اشارہ زبانیں – وہ زبانیں جو ہاتھوں اور نظر کے اشاروں سے بنائی جاتی ہیں اور زیادہ تر بہرے افراد استعمال کرتے ہیں۔
 
 
 
-Example: American Sign Language (ASL).
+**Example:** American Sign Language (ASL).
 مثال: امریکی اشارتی زبان (ASL)۔
 
 
 ---
 
-Programming
+## Programming
 
 Programming is a process/method of problem solving.
 
@@ -64,7 +62,7 @@ Programming is a process/method of problem solving.
 
 ---
 
-What is a Programming Language?
+### What is a Programming Language?
 
 A programming language is a formal language used to instruct computers to solve a problem.
 
@@ -84,19 +82,19 @@ Programmers write instructions in languages like C, C#, C++, Java, Python.
 
 ---
 
-Types of Programming Languages
+#### Types of Programming Languages
 
-1. Low-Level Languages
+##### 1. Low-Level Languages
 لو لیول زبانیں
 
 
 
-Machine Language – The most basic language understood directly by computers. Consists of binary code (0s and 1s).
+**Machine Language** – The most basic language understood directly by computers. Consists of binary code (0s and 1s).
 
 
 مشین زبان – سب سے بنیادی زبان جو کمپیوٹر براہِ راست سمجھتا ہے، اور یہ صرف بائنری کوڈ (0 اور 1) پر مشتمل ہوتی ہے۔
 
-Assembly Language – Symbolic mnemonics for machine instructions.
+**Assembly Language** – Symbolic mnemonics for machine instructions.
 
 
 اسمبلی زبان – مشین کی ہدایت کے لیے علامتی الفاظ استعمال کیے جاتے ہیں۔
@@ -105,28 +103,28 @@ Assembly Language – Symbolic mnemonics for machine instructions.
 
 ---
 
-2. High-Level Languages
+##### 2. High-Level Languages
 ہائی لیول زبانیں
 
 
 
-Procedural Languages (e.g., C, Pascal, FORTRAN, COBOL)
+**Procedural Languages** (e.g., C, Pascal, FORTRAN, COBOL)
 
 پروسیجرل زبانیں (مثلاً C، Pascal، FORTRAN، COBOL)
 
-Object-Oriented Languages (e.g., Java, C++(C plus plus), C#(C sharp)Python)
+**Object-Oriented Languages** (e.g., Java, C++(C plus plus), C#(C sharp)Python)
 
 آبجیکٹ اورینٹڈ زبانیں (مثلاً Java، C++، Python)
 
-Functional Languages (e.g., Lisp, Haskell)
+**Functional Languages** (e.g., Lisp, Haskell)
 
 فنکشنل زبانیں (مثلاً Lisp، Haskell)
 
-Scripting Languages (e.g., JavaScript, PHP, Python)
+**Scripting Languages** (e.g., JavaScript, PHP, Python)
 
 اسکرپٹنگ زبانیں (مثلاً JavaScript، PHP، Python)
 
-Markup/Query Languages (e.g., HTML, SQL)
+**Markup/Query Languages** (e.g., HTML, SQL)
 
 مارک اپ / کوئری زبانیں (مثلاً HTML، SQL)
 
@@ -134,9 +132,14 @@ Markup/Query Languages (e.g., HTML, SQL)
 
 ---
 
-Why Do We Use Programming Languages?
+### Why Do We Use Programming Languages?
 
-Computers only understand binary code.
+We use programming languages to instruct computer to solve a problem.
+
+
+### Why Do We Use High level Programming Languages?
+
+Computers only understand binary language.
 
 کمپیوٹر صرف بائنری کوڈ سمجھتا ہے۔
 
@@ -164,19 +167,19 @@ It is difficult to write and understand machine language; that’s why high-leve
 کمپیوٹر مشین زبان چلاتا ہے۔
 
 
-Translators
+## Translators
 
-Compiler – Translates entire high-level code to machine code (C, C++, Java).
+**Compiler** – Translates entire high-level code to machine code (C, C++, Java).
 
 
 کمپائلر – پورے ہائی لیول کوڈ کو ایک ساتھ مشین کوڈ میں بدل دیتا ہے۔
 
-Interpreter – Translates line by line (Python).
+**Interpreter** – Translates line by line (Python).
 
 
 انٹرپریٹر – پروگرام کو لائن بہ لائن چلانے کے لیے ترجمہ کرتا ہے (Python)۔
 
-Assembler – Converts assembly to machine code (binary).
+**Assembler** – Converts assembly to machine code (binary).
 
 اسمبلر – اسمبلی کو مشین کوڈ میں بدلتا ہے۔
 
@@ -191,7 +194,7 @@ A translator converts them into object code (machine language code).
 
 ---
 
-Object Code
+## Object Code
 
 Object code is the output of a translator (such as a compiler or an assembler, but not an interpreter). It consists of machine-readable instructions (usually in binary form) that are not directly executable until they are linked with other object modules and libraries.
 
@@ -210,19 +213,19 @@ Note
 ---
 
 
-To execute/run a program
+### To execute/run a program
 
-Linker: Combines object program with other programs provided by SDK to create executable code.
+**Linker:** Combines object program with other programs provided by SDK to create executable code.
 
 
 لنکر – آبجیکٹ پروگرام کو SDK کے دوسرے پروگراموں کے ساتھ ملا کر ایک چلنے / run ہونے کے قابل کوڈ بناتا ہے۔
 
-Loader: Loads executable program into main memory(RAM).
+**Loader:** Loads executable program into main memory(RAM).
 
 
 لوڈر – چلنے / run ہونے کے قابل پروگرام کو مین میموری (RAM) میں رکھتا ہے۔
 
-The last step is to execute the code.
+The last step is to **execute** the code.
 
 
 آخری مرحلہ پروگرام کو چلانا ہوتا ہے۔
@@ -240,7 +243,7 @@ RAM سے یہ پروگرام CPU میں آتا ہے اور CPU اسے چلانے
 
 ---
 
-Software Development Kit (SDK)
+## Software Development Kit (SDK)
 
 SDK (Software Development Kit): A set of headers, libraries, and tools provided by the platform (Windows, Linux, etc.) so programs can run.
 
@@ -266,7 +269,7 @@ On Linux → standard libraries (glibc, libstdc++, etc.) are already part of the
 
 ---
 
-IDEs (Integrated Development Environments)
+## IDEs (Integrated Development Environments)
 
 An IDE is a software application that helps programmers write, debug, and run programs easily.
 
@@ -309,7 +312,7 @@ Examples: Code::Blocks, Dev-C++, Visual Studio, Eclipse, PyCharm, VS Code.
 
 ---
 
-Summary
+## Summary
 
 A language is a communication system.
 
