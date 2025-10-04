@@ -5,6 +5,8 @@
 **Definition:**
 An algorithm is a step-by-step procedure or set of rules to solve a problem or perform a task. It is written in simple language and is independent of any programming language.
 الگورتھم (Algorithm)
+
+
 مطلب: الگورتھم ایک بالترتیب طریقۂ کار یا اصولوں کا مجموعہ ہے جو کسی مسئلے کو حل کرنے یا کام کرنے کے لیے استعمال ہوتا ہے۔ یہ سادہ زبان میں لکھا جاتا ہے اور کسی بھی پروگرامنگ لینگویج سے آزاد ہوتا ہے۔
 
 **Key points / اہم نکات:**
