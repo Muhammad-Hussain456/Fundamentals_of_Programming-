@@ -109,8 +109,8 @@ Range ensures that the value stored in a variable fits within its declared data 
 
 ### Example
 ```cpp
-int smallNumber = 2000000000;   // Correct
-int tooBig = 3000000000;        // Incorrect, out of range(حد سے زیادہ)
+int FirstNumber = 2000000000;   // Correct
+int SecondNumber = 3000000000;        // Incorrect, out of range(حد سے زیادہ)
 float pi = 3.14159;             // Fractional number
 char letter = 'A';              // Single character
 bool passed = true;             // True or False
