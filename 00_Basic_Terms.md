@@ -9,7 +9,8 @@
  کوڈ کو صحیح طریقے سے لکھنے کے اصول تاکہ اسے کمپائل یا انٹرپریٹ کر کے چلایا جا سکے۔ 
 - Rules for forming grammatically correct sentences in a language.  
   زبان میں جملے درست بنانے کے قواعد۔  
-**Example (Programming):** 
+**Example (Programming):**
+  
   ``cpp
   int x = 10;  // Correct syntax in C++
   int = x 10;  // Incorrect syntax
