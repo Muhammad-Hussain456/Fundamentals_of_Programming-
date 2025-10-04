@@ -115,7 +115,7 @@ My first C++ program.
 
 ---
 
-### Mermaid Diagram – Processing a C++ Program
+### Processing a C++ Program
 
 ![Alt Text](Figures/01_processing_a_C++_program.jpg)
 
@@ -176,7 +176,7 @@ Steps are followed in sequence →  کو تسلسل(ترتیب) کے ساتھ ک
 
 ---
 
-### Mermaid Diagram – Problem Analysis–Coding–Execution Cycle
+### Problem Analysis–Coding–Execution Cycle
 
 ![Alt Text](Figures/02_Problem_ACE_Cycle.jpg)
 
