@@ -1,6 +1,7 @@
 # C++ Fundamentals
 
 A C++ program consists of a set of instructions executed sequentially.
+
 سی پلس پلس پروگرام ایک سلسلہ وار ہدایات پر مشتمل ہوتا ہے جو ایک کے بعد ایک عمل میں آتی ہیں۔
 
 ## Program Structure 
