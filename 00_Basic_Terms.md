@@ -11,10 +11,10 @@
   زبان میں جملے درست بنانے کے قواعد۔  
 **Example (Programming):**
   
-  ``cpp
+  ```cpp
   int x = 10;  // Correct syntax in C++
   int = x 10;  // Incorrect syntax
-  ``
+  ```
 صحیح: int x = 10;
 غلط: int = x 10;
 
