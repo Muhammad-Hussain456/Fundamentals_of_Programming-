@@ -151,12 +151,14 @@ int y = (int)x;   // explicit
 ```
 ---
 
-## Example Problem
+## Example:
 
+**Problem:**
 Create variables for student marks, height, grade, and pass status.
-ایک ویری ایبل نمبرز، قد، گریڈ اور پاس کی حالت کے لیے بنائیں۔
-
+ایک ویری ایبل نمبرز، قد، گریڈ اور پاس کی حالت کے لیے بنائیں
 Assign values and display them.
+
+**Program/Coding:**
 ویلیو مقرر کریں اور اسکرین پر دکھائیں۔
 ```cpp
 #include <iostream>
