@@ -1,9 +1,9 @@
 # Algorithm, Flowchart and Pseudocode 
 
 ## Algorithm
+لگورتھم (Algorithm)
 
 An algorithm is a step-by-step procedure or set of rules to solve a problem or perform a task. It is written in simple language and is independent of any programming language.
-الگورتھم (Algorithm)
 
 
  الگورتھم ایک بالترتیب طریقۂ کار یا اصولوں کا مجموعہ ہے جو کسی مسئلے کو حل کرنے یا کام کرنے کے لیے استعمال ہوتا ہے۔ یہ سادہ زبان میں لکھا جاتا ہے اور کسی بھی پروگرامنگ لینگویج سے آزاد ہوتا ہے۔
@@ -54,8 +54,9 @@ No graphical symbols; uses numbered steps or bullets.
 
 ## 2. Flowchart 
 
-A flowchart is a graphical representation of an algorithm, showing the flow of steps using symbols.
 فلوچارٹ (Flowchart)
+
+A flowchart is a graphical representation of an algorithm, showing the flow of steps using symbols.
 
 فلوچارٹ الگورتھم کی گرافیکل تصویر ہے، جس میں مراحل کی ترتیب علامات (symbols) کے ذریعے دکھائی جاتی ہے۔
 
@@ -94,9 +95,10 @@ Each operation has a specific symbol.
 
 ## 3. Pseudocode
 
-Pseudocode is a detailed, structured version of an algorithm, written in plain English (or simple programming-like statements), before actual coding.
 پسوڈو کوڈ (Pseudocode)
 
+
+Pseudocode is a detailed, structured version of an algorithm, written in plain English (or simple programming-like statements), before actual coding.
 
 پسوڈو کوڈ الگورتھم کا مرتب اور واضح انداز ہے، جو سادہ انگریزی یا پروگرامنگ جیسے جملوں میں لکھا جاتا ہے، اصل کوڈ سے پہلے۔
 
