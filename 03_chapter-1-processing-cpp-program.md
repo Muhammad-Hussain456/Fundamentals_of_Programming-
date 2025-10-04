@@ -164,12 +164,14 @@ Steps are followed in sequence →  کو تسلسل(ترتیب) کے ساتھ ک
       * لنکر اس کوڈ کو سسٹم ریسورسز کے ساتھ جوڑتا ہے۔  
 
 3. **Execution** –  
-   * Loader places program into memory.  
+   * Loader places program into memory.
+   * From memory, program is brought into CPU.
    * CPU executes the program.  
    * Note: Compiler ensures syntax correctness, but not logical correctness.  
    3. **ایگزی کیوشن (Execution)** –  
       * لوڈر پروگرام کو میموری میں رکھتا ہے۔  
-      * CPU پروگرام چلاتا ہے۔  
+*میموری سے، پروگرام کو CPU میں لایا جاتا ہے ۔
+       * CPU پروگرام چلاتا ہے۔  
       * یاد رکھیں: کمپائلر صرف اصولوں (syntax) کو دیکھتا ہے، لیکن منطق (logic) کی درستگی نہیں دیکھتا۔  
 
 ---
