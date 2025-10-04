@@ -168,11 +168,6 @@ int main() {
     char grade = 'A';
     bool passed = true;
 
-    cout << "Marks: " << marks << endl;
-    cout << "Height: " << height << endl;
-    cout << "Grade: " << grade << endl;
-    cout << "Passed: " << passed << endl;
-
     return 0;
 }
 ```
