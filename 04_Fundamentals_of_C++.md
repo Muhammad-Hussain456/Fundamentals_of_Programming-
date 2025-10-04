@@ -78,7 +78,7 @@ isPassed = true;
 
 ## Data Types, What They Store, and Range(limitation - حد)
 
-Data types define what type of data a variable can store.
+**Data types** define what type of data a variable can store.
 ڈیٹا ٹائپ بتاتا ہے کہ ویری ایبل کس قسم کا ڈیٹا رکھ سکتا ہے۔
 
 Range tells the limits of that type.
