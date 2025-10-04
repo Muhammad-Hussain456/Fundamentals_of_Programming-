@@ -82,9 +82,9 @@ Programmers write instructions in languages like C, C#, C++, Java, Python.
 
 ---
 
-#### Types of Programming Languages
+### Types of Programming Languages
 
-#### 1. Low-Level Languages
+### 1. Low-Level Languages
 لو لیول زبانیں
 
 
@@ -103,7 +103,7 @@ Programmers write instructions in languages like C, C#, C++, Java, Python.
 
 ---
 
-#### 2. High-Level Languages
+### 2. High-Level Languages
 ہائی لیول زبانیں
 
 
