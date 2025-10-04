@@ -117,7 +117,7 @@ A storage unit on a computer that contains data or code. It can contain any type
 
 **Video:** .mp4, .avi → ویڈیو
 
-**Programming Code:** .cpp(extension for C++ files), .py(for python files), .java(for java files), .c(for c files)→ پروگرامنگ کوڈ
+**Programming Code:**   .cpp(extension for C++ files), .py(for python files), .java(for java files), .c(for c files)→ پروگرامنگ کوڈ
 
 
 
