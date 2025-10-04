@@ -70,7 +70,7 @@ Each operation has a specific symbol.
 
 **Example:**
 
-![Alt Text](Flowcharts/01_LargestOfTwoNumbers.png)
+![Alt Text](Flowcharts/01_LargestOfTwoNumbers.jpg)
 
 **Common Symbols in Flowcharts / عام علامات:**
 
