@@ -154,9 +154,9 @@ int y = (int)x;   // explicit
 ## Example:
 
 ### Problem:
-Create variables for student marks, height, grade, and pass status.
+Declare/create variables for student marks, height, grade, and pass status.
 
-ایک ویری ایبل نمبرز، قد، گریڈ اور پاس کی حالت کے لیے بنائیں.
+ایک ویری ایبل نمبرز، قد، گریڈ اور پاس کی حالت کے لیے ڈکلیئر کریں/ بنائیں.
 
 
 Assign values and display them.
