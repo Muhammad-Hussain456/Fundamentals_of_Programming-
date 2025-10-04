@@ -59,7 +59,7 @@ A single command given to a computer to perform a specific task.
 
 **Example:**
 
-cout << "Hello World"; // One instruction to print text
+cout << "Hello World";        // One instruction to print text
 
 یہ ایک حکم ہے جو پیغام دکھاتا ہے۔
 
