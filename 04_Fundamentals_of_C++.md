@@ -81,14 +81,22 @@ Data types define what type of data a variable can store.
 ڈیٹا ٹائپ بتاتا ہے کہ ویری ایبل کس قسم کا ڈیٹا رکھ سکتا ہے۔
 
 Range tells the limits of that type.
-حد یہ بتاتی ہے کہ ویری ایبل میں کس حد تک کی ویلیو محفوظ کی جا سکتی ہے۔
+حد یہ بتاتی ہے کہ ویری ایبل میں کس حد تک کی ویلیو محفوظ(سٹور) کی جا سکتی ہے۔
+
+
+**Range** tells the **minimum and maximum values** that a **variable** can store based on its **Data type**.                            
+
+
+حد یہ بتاتی ہے کہ کسی ویری ایبل میں اس کے ڈیٹا ٹائپ کے مطابق کم سے کم اور زیادہ سے زیادہ ویلیو کیا سٹور کی جا سکتی ہے۔
+
+
 
 | Data Type       | Storage       | What It Stores (Examples)          | Range (32-bit)                       | Purpose                          |
 |-----------------|---------------|----------------------------------|-------------------------------------|----------------------------------|
 | int             | 4 bytes       | Whole numbers (10, -5, 200)      | -2,147,483,648 to 2,147,483,647    | Counting, whole numbers          |
 | short int       | 2 bytes       | Small whole numbers (-300, 500)  | -32,768 to 32,767                   | Small numbers                     |
 | long int        | 4/8 bytes     | Large whole numbers (2000000000) | Larger numbers (depends on system)  | Large whole numbers               |
-| float           | 4 bytes       | Fractional numbers (5.9, -3.14)  | 3.4e-38 to 3.4e+38                  | Numbers with decimals             |
+| float           | 4 bytes       | Fractional numbers (5.9, -3.14)  | 3.4e-38 to 3.4e+38                  | Numbers decimals numbers       |
 | double          | 8 bytes       | High precision fractional numbers (3.14159265) | 1.7e-308 to 1.7e+308       | More precise decimals             |
 | long double     | 10/12/16 bytes| Very large or very small fractional numbers | Very large fractional numbers | High precision calculations       |
 | char            | 1 byte        | Single characters ('A', 'b', '%') | -128 to 127 (signed) / 0 to 255 (unsigned) | Characters, symbols         |
