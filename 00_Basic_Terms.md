@@ -66,7 +66,7 @@ cout << "Hello World"; // One instruction to print text
 
 **Code**
 
-A collection of instructions written in a programming language.
+A single instruction or a collection of instructions written in a programming language.
 ہدایات کا مجموعہ جو ایک ساتھ کام کرتا ہے۔
 
 **Example:**
