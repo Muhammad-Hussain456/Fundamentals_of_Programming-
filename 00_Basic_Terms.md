@@ -26,7 +26,7 @@
 
 ### Semantics
 
-The meaning or behavior of a statement when executed or interpreted.
+The meaning or behavior of a statement when executed.
 کسی جملے یا کوڈ کا مطلب یا عمل۔
 
 What the code actually does when it runs.
