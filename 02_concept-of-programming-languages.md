@@ -139,23 +139,11 @@ We use programming languages to instruct computer to solve a problem.
 
 ### Why Do We Use High level Programming Languages?
 
-Computers only understand binary language.
+Computers only understand binary/machine language.
 
-کمپیوٹر صرف بائنری کوڈ سمجھتا ہے۔
+For humans, It is difficult to write and understand machine language; that’s why high-level programming languages are used because they are easier to write and understand.
 
-Programming languages make communication easier.
-
-پروگرامنگ زبانیں رابطے کو آسان بناتی ہیں۔
-
-Translators (compilers, interpreters, assemblers) convert source code to machine code.
-
-
-مترجم (کمپائلر، انٹرپریٹر، اسمبلر) سورس کوڈ کو مشین کوڈ میں بدلتے ہیں۔
-
-It is difficult to write and understand machine language; that’s why high-level programming languages are used because they are easier to write and understand.
-
-
-مشین زبان لکھنا اور سمجھنا مشکل ہے؛ اسی لیے ہائی لیول زبانیں استعمال کی جاتی ہیں کیونکہ یہ لکھنے اور سمجھنے میں آسان ہیں۔
+ مشین زبان لکھنا اور سمجھنا، انسانوں کے لئے مشکل ہے؛ اسی لیے ہائی لیول زبانیں استعمال کی جاتی ہیں کیونکہ یہ لکھنے اور سمجھنے میں آسان ہیں۔
 
 
 
