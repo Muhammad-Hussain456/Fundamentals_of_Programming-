@@ -268,7 +268,11 @@ English:
 
 
 ![Alt Text](Flowcharts/02_Rectangle_AreaAndPerimeter.png)
+
+
 ---
+
+
 
 
 
