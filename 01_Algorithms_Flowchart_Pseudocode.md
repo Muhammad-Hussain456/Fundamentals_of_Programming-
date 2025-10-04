@@ -129,7 +129,7 @@ No graphical symbols. Uses keywords like BEGIN, END, IF, ELSE, WHILE, FOR, etc.
 
 **Note:-**
 Koi b problem solve krtay waqt:
-Algorithm hamesha banana mandatory hai.
+Algorithm hamesha likhna mandatory hai.
 Flowchart aur Pseudocode optional hain kiunki ye donu **Problem - Analysis - Coding - Execution Cycle** m include nahi h, lekin alagh questions in par bhi aa sakte hain.Islye practice karna zaruri hai, taake exam me easily draw ya likh sakein.
 
 
