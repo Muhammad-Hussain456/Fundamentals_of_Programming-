@@ -43,6 +43,7 @@ Print "number2 is largest" / نمبر2 سب سے بڑا ہے پرنٹ کریں
 
 
 **Symbols / علامات:**
+
 No graphical symbols; uses numbered steps or bullets.
 کوئی گرافیکل علامت نہیں؛ صرف نمبر یا بلٹس استعمال ہوتے ہیں۔
 
