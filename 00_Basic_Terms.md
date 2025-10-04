@@ -220,13 +220,15 @@ A **package** is a collection of related modules or libraries bundled together t
 ---
 
 ## **Framework**  
-A **framework** is a larger structure that provides a foundation for building software applications. It often **includes libraries, packages, and tools**.  
-فریم ورک ایک بڑا ڈھانچہ ہے جو سافٹ ویئر ایپلیکیشن بنانے کے لیے بنیاد فراہم کرتا ہے۔ یہ اکثر لائبریریاں، پیکیجز اور ٹولز شامل کرتا ہے۔  
+A framework provides a blueprint or skeleton for building software applications. It gives developers a structured foundation, standard rules, and reusable components to follow.
+فریم ورک سافٹ ویئر ایپلیکیشن بنانے کے لیے ایک خاکہ یا اسکلیٹن فراہم کرتا ہے۔ یہ ڈویلپرز کو ایک منظم بنیاد، معیاری قوانین، اور دوبارہ استعمال ہونے والے اجزاء دیتا ہے۔
 
-- **Contains:** Libraries, packages, tools, templates, predefined rules  
-  لائبریریاں، پیکیجز، ٹولز، ٹیمپلیٹس، اور پہلے سے طے شدہ قوانین  
-- **Purpose:** Provides a ready-made structure and standard practices for building applications  
-  ایپلیکیشن بنانے کے لیے تیار شدہ ڈھانچہ اور معیاری طریقے فراہم کرتا ہے  
+Contains: Libraries, packages, tools, templates, predefined rules
+لائبریریاں، پیکیجز، ٹولز، ٹیمپلیٹس، اور پہلے سے طے شدہ قوانین
+
+Purpose: Provides a ready-made structure and standard practices for building applications
+ایپلیکیشن بنانے کے لیے تیار شدہ ڈھانچہ اور معیاری طریقے فراہم کرتا ہے
+
 - **Examples:**  
   - `Django` (Python)  
   - `React` (JavaScript)  
