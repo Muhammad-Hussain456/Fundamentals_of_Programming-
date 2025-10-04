@@ -17,20 +17,17 @@ int main() {
 
 ```
 
-The first line includes the Input/Output library so cin and cout can be used.
-پہلی لائن انپٹ/آؤٹ پٹ لائبریری شامل کرتی ہے تاکہ سن اور کاوٹ استعمال ہو سکیں۔
+### First Two Lines Explained
 
-Input refers to receiving data from the user.
-انپٹ کا مطلب ہے صارف سے ڈیٹا لینا۔
+1. ```cpp #include <iostream> ```
 
-Output refers to displaying data on the screen.
-آؤٹ پٹ کا مطلب ہے اسکرین پر ڈیٹا دکھانا۔
+Includes Input/Output library so cin and cout can be used.
 
-Without including iostream, you cannot use cin or cout in your program.
-iostrem شامل کیے بغیر آپ اپنے پروگرام میں سن یا کاوٹ استعمال نہیں کر سکتے۔
 
-The second line allows using standard C++ names without std:: prefix.
-دوسری لائن سٹینڈرڈ نام براہ راست استعمال کرنے کی اجازت دیتی ہے، بغیر std:: کے۔
+
+2. ```cpp using namespace std; ```
+
+Allows using standard C++ names without std:: prefix.
 
 
 ---
@@ -102,13 +99,13 @@ Range ensures that the value stored fits within the data type limits to avoid ov
 حد اس بات کو یقینی بناتی ہے کہ محفوظ شدہ ویلیو ڈیٹا ٹائپ کی حد میں فٹ ہو تاکہ overflow یا غلط نتائج نہ ہوں۔
 
 ### Example
-
+```cpp
 int smallNumber = 2000000000;   // Correct
 int tooBig = 3000000000;        // Incorrect, out of range(حد سے زیادہ)
 float pi = 3.14159;             // Fractional number
 char letter = 'A';              // Single character
 bool passed = true;             // True or False
-
+```
 چھوٹا نمبر صحیح ہے۔
 بہت بڑا نمبر غلط ہے، حد سے زیادہ۔
 پی اعشاریہ نمبر ہے۔
