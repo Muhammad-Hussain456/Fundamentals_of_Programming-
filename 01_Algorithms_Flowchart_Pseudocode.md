@@ -19,7 +19,7 @@ No strict syntax like programming language.
 پروگرامنگ لینگویج جیسا سخت syntax نہیں ہوتا۔
 
 
-**Example (Finding the largest of two numbers / دو نمبروں میں بڑا نمبر معلوم کرنا):**
+**Example (Problem: Finding the largest of two numbers / دو نمبروں میں بڑا نمبر معلوم کرنا):**
 
 1. Start / شروع کریں
 
@@ -49,6 +49,7 @@ No graphical symbols; uses numbered steps or bullets.
 
 ---
 
+
 ## 2. Flowchart 
 
 **Definition:**
@@ -72,6 +73,7 @@ Each operation has a specific symbol.
 
 ![Alt Text](Flowcharts/01_LargestOfTwoNumbers.jpg)
 
+
 **Common Symbols in Flowcharts / عام علامات:**
 
 | Symbol | Name       | Purpose / مقصد |
@@ -84,8 +86,6 @@ Each operation has a specific symbol.
 
 
 
-Example (Finding largest of two numbers / دو نمبروں میں بڑا نمبر):
-Start → Read numbers → Decision (num1 > num2?) → Output largest → End
 
 
 ---
