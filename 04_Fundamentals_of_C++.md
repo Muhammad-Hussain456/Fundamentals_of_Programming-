@@ -104,8 +104,8 @@ Range tells the limits of that type.
 | bool            | 1 byte        | True/False values (true, false)  | 0 or 1                              | Conditional checks, flags        |
 
 
-Range ensures that the value stored fits within the data type limits to avoid overflow or incorrect results.
-حد اس بات کو یقینی بناتی ہے کہ محفوظ شدہ ویلیو ڈیٹا ٹائپ کی حد میں فٹ ہو تاکہ overflow یا غلط نتائج نہ ہوں۔
+Range ensures that the value stored in a variable fits within its declared data type limits to avoid overflow or incorrect results.
+حد اس بات کو یقینی بناتی ہے کہ ویرئبل  میں محفوظ شدہ ویلیو اس کی ڈکلیئرڈ ڈیٹا ٹائپ کی حد میں فٹ ہو تاکہ overflow یا غلط نتائج نہ ہوں۔
 
 ### Example
 ```cpp
