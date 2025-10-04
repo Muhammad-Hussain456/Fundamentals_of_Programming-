@@ -19,8 +19,7 @@ int main() {
 
 ### First Two Lines Explained
 
-#### 1. #include **<iostream>**
-
+#### 1. #include <iostream>
 Includes Input/Output library so cin and cout can be used.
 
 Input/Output کے لیے library شامل کرو تاکہ cin اور cout استعمال ہو سکیں۔
