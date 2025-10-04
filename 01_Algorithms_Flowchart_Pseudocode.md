@@ -122,6 +122,7 @@ END
 
 **Symbols / علامات:**
 No graphical symbols. Uses keywords like BEGIN, END, IF, ELSE, WHILE, FOR, etc.
+
 کوئی گرافیکل علامت نہیں؛ صرف keywords جیسے BEGIN, END, IF, ELSE, WHILE, FOR استعمال ہوتے ہیں۔
 
 
