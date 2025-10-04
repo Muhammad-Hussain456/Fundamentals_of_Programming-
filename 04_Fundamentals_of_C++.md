@@ -76,7 +76,7 @@ isPassed = true;
 ```
 ---
 
-## Data Types,and Range(limitation - حد)
+## Data Types, and Range(limitation - حد)
 
 **Data types** define what type of data a variable can store.
 ڈیٹا ٹائپ بتاتا ہے کہ ویری ایبل کس قسم کا ڈیٹا رکھ سکتا ہے۔
