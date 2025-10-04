@@ -22,7 +22,7 @@ int main() {
 ```cpp
 1. #include <iostream> 
 
-Includes Input/Output library so **cin** and **cout** can be used.
+Includes Input/Output library so cin and cout can be used.
 
 
 
