@@ -78,6 +78,20 @@ int main() {
 }
 ```
 
+### First Two Lines Explained
+
+```cpp
+1. #include <iostream> 
+
+Includes Input/Output library so cin and cout can be used.
+
+
+
+2. using namespace std; 
+
+Allows using standard C++ names without std:: prefix.
+
+```
 **Sample Run:**
 
 ```
