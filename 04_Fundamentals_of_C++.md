@@ -5,7 +5,7 @@ A C++ program consists of a set of instructions executed sequentially.
 
 ## Program Structure 
 Every program must have a main() function where execution begins.
-ہر پروگرام میں main() فنکشن ہونا ضروری ہے، جہاں سے عمل شروع ہوتا ہے۔
+ہر پروگرام میں میںن فنکشن ہونا ضروری ہے، جہاں سے عمل شروع ہوتا ہے۔
 ```cpp
 #include <iostream>   // Input/Output library included
 using namespace std;  // Allows direct use of standard names
