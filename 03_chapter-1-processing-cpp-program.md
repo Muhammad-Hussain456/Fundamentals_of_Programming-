@@ -211,7 +211,7 @@ Area = length * width
 
 ---
 
-🔹 Step-03: Algorithm (Algorithm hamesha banana mandatory(zarori) hai.
+🔹 Step-03: Algorithm (Algorithm hamesha likhna mandatory(zarori) hai).
 
 English:
 
@@ -264,9 +264,7 @@ English:
 
 ---
 
-🔹 Step-04: Flowchart (Flowchart optional hain, lekin alagh questions is par bhi aa sakte hain.
-
-Islye practice karna zaruri hai, taake exam me easily draw ya likh sakein).
+🔹 Step-04: Flowchart (Flowchart optional hain, lekin alagh questions is par bhi aa sakte hain. Islye practice karna zaruri hai, taake exam me easily draw ya likh sakein).
 
 
 ![Alt Text](Flowcharts/02_Rectangle_AreaAndPerimeter.png)
@@ -363,7 +361,5 @@ Area of Rectangle = 50
 
 Note:-
 Koi b problem solve krtay waqt:
-Algorithm hamesha banana mandatory hai.
-
-Flowchart aur Pseudocode optional hain kiunki ye donu **Problem  Analysis-Coding-Execution Cycle** m include nahi h, lekin alagh questions in par bhi aa sakte hain.Islye practice karna zaruri hai, taake exam me easily draw ya likh sakein.
+Algorithm hamesha likhna mandatory hai but Flowchart aur Pseudocode optional hain kiunki ye donu **Problem  Analysis-Coding-Execution Cycle** m include nahi h, lekin alagh questions in par bhi aa sakte hain.Islye practice karna zaruri hai, taake exam me easily draw ya likh sakein.
 
