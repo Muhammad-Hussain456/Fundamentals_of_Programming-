@@ -25,6 +25,15 @@ Includes Input/Output library so cin and cout can be used.
 
 Input/Output کے لیے library شامل کرو تاکہ cin اور cout استعمال ہو سکیں۔
 
+##### iostream
+
+It is a library in C++ that provides facilities for input and output operations.
+
+Input refers to receiving data from the user (using cin).
+
+Output refers to displaying data on the screen (using cout).
+
+Without including iostream, you cannot use cin or cout in your program.
 
 
 #### 2. using namespace std;
@@ -32,9 +41,6 @@ Input/Output کے لیے library شامل کرو تاکہ cin اور cout است
 Allows using standard C++ names without std:: prefix.
 
 Standard names براہ راست استعمال کرو، std:: لکھنے کی ضرورت نہیں۔
-
-
-
 
 
 ---
@@ -116,12 +122,14 @@ Range ensures that the value stored fits within the data type limits to avoid ov
 
 ### Example:
 
+```cpp
 int smallNumber = 2000000000;   // Correct
 int tooBig = 3000000000;        // Incorrect, out of range
 float pi = 3.14159;             // Fractional number
 char letter = 'A';              // Single character
 bool passed = true;             // True or False
 
+```
 
 ---
 
@@ -130,12 +138,12 @@ bool passed = true;             // True or False
 Input operations let the program receive data from the user, output displays it on the screen.
 
 Input operations پروگرام کو صارف سے ڈیٹا حاصل کرنے دیتی ہیں، output operations اسکرین پر دکھاتی ہیں۔
-
+```cpp
 int age;
 cout << "Enter your age: ";
 cin >> age;
 cout << "You are " << age << " years old.";
-
+```
 
 ---
 
@@ -147,12 +155,12 @@ Implicit conversion happens automatically.
 
 Explicit conversion / type casting is done manually.
 
-
+```cpp
 int a = 5;
 float b = a;      // implicit
 float x = 5.9;
 int y = (int)x;   // explicit
-
+```
 
 ---
 
