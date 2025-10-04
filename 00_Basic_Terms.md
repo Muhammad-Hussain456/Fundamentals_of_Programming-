@@ -5,8 +5,8 @@
 ### Syntax
 - The set of rules that defines the structure of statements in a language.  
   قواعد ہیں جو جملے یا کوڈ کی صحیح شکل بتاتے ہیں۔  
-- Rules for writing code correctly so that it can be compiled or interpreted.  
-  کوڈ کو صحیح لکھنے کے قواعد تاکہ یہ چل سکے۔  
+- Rules for writing code correctly so that it can be compiled or interpreted and executed.  
+ کوڈ کو صحیح طریقے سے لکھنے کے اصول تاکہ اسے کمپائل یا انٹرپریٹ کر کے چلایا جا سکے۔ 
 - Rules for forming grammatically correct sentences in a language.  
   زبان میں جملے درست بنانے کے قواعد۔  
 **Example (Programming):** 
