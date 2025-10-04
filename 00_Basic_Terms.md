@@ -37,10 +37,10 @@ The meaning conveyed by a sentence in a language.
 جملے کا مطلب۔
 
 **Example (Programming):**
-``cpp
+```cpp
 int x = 10;
 int y = x / 0; // Syntax correct, but semantic error
-``
+```
 
 کوڈ درست ہے مگر تقسیم بر صفر کی غلطی ہے۔
 **Example (Natural Language):**
@@ -59,9 +59,9 @@ A single command given to a computer to perform a specific task.
 کمپیوٹر کو ایک کام کرنے کا ایک حکم/ہدایت ۔
 
 **Example:**
-``cpp
+```cpp
 cout << "Hello World";        // One instruction to print text
-``
+```
 یہ ایک حکم ہے جو پیغام دکھاتا ہے۔
 
 
@@ -71,12 +71,12 @@ A single instruction or a collection of instructions written in a programming la
 ہدایات کا مجموعہ جو ایک ساتھ کام کرتا ہے۔
 
 **Example:**
-``cpp
+```cpp
 int a = 5;
 int b = 10;
 int sum = a + b;
 cout << sum;
-``
+```
 یہ ہدایات کا مجموعہ ہے جو جمع دکھاتا ہے۔
 
 
