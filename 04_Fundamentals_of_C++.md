@@ -19,12 +19,12 @@ int main() {
 
 ### First Two Lines Explained
 
-#### 1. #include <iostream>
+#### 1. ```cpp #include <iostream> ```
 Includes Input/Output library so cin and cout can be used.
 
 Input/Output کے لیے library شامل کرو تاکہ cin اور cout استعمال ہو سکیں۔
 
-##### iostream
+##### ```cpp <iostream> ```
 
 It is a library in C++ that provides facilities for input and output operations.
 
