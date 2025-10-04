@@ -74,13 +74,14 @@ Each operation has a specific symbol.
 
 **Common Symbols in Flowcharts / عام علامات:**
 
-Symbol	Name	Purpose
+| Symbol | Name       | Purpose / مقصد |
+|--------|------------|----------------|
+| ⬜      | Process    | Represents a process or operation / کسی عمل یا پروسیس کی نمائندگی |
+| ⬛      | Input/Output | Represents input (read) or output (print) / ان پٹ یا آؤٹ پٹ کی نمائندگی |
+| 🔷      | Decision   | Represents a decision (Yes/No) / فیصلے کی نمائندگی |
+| ⭘      | Terminal  | Start or End / شروع یا ختم |
+| →      | Arrow      | Shows flow of control / مراحل کی ترتیب دکھاتا ہے |
 
-⬜ (Rectangle)	Process	Represents a process or operation / کسی عمل یا پروسیس کی نمائندگی
-⬛ (Parallelogram)	Input/Output	Represents input (read) or output (print) / ان پٹ یا آؤٹ پٹ کی نمائندگی
-🔷 (Diamond)	Decision	Represents a decision (Yes/No) / فیصلے کی نمائندگی
-⭘ (Oval)	Terminal	Start or End / شروع یا ختم
-→	Arrow	Shows flow of control / مراحل کی ترتیب دکھاتا ہے
 
 
 Example (Finding largest of two numbers / دو نمبروں میں بڑا نمبر):
