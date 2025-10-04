@@ -148,7 +148,7 @@ For humans, It is difficult to write and understand machine language; that’s w
 
 
 
-Computer cannot understand the high level programming language, that's why, **Translators**  are used to translate the high level programming language into machine language.
+Computer cannot understand high level programming language, that's why, **Translators**  are used to translate the high level programming language into machine language.
 
 ---
 
