@@ -1,7 +1,7 @@
 # Algorithm, Flowchart and Pseudocode 
 
 ## Algorithm
-لگورتھم (Algorithm)
+الگورتھم (Algorithm)
 
 An algorithm is a step-by-step procedure or set of rules to solve a problem or perform a task. It is written in simple language and is independent of any programming language.
 
