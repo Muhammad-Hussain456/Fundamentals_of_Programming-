@@ -50,14 +50,14 @@ How programming languages changed and improved step by step from old to modern.
 
 
 **Compiler:**
-A compiler is a translator program that translates the entire code at once from a high-level language into machine language.
+A compiler is a translator program that translates the entire code at once written in a high-level language into machine language.
 
-کمپائلر (Compiler): کمپائلر ایک ترجمہ کرنے والا پروگرام ہے جو ہائی لیول لینگویج کے پورے کوڈ کو ایک ساتھ مشین لینگویج میں بدل دیتا ہے۔
+کمپائلر (Compiler): کمپائلر ایک ترجمہ کرنے والا پروگرام ہے جو ہائی لیول لینگویج میں لکھے گئے پورے کوڈ کو ایک ساتھ مشین لینگویج میں بدل دیتا ہے۔
 
 
 **Interpreter:** An interpreter is a translator program that translates and executes the code line by line written in a high-level language.
 
-انٹرپریٹر (Interpreter): انٹرپریٹر ایک ترجمہ کرنے والا پروگرام ہے جو ہائی لیول لینگویج میں لکھے گئے کوڈ کو لائن بہ لائن ترجمہ کرتا ہے اور ساتھ ہی ساتھ چل بھیاتا ہے۔
+انٹرپریٹر (Interpreter): انٹرپریٹر ایک ترجمہ کرنے والا پروگرام ہے جو ہائی لیول لینگویج میں لکھے گئے کوڈ کو لائن بہ لائن ترجمہ کرتا ہے اور ساتھ ہی ساتھ چلاتا ہے۔
 
 
 **Compiler** is used to translate C++ language and some other high level languages into machine language.
