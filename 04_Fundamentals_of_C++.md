@@ -114,15 +114,7 @@ int tooBig = 3000000000;        // Incorrect, out of range(حد سے زیادہ)
 float pi = 3.14159;             // Fractional number
 char letter = 'A';              // Single character
 bool passed = true;             // True or False
-```
-چھوٹا نمبر صحیح ہے۔
-بہت بڑا نمبر غلط ہے، حد سے زیادہ۔
-پی اعشاریہ نمبر ہے۔
-حرف ایک ہے۔
-پاس ہوا صحیح یا غلط ہے۔
-
-
----
+``` 
 
 ## Input/Output Operations
 
