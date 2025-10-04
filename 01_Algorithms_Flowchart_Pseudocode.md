@@ -109,7 +109,7 @@ Easier to convert to any programming language.
 کسی بھی پروگرامنگ لینگویج میں آسانی سے تبدیل کیا جا سکتا ہے۔
 
 
-**Example (Finding largest of two numbers / دو نمبروں میں بڑا نمبر):**
+**Example (Problem: Finding largest of two numbers / دو نمبروں میں بڑا نمبر):**
 
 BEGIN
    READ number1, number2
@@ -136,11 +136,11 @@ Flowchart aur Pseudocode optional hain kiunki ye donu **Problem - Analysis - Cod
 
 ## ✅ Summary Tip / خلاصہ
 
-Algorithm: Think of it as the steps you write to solve a problem.
+**Algorithm:** Think of it as the steps you write to solve a problem.
 الگورتھم: الگورتھم بالترتیب وہ مراحل (steps) ہیں جو آپ لکھ کر مسئلہ حل کرتے ہیں۔
 
-Flowchart: Think of it as the picture showing each step and decision.
+**Flowchart:** Think of it as the picture showing each step and decision.
 فلوچارٹ: فلوچارٹ ہر مرحلے اور فیصلہ دکھانے والی تصویر ہے۔
 
-Pseudocode: Think of it as the rough work of code before writing the real program.
+**Pseudocode:** Think of it as the rough work of code before writing the real program.
 پسوڈو کوڈ: پسوڈو کوڈ اصل پروگرام لکھنے سے پہلے کا عارضی کام ہے، جو تقریباً اصل کوڈ کی طرح ہوتا ہے۔ ✅
