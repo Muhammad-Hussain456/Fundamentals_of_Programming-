@@ -143,7 +143,3 @@ Flowchart: Think of it as the picture showing each step and decision.
 
 Pseudocode: Think of it as the rough work of code before writing the real program.
 پسوڈو کوڈ: پسوڈو کوڈ اصل پروگرام لکھنے سے پہلے کا عارضی کام ہے، جو تقریباً اصل کوڈ کی طرح ہوتا ہے۔ ✅
-
-
-کیا میں وہ flowchart بنا دوں؟
-
