@@ -1,9 +1,3 @@
-
-# 📘 Chapter 1 – An Overview of Computers and Programming Languages  
-_From C++ Programming: From Problem Analysis to Program Design, Fifth Edition_
-
----
-
 ## Evolution of Programming Languages۔                                                                                   
 پروگرامنگ لینگویجز کا ارتقا
 
