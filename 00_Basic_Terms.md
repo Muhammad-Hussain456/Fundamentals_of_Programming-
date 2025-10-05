@@ -1,6 +1,6 @@
 # Basic Terms
 
-## 1. Syntax vs Semantics
+## 1. Syntax vs Semantics(Very Important Topic)
 
 ### Syntax
 - The set of rules that defines the structure of statements in a language.  
