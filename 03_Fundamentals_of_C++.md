@@ -22,8 +22,9 @@ int main() {
 ### First Three Lines Explained
 
 ```cpp
-1. #include <iostream>
+// 1. #include <iostream>
 
+#include <iostream>
 // This line includes the **Input/Output stream library**.
 // It allows the use of `cin` (for input) and `cout` (for output).
 // Without this, `cout` would be undefined(error).
@@ -55,10 +56,12 @@ int main() {
 // Before compilation, the preprocessor reads the '#include' line
 // and inserts the entire content of the specified header file into your source code.
 // This makes all the declarations and definitions from that file available for use.
+```
 
 ```cpp
-2. using namespace std;
+// 2. using namespace std;
 
+using namespace std;
 // This line lets you use standard C++ names like `cout`, `cin`, `endl` **without writing `std::` before them**.
 
 // For example, instead of `std::cout`, you can just write `cout`.
@@ -120,6 +123,17 @@ int main() {
 // std::vector<int> nums;
 // std::cout << "Hello";
 
+```
+```cpp
+
+// 3. int main() {
+
+int main() {
+
+// This is the **starting point** of every C++ program.
+// `main()` is a special function where execution begins.
+// `int` means the function returns an integer value to the operating system.
+// The `{` opens the body of the function, where instructions are written.
 ```
 ---
 
