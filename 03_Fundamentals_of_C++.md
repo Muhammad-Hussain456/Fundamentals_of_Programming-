@@ -1,7 +1,4 @@
 # 🌟 C++ Fundamentals 
-**سی پلس پلس کی بنیادی باتیں**
-
----
 
 ## 📌 Program Structure  
 Every C++ program must begin execution from the `main()` function.  
