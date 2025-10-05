@@ -38,6 +38,72 @@ int main() {
 
 ---
 
+---
+
+# **namespace** in C++:
+## 🧭 What Is a Namespace in C++?
+
+A **namespace** is a special container that groups together related names — like variables, functions, and classes — to avoid naming conflicts in your program. It helps organize code and prevents clashes when different parts of a program use the same identifier.
+
+---
+
+## 🛠️ Types of Namespaces
+
+- **Built-in namespaces**:  
+  The most common is `std`, which stands for **standard**. It contains all the standard C++ library features like `cout`, `vector`, `string`, etc.
+  ```cpp
+  std::cout << "Hello, world!";
+  ```
+
+- **User-defined namespaces**:  
+  You can create your own to group related code:
+  ```cpp
+  namespace Math {
+      int add(int a, int b) {
+          return a + b;
+      }
+  }
+  ```
+
+---
+
+## 🧩 Accessing Namespace Members
+
+You can access members using the **scope resolution operator** `::`:
+
+```cpp
+int result = Math::add(5, 3);
+```
+
+Or bring specific names into scope:
+
+```cpp
+using Math::add;
+int result = add(5, 3);
+```
+
+Or bring everything in (not recommended for large projects):
+
+```cpp
+using namespace Math;
+```
+
+---
+
+## ⚠️ Caution: `using namespace std;`
+
+While common in small programs, this can cause **ambiguity** in large projects. It pulls in hundreds of names from the standard library, which might clash with your own or third-party code. Prefer:
+
+```cpp
+using std::cout;
+using std::endl;
+```
+
+Or just use `std::` explicitly.
+
+
+---
+
 ```cpp
 3. int main() {
 ```
