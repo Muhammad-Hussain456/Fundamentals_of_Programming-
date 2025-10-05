@@ -23,98 +23,104 @@ int main() {
 
 ```cpp
 1. #include <iostream>
-```
-- This line includes the **Input/Output stream library**.
-- It allows the use of `cin` (for input) and `cout` (for output).
-- Without this, `cout` would be undefined(error).
 
----
+// This line includes the **Input/Output stream library**.
+// It allows the use of `cin` (for input) and `cout` (for output).
+// Without this, `cout` would be undefined(error).
+
+// 📌 Preprocessor Directive
+// The hashtag '#' indicates a preprocessor directive.
+// These are instructions for the compiler's preprocessor to execute
+// before the actual compilation begins.
+
+// 📂 File Inclusion
+// '#include' is a directive used to include the contents of another file.
+// It allows your program to access declarations and definitions from that file.
+
+// 📄 Header Files
+// The included file is usually a header file (.h or .hpp).
+// Header files contain declarations for functions, classes, constants, and other code elements.
+
+// 🧭 Standard vs. User-Defined Files
+//
+// #include <filename>
+// - Uses angled brackets to include standard library headers.
+// - The compiler searches for these files in its default system paths.
+
+// #include "filename"
+// - Uses double quotes to include user-defined headers.
+// - These files are typically located in the same directory or a project-specific path.
+
+// 🛠️ How It Works
+// Before compilation, the preprocessor reads the '#include' line
+// and inserts the entire content of the specified header file into your source code.
+// This makes all the declarations and definitions from that file available for use.
 
 ```cpp
 2. using namespace std;
+
+// This line lets you use standard C++ names like `cout`, `cin`, `endl` **without writing `std::` before them**.
+
+// For example, instead of `std::cout`, you can just write `cout`.
+
+
+// 🧭 What Is a Namespace in C++
+//
+// A namespace is a special container that groups related names —
+// such as variables, functions, and classes — to avoid naming conflicts.
+// It helps organize code and prevents clashes when different parts of a program
+// use the same identifier.
+
+
+// 🛠️ Types of Namespaces
+//
+// 1. Built-in namespaces:
+//    The most common is 'std', which stands for standard.
+//    It contains all the standard C++ library features like cout, vector, string, etc.
+//
+//    Example:
+//    std::cout << "Hello, world!";
+//
+// 2. User-defined namespaces:
+//    You can create your own to group related code.
+//
+//    Example:
+//    namespace Math {
+//        int add(int a, int b) {
+//            return a + b;
+//        }
+//    }
+
+
+// 🧩 Accessing Namespace Members
+//
+// You can access members using the scope resolution operator '::'.
+//
+// Example:
+// int result = Math::add(5, 3);
+//
+// Or bring specific names into scope:
+// using Math::add;
+//
+// Or bring everything in (not recommended for large projects):
+// using namespace Math;
+
+
+// ⚠️ Caution: using namespace std;
+//
+// While common in small programs, this can cause ambiguity in large projects.
+// It pulls in hundreds of names from the standard library, which might clash
+// with your own or third-party code.
+//
+// Prefer:
+// using std::cout;
+// using std::endl;
+//
+// Or just use std:: explicitly:
+// std::vector<int> nums;
+// std::cout << "Hello";
+
 ```
-- This line lets you use standard C++ names like `cout`, `cin`, `endl` **without writing `std::` before them**.
-- For example, instead of `std::cout`, you can just write `cout`.
-
----
-
----
-
-# **namespace** in C++:
-## 🧭 What Is a Namespace in C++?
-
-A **namespace** is a special container that groups together related names — like variables, functions, and classes — to avoid naming conflicts in your program. It helps organize code and prevents clashes when different parts of a program use the same identifier.
-
----
-
-## 🛠️ Types of Namespaces
-
-- **Built-in namespaces**:  
-  The most common is `std`, which stands for **standard**. It contains all the standard C++ library features like `cout`, `vector`, `string`, etc.
-  ```cpp
-  std::cout << "Hello, world!";
-  ```
-
-- **User-defined namespaces**:  
-  You can create your own to group related code:
-  ```cpp
-  namespace Math {
-      int add(int a, int b) {
-          return a + b;
-      }
-  }
-  ```
-
----
-
-## 🧩 Accessing Namespace Members
-
-You can access members using the **scope resolution operator** `::`:
-
-```cpp
-int result = Math::add(5, 3);
-```
-
-Or bring specific names into scope:
-
-```cpp
-using Math::add;
-int result = add(5, 3);
-```
-
-Or bring everything in (not recommended for large projects):
-
-```cpp
-using namespace Math;
-```
-
----
-
-## ⚠️ Caution: `using namespace std;`
-
-While common in small programs, this can cause **ambiguity** in large projects. It pulls in hundreds of names from the standard library, which might clash with your own or third-party code. Prefer:
-
-```cpp
-using std::cout;
-using std::endl;
-```
-
-Or just use `std::` explicitly.
-
-
----
-
-```cpp
-3. int main() {
-```
-- This is the **starting point** of every C++ program.
-- `main()` is a special function where execution begins.
-- `int` means the function returns an integer value to the operating system.
-- The `{` opens the body of the function, where instructions are written.
-
----
-
-
 ---
 
 ## Variables
