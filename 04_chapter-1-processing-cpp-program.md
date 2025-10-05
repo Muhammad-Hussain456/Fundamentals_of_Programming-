@@ -72,36 +72,6 @@ int main() {
 }
 ```
 
-### First Three Lines Explained
-
-```cpp
-1. #include <iostream>
-```
-- This line includes the **Input/Output stream library**.
-- It allows the use of `cin` (for input) and `cout` (for output).
-- Without this, `cout` would be undefined(error).
-
----
-
-```cpp
-2. using namespace std;
-```
-- This line lets you use standard C++ names like `cout`, `cin`, `endl` **without writing `std::` before them**.
-- For example, instead of `std::cout`, you can just write `cout`.
-
----
-
-```cpp
-3. int main() {
-```
-- This is the **starting point** of every C++ program.
-- `main()` is a special function where execution begins.
-- `int` means the function returns an integer value to the operating system.
-- The `{` opens the body of the function, where instructions are written.
-
----
-
-
 **Sample Run:**
 
 ```
