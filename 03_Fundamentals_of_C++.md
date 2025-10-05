@@ -194,13 +194,13 @@ int main() {
 ---
 
 ### 8. 🚚 Loader  
-- Loads the final executable into memory.  
+- Loads the final executable into main memory(RAM).  
 - Prepares the program for execution by allocating memory and setting up runtime environment.
 
 ---
 
 ### 9. ▶️ Execution  
-- The program starts from `main()`.  
+- CPU executes the program from `main()`.  
 - Variables are initialized.  
 - Output is displayed on the screen:
   ```
