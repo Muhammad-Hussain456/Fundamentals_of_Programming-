@@ -212,7 +212,7 @@ A **package** is a collection of related modules or libraries bundled together t
      ہارڈویئر کو منظم کرتا ہے اور ایپلیکیشن سافٹ ویئر چلانے کے لیے پلیٹ فارم فراہم کرتا ہے۔  
    - **Examples:** Windows, Linux, macOS, Antivirus tools  
 
-2. **Application Software**  (Will be discussed in the Operating System Course)
+2. **Application Software**  
    - Designed for end-users to perform specific tasks.  
      صارفین کے مخصوص کام انجام دینے کے لیے تیار کیا گیا سافٹ ویئر  
    - **Examples:** Google Chrome, Microsoft Office, WhatsApp  
