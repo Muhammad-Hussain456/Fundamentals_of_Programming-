@@ -45,9 +45,12 @@ bool isPassed;
 
 ---
 
-## 📊 Data Types and Ranges  
-Data types define the kind of data a variable can store.  
-ڈیٹا ٹائپ بتاتا ہے کہ ویری ایبل کس قسم کا ڈیٹا رکھ سکتا ہے۔
+## Data Types, and Range(limitation - حد)
+**Data types** define what type of data a variable can store. ڈیٹا ٹائپ بتاتا ہے کہ ویری ایبل کس قسم کا ڈیٹا رکھ سکتا ہے۔
+**Range** tells the limits of that type. حد یہ بتاتی ہے کہ ویری ایبل میں کس حد تک کی ویلیو محفوظ(سٹور) کی جا سکتی ہے۔
+**Range** tells the minimum and maximum values that a variable can store based on its Data type.
+حد یہ بتاتی ہے کہ کسی ویری ایبل میں اس کے ڈیٹا ٹائپ کے مطابق کم سے کم اور زیادہ سے زیادہ ویلیو کیا سٹور کی جا سکتی ہے۔
+
 
 | Data Type     | Storage     | Example Values         | Range (32-bit)                     | Purpose                        |
 |---------------|-------------|------------------------|------------------------------------|--------------------------------|
@@ -60,6 +63,14 @@ Data types define the kind of data a variable can store.
 | `char`        | 1 byte      | 'A', '%', 'b'          | -128 to 127 / 0 to 255             | Single characters              |
 | `bool`        | 1 byte      | true, false            | 0 or 1                             | Logical conditions             |
 
+
+```cpp
+int FirstNumber = 2000000000;   // Correct
+int SecondNumber = 3000000000;        // Incorrect, out of range(حد سے زیادہ)
+float pi = 3.14159;             // Fractional number
+char letter = 'A';              // Single character
+bool passed = true;             // True or False
+```
 ---
 
 ## 🎯 Input/Output Operations  
@@ -104,7 +115,7 @@ int y = (int)x;   // explicit
 
 ---
 
-## 🧪 Example Program
+## 🧪 Example
 
 ### 🎯 Problem 
 Create variables for student marks, height, grade, and pass status. Assign values and display them.
@@ -203,5 +214,3 @@ int main() {
 > Note: `true` is displayed as `1` because `cout` prints boolean values as integers by default.
 
 ---
-
-Would you like me to add a section on control structures (if, loops, switch) or functions next?
