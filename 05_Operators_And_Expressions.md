@@ -218,7 +218,7 @@ int main() {
 ---
 
 ### 5. ⚙️ Preprocessor  
-- Handles `#include <iostream>`  
+- Handles/executes `#include <iostream>`  
 - Includes the I/O stream library so `cout` and `endl` can be used.
 
 ---
