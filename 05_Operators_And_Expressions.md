@@ -218,9 +218,10 @@ int main() {
 ---
 
 ### 5. ⚙️ Preprocessor  
-- Handles/executes `#include <iostream>`  
-- Includes the I/O stream library so `cout` and `endl` can be used.
-
+```cpp
+// The preprocessor processes `#include <iostream>` and other directives. 
+// Includes the I/O stream header file so `cout` and `endl` can be used.
+```
 ---
 
 ### 6. 🧩 Compiler  
