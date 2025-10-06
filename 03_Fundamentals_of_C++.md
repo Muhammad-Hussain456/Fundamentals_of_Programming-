@@ -5,7 +5,7 @@ Every C++ program must begin execution from the `main()` function.
 ہر پروگرام میں `main()` فنکشن ہونا ضروری ہے، جہاں سے عمل شروع ہوتا ہے۔
 
 ```cpp
-#include <iostream>   // Input/Output library included
+#include <iostream>   // Input/Output header file included
 using namespace std;  // Allows direct use of standard names
 
 int main() {
