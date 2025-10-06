@@ -33,14 +33,8 @@ How programming languages changed and improved step by step from old to modern.
    - Examples: **FORTRAN (1957), COBOL (1959), BASIC (1964), Pascal (1970), C (1972)****C++ (1983), Java (1995), C# (2000)**, **Python, JavaScript, PHP, Swift (2014), Kotlin (2016), Rust (2010), Go (2009), TypeScript (2012)**.  
 
 
-پروگرام ایسے الفاظ میں لکھے جاتے ہیں جو انگلش جیسے ہوتے ہیں۔
 
-ان پروگرامز کو چلانے کے لیے کمپائلر (Compiler) یا انٹرپریٹر (Interpreter) کی ضرورت ہوتی ہے۔
-
-مثالیں: FORTRAN (1957), COBOL (1959), BASIC (1964), Pascal (1970), C (1972), C++ (1983), Java (1995), C# (2000)، اور جدید زبانیں جیسے Python, JavaScript, PHP, Swift (2014), Kotlin (2016), Rust (2010), Go (2009), TypeScript (2012)۔
-
-
-
+---
 
 
 **Compiler:**
