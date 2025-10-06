@@ -18,7 +18,7 @@ int main() {
 
 | Construct               | Syntax in C++             | Semantic in C++                                                                 |
 |------------------------|---------------------------|----------------------------------------------------------------------------------|
-| Include I/O Header    | `#include <iostream>`     | Tells the preprocessor to include the iostream header file, which declares input/output stream objects like cin, cout, cerr, etc.|
+| Include I/O Header(file)    | `#include <iostream>`     | Tells the preprocessor to include the iostream header file, which declares input/output stream objects like cin, cout, cerr, etc.|
 | Namespace Usage        | `using namespace std;`    | Enables direct use of standard library names without prefixing `std::`          |
 | Main Function          | `int main() { ... }`      | Defines the program’s entry point and returns an integer to the operating system|
 
