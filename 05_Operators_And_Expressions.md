@@ -1,14 +1,69 @@
-# ⚙️ Operators and Expressions in C++  
-**سی پلس پلس میں آپریٹرز اور ایکسپریشن**
-
-## 🧮 What Are Operators?  
-Operators are special symbols used to perform operations on variables and values.  
-آپریٹرز خاص علامات ہوتی ہیں جو ویری ایبلز اور ویلیوز پر عمل انجام دیتی ہیں۔
-
-Expressions are combinations of variables, values, and operators that produce a result.  
-ایکسپریشنز ویری ایبلز، ویلیوز اور آپریٹرز کا مجموعہ ہوتی ہیں جو کوئی نتیجہ دیتی ہیں۔
+## ⚙️ What Are Operators, Operands, and Expressions in C++  
+**سی پلس پلس میں آپریٹرز، آپرینڈز اور ایکسپریشنز کیا ہیں؟**
 
 ---
+
+### 🔹 Operators  
+**Definition**:  
+Operators are special symbols used to perform operations on variables and values.  
+**آپریٹرز** خاص علامات ہوتی ہیں جو ویری ایبلز اور ویلیوز پر عمل انجام دیتی ہیں۔
+
+**Examples**:  
+- `+` for addition  
+- `-` for subtraction  
+- `*` for multiplication  
+- `=` for assignment  
+- `==` for comparison
+
+---
+
+### 🔹 Operands  
+**Definition**:  
+Operands are the values or variables on which operators act.  
+**آپریٹرز** جن ویلیوز یا ویری ایبلز پر عمل کرتے ہیں، انہیں **آپریینڈز** کہتے ہیں۔
+
+**Examples**:  
+In the expression `a + b`,  
+- `a` and `b` are operands  
+- `+` is the operator
+
+---
+
+
+### 🔹 Expressions  
+**Definition**:  
+Expressions are combinations of operands and operators that produce a result.  
+**ایکسپریشنز** ویری ایبلز، ویلیوز اور آپریٹرز کا مجموعہ ہوتی ہیں جو کوئی نتیجہ دیتی ہیں۔
+
+**Examples**:
+```cpp
+int a = 5, b = 3;
+int sum = a + b;       // Expression: a + b → result is 8
+bool check = a > b;    // Expression: a > b → result is true
+float avg = (a + b) / 2.0; // Expression with multiple operators
+```
+
+---
+
+## ⚙️ Operation 
+  
+  An **operation** is the action performed by an **operator** on one or more **operands** to produce a result.
+
+
+  **آپریشن** وہ عمل ہے جو ایک **آپریٹر** اپنے **آپریینڈز** پر انجام دیتا ہے تاکہ کوئی نتیجہ حاصل ہو
+---
+
+### 🔹 Example:
+```cpp
+int a = 5, b = 3;
+int sum = a + b;
+```
+- `+` → operator  
+- `a` and `b` → operands  
+- `a + b` → operation
+- int sum = a + b;       // Expression: a + b → result is 8
+---
+
 
 ## ➕ Arithmetic Operators  
 Used for basic mathematical operations.  
