@@ -49,9 +49,8 @@ float avg = (a + b) / 2.0; // Expression with multiple operators
   
 An **operation** is the action performed by an **operator** on one or more **operands** to produce a result.
 
-
   **آپریشن** وہ عمل ہے جو ایک **آپریٹر** اپنے **آپریینڈز** پر انجام دیتا ہے تاکہ کوئی نتیجہ حاصل ہو
----
+  
 
 ### 🔹 Example:
 ```cpp
@@ -61,7 +60,9 @@ int sum = a + b;
 - `+` → operator  
 - `a` and `b` → operands  
 - `a + b` → operation
-- int sum = a + b;       // Expression: a + b → result is 8
+- int sum = a + b;  → Expression
+  
+- result is 8
 ---
 
 
@@ -230,18 +231,16 @@ int main() {
 
 ### 7. 🔗 Linker  
 - Links object code with standard libraries.  
-- Resolves references like `cout`, `endl`.
 
 ---
 
 ### 8. 🚚 Loader  
-- Loads the executable into memory.  
-- Prepares runtime environment and allocates memory.
+- Loads the executable code into memory.  
 
 ---
 
 ### 9. ▶️ Execution  
-- Program starts at `main()`.  
+- CPU executes program from `main() function`.  
 - Variables are initialized.  
 - Arithmetic and logical operations are performed.  
 - Output is displayed:
