@@ -176,7 +176,7 @@ Computer cannot understand high level programming language, that's why, **Transl
 
 
 
----
+
 A translator converts them into object code (machine language code).
 
 
