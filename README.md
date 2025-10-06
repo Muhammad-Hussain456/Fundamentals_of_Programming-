@@ -72,7 +72,7 @@ After Completing this course, students will be able to:
 3. Design basic **algorithms** to solve the real world problems.
    
 4. Use modern **IDEs** for coding and project management(project development and testing).
-
----
    
 6. Write **programs** to implement solution(Basic programming skills).
+
+---
