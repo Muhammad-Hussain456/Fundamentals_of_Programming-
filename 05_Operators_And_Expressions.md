@@ -1,8 +1,6 @@
 ## ⚙️ What Are Operators, Operands, and Expressions in C++  
 **سی پلس پلس میں آپریٹرز، آپرینڈز اور ایکسپریشنز کیا ہیں؟**
 
----
-
 ### 🔹 Operators  
 **Definition**:  
 Operators are special symbols used to perform operations on variables and values.  
