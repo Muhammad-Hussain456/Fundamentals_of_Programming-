@@ -175,7 +175,7 @@ int main() {
 
 ### 5. ⚙️ Preprocessor  
 - Processes preprocessor directives.
-- Inserts the contents of the I/O library before compilation begins.  
+- Inserts the contents of the I/O header file before compilation begins.  
 - Makes `cin`, `cout`, `endl` available to the program.
 
 ---
