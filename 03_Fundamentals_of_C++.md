@@ -122,7 +122,7 @@ Create variables for student marks, height, grade, and pass status. Assign value
 
 ### 1. ✅ Problem Definition
 Create a program that stores and displays a student's marks, height, grade, and pass status.
----
+
 
 ### 2. 🧠 Problem Analysis 
 
