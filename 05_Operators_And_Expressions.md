@@ -23,9 +23,11 @@ Operands are the values or variables on which operators act.
 **آپریٹرز** جن ویلیوز یا ویری ایبلز پر عمل کرتے ہیں، انہیں **آپریینڈز** کہتے ہیں۔
 
 **Examples**:  
-In the expression `a + b`,  
-- `a` and `b` are operands  
-- `+` is the operator
+```cpp
+int sum = 2 * 6;
+```
+- `2` and `6` are operands  
+- `*` is the operator
 
 ---
 
@@ -47,7 +49,7 @@ float avg = (a + b) / 2.0; // Expression with multiple operators
 
 ## ⚙️ Operation 
   
-  An **operation** is the action performed by an **operator** on one or more **operands** to produce a result.
+An **operation** is the action performed by an **operator** on one or more **operands** to produce a result.
 
 
   **آپریشن** وہ عمل ہے جو ایک **آپریٹر** اپنے **آپریینڈز** پر انجام دیتا ہے تاکہ کوئی نتیجہ حاصل ہو
