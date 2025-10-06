@@ -160,6 +160,8 @@ Computer cannot understand high level programming language, that's why, **Transl
 
 ## Translators
 
+A translators translates  high level language code to object code(machine language code).
+
 **Compiler** – Translates entire high-level code to machine code (C, C++, Java).
 
 
@@ -173,7 +175,6 @@ Computer cannot understand high level programming language, that's why, **Transl
 **Assembler** – Converts assembly to machine code (binary).
 
 اسمبلر – اسمبلی کو مشین کوڈ میں بدلتا ہے۔
-
 ---
 
 ## Object Code
