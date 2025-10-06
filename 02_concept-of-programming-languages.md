@@ -162,7 +162,7 @@ Computer cannot understand high level programming language, that's why, **Transl
 
 A translators translates  high level language code to object code(machine language code).
 
-**Compiler** – Translates entire high-level code to machine code (C, C++, Java).
+**Compiler** – Translates entire high-level code to machine code (C, C++, Java) at once.
 
 
 کمپائلر – پورے ہائی لیول کوڈ کو ایک ساتھ مشین کوڈ میں بدل دیتا ہے۔
