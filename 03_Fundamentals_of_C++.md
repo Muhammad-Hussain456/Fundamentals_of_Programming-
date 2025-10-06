@@ -174,7 +174,7 @@ int main() {
 ---
 
 ### 5. ⚙️ Preprocessor  
-- Handles `#include <iostream>`  
+- Processes directives beginning with #.
 - Inserts the contents of the I/O library before compilation begins.  
 - Makes `cin`, `cout`, `endl` available to the program.
 
