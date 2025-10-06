@@ -1,5 +1,5 @@
 # ⚙️ Operators and Expressions in C++  
-**سی پلس پلس میں آپریٹرز اور ایکسپریشن
+**سی پلس پلس میں آپریٹرز اور ایکسپریشن**
 
 ## 🧮 What Are Operators?  
 Operators are special symbols used to perform operations on variables and values.  
