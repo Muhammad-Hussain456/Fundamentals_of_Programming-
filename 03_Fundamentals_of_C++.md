@@ -121,7 +121,6 @@ int y = (int)x;   // explicit
 Create variables for student marks, height, grade, and pass status. Assign values and display them.
 
 ### 1. ✅ Problem Definition
-
 Create a program that stores and displays a student's marks, height, grade, and pass status.
 ---
 
