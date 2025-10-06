@@ -99,4 +99,105 @@ Defines the order in which operators are evaluated.
 
 
 
-Would you like a quiz or practice problems to reinforce these operator concepts next?
+
+
+## Example Problem:
+
+Create variables for student marks, height, grade, and pass status. Assign values and display them.
+
+## 🧩 Step-by-Step Solution 
+
+### 1. ✅ Problem Definition  
+
+Create a program that calculates the total and average marks of a student using arithmetic operators, and checks if the student passed using relational and logical operators.
+
+---
+
+### 2. 🧠 Problem Analysis  
+
+- Declare three integer variables for marks in three subjects.  
+- Use arithmetic operators to calculate total and average.  
+- Use relational and logical operators to check if the student passed (average ≥ 50).  
+- Display all results.
+
+
+---
+
+### 3. 🧮 Design Algorithm  
+**Steps**:
+1. Start the program.
+2. Declare three `int` variables: `mark1`, `mark2`, `mark3`.
+3. Calculate `total = mark1 + mark2 + mark3`.
+4. Calculate `average = total / 3`.
+5. Check if `average >= 50` and all marks ≥ 40.
+6. Display total, average, and pass/fail result.
+7. End the program.
+
+---
+
+### 4. 💻 Coding 
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int mark1 = 60;
+    int mark2 = 70;
+    int mark3 = 55;
+
+    int total = mark1 + mark2 + mark3;
+    float average = total / 3.0;
+
+    bool passed = (average >= 50) && (mark1 >= 40) && (mark2 >= 40) && (mark3 >= 40);
+
+    cout << "Total Marks: " << total << endl;
+    cout << "Average Marks: " << average << endl;
+    cout << "Passed: " << passed << endl;
+
+    return 0;
+}
+```
+
+---
+
+### 5. ⚙️ Preprocessor  
+- Handles `#include <iostream>`  
+- Includes the I/O stream library so `cout` and `endl` can be used.
+
+---
+
+### 6. 🧩 Compiler  
+- Converts the source code into object code.  
+- Checks for syntax errors and type compatibility.
+
+---
+
+### 7. 🔗 Linker  
+- Links object code with standard libraries.  
+- Resolves references like `cout`, `endl`.
+
+---
+
+### 8. 🚚 Loader  
+- Loads the executable into memory.  
+- Prepares runtime environment and allocates memory.
+
+---
+
+### 9. ▶️ Execution  
+- Program starts at `main()`.  
+- Variables are initialized.  
+- Arithmetic and logical operations are performed.  
+- Output is displayed:
+
+```
+Total Marks: 185
+Average Marks: 61.6667
+Passed: 1
+```
+
+> Note: `Passed: 1` means `true`. If the condition fails, it would show `0`.
+
+---
+
+
