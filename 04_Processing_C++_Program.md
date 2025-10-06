@@ -305,9 +305,9 @@ int main() {
 ---
 
 🔹 Step-06: Preprocessing
-
-👉 The preprocessor handles #include <iostream> and other directives.
-
+```cpp
+// 👉 The preprocessor handles #include <iostream> and other directives.
+```
 
 ---
 
