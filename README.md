@@ -36,3 +36,17 @@ File handling — opening/closing files, reading/writing text and binary files, 
 Introduction to pointers — basic pointer usage, pointers and arrays, pointers with functions and structures.
 
 
+
+## Course Outcomes
+
+After Completing this course, students will be able to:
+
+1. Identify the **syntax and semantics** of different  programming constructs.
+
+2. Analyze real world problems(**problem Analysis**).
+   
+3. Design basic **algorithms** to solve the real world problems.
+   
+4. Use modern **IDEs** for coding and project management(project development and testing).
+   
+5. Write **programs** to implement solution(Basic programming skills).
