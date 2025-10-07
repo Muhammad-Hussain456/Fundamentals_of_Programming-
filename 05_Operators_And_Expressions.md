@@ -57,7 +57,7 @@ An **operation** is the action performed by an **operator** on one or more **ope
 int a = 5, b = 3;
 int sum = a + b;
 ```
-- `+`,`=` → operators  
+- `+`, `=`  → operators 
 - `a` and `b` → operands  
 - `a + b` → operation
 - int sum = a + b;  → Expression
