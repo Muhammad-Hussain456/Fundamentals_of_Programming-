@@ -182,7 +182,7 @@ Create a program that calculates the total and average marks of a student using 
 ### 3. 🧮 Design Algorithm  
 **Steps**:
 1. Start the program.
-2. Declare three `int` variables: `mark1`, `mark2`, `mark3`.
+2. Declare and initialize three `int` variables: `mark1`, `mark2`, `mark3`.
 3. Calculate `total = mark1 + mark2 + mark3`.
 4. Calculate `average = total / 3`.
 5. Check if `average >= 50` and all marks ≥ 40.
