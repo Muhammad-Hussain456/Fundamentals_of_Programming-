@@ -17,9 +17,9 @@ int main() {
 
 Construct	Syntax in C++	Semantic in C++	Example
 
-Include I/O Header(file)	#include <header>	Tells the preprocessor to include a header file, e.g., iostream for I/O streams	#include <iostream>
+Include I/O Header(file)	#include <header>	Tells preprocessor to include a header file like iostream for I/O streams	#include <iostream>
 Namespace Usage	using namespace identifier;	Enables direct use of standard objects without std:: prefix	using namespace std;
-Main Function	int main()	Defines the program’s entry point; returns an integer to the OS	cpp int main() { cout << "Hello"; return 0; }
+Main Function	int main()	Defines the program’s entry point; returns an integer to the OS	int main() { cout << "Hello"; return 0; }
 
 
 
@@ -90,7 +90,7 @@ cout << "You are " << age << " years old.";
 Construct	Syntax in C++	Semantic in C++	Example
 
 Output	cout << expression;	Displays text or values on the screen	cout << "Hello World";
-Input	cin >> variable;	Receives input from the user and stores it in a variable	int age; cin >> age;
+Input	cin >> variable;	Receives input from the user	int age; cin >> age;
 Combined Output	cout << var1 << var2;	Displays multiple values in sequence	cout << "Age: " << age;
 
 
@@ -111,8 +111,8 @@ int y = (int)x;   // explicit
 
 Type	Syntax in C++	Semantic in C++	Example
 
-Implicit	datatype var1 = var2;	Automatically converts datatype of var2 to datatype of var1	int a = 5; float b = a;
-Explicit	datatype var1 = (datatype) var2;	Manually casts datatype of var2 to specified type	float x = 5.9; int y = (int)x;
+Implicit	datatype var1 = var2;	Automatically converts datatype of var2 to var1	int a = 5; float b = a;
+Explicit	datatype var1 = (datatype)var2;	Manually casts datatype of var2 to specified type	float x = 5.9; int y = (int)x;
 
 
 
@@ -120,64 +120,11 @@ Explicit	datatype var1 = (datatype) var2;	Manually casts datatype of var2 to spe
 
 🧪 Example Program
 
-🎯 Problem
+Problem
 
 Create variables for student marks, height, grade, and pass status. Assign values and display them.
 
-1. ✅ Problem Definition
-
-Create a program that stores and displays a student's marks, height, grade, and pass status.
-
-2. 🧠 Problem Analysis
-
-Requirements:
-
-Declare variables for each data item.
-
-Assign appropriate values.
-
-Display the values using output statements.
-
-
-3. 🧮 Design Algorithm
-
-Steps:
-
-1. Start the program.
-
-
-2. Declare variables:
-
-marks → int
-
-height → float
-
-grade → char
-
-passed → bool
-
-
-
-3. Assign values:
-
-marks = 85
-
-height = 5.9
-
-grade = 'A'
-
-passed = true
-
-
-
-4. Display each value using cout.
-
-
-5. End the program.
-
-
-
-4. 💻 Coding
+Coding
 
 #include <iostream>
 using namespace std;
@@ -212,40 +159,17 @@ Passed: 1
 
 🏗️ Program Execution Steps
 
-1. Preprocessor
-
-Processes directives like #include.
-
-Makes cin, cout, endl available.
+1. Preprocessor – Processes directives like #include; makes cin, cout, endl available.
 
 
-
-2. Compiler
-
-Translates source code into object code.
-
-Checks syntax and types.
+2. Compiler – Translates source code into object code; checks syntax and types.
 
 
-
-3. Linker
-
-Combines object code with standard libraries.
-
-Resolves external references (e.g., cout).
+3. Linker – Combines object code with standard libraries; resolves references.
 
 
-
-4. Loader
-
-Loads executable into RAM.
-
-Allocates memory for variables.
+4. Loader – Loads executable into RAM; allocates memory for variables.
 
 
+5. Execution – CPU runs code from main(). Variables initialized, output displayed.
 
-5. Execution
-
-CPU runs code starting from main().
-
-Variables initialized, output displayed on screen.
