@@ -1,51 +1,53 @@
-# ⚙️ Operators and Expressions in C++  
-**سی پلس پلس میں آپریٹرز اور ایکسپریشنز**
+# ⚙️ Operators and Expressions in C++
 
 ---
 
 ## 📘 What Are Operators, Operands, Expressions, and Operations?
 
 ### 🔹 Operator  
+  
+Operators are special symbols that perform actions on variables and values.
+
 | Programming Construct | Syntax | Semantic (Meaning) | Example |
 |----------------------|--------|---------------------|---------|
 | Operator             | `+`, `-`, `*`, `=` | Symbol that performs an action | `a + b` |
 
-**Urdu**:  
-آپریٹرز خاص علامات ہوتی ہیں جو ویری ایبلز اور ویلیوز پر عمل انجام دیتی ہیں۔
-
 ---
 
 ### 🔹 Operand  
+ 
+Operands are the values or variables on which operators act.
+
 | Programming Construct | Syntax | Semantic (Meaning) | Example |
 |----------------------|--------|---------------------|---------|
 | Operand              | `a`, `b`, `5`, `3` | Value or variable used in operation | `a + b` → `a`, `b` are operands |
 
-**Urdu**:  
-آپریینڈز وہ ویلیوز یا ویری ایبلز ہیں جن پر آپریٹر عمل کرتا ہے۔
-
 ---
 
 ### 🔹 Expression  
+
+An expression is a combination of operands and operators that produces a result.
+
 | Programming Construct | Syntax | Semantic (Meaning) | Example |
 |----------------------|--------|---------------------|---------|
-| Expression           | `a + b`, `x = 10` | Combination of operands and operators that produces a result | `int sum = a + b;` |
-
-**Urdu**:  
-ایکسپریشنز ویری ایبلز، ویلیوز اور آپریٹرز کا مجموعہ ہوتی ہیں جو کوئی نتیجہ دیتی ہیں۔
+| Expression           | `a + b`, `x = 10` | Complete construct that evaluates to a value | `int sum = a + b;` |
 
 ---
 
 ### 🔹 Operation  
+
+An operation is the action performed by an operator on operands.
+
 | Programming Construct | Syntax | Semantic (Meaning) | Example |
 |----------------------|--------|---------------------|---------|
 | Operation            | `a + b` | Action performed by operator on operands | `int sum = a + b;` → result is 8 |
 
-**Urdu**:  
-آپریشن وہ عمل ہے جو آپریٹر اپنے آپریینڈز پر انجام دیتا ہے۔
-
 ---
 
 ## ➕ Arithmetic Operators  
+  
+Used for basic mathematical operations.
+
 | Programming Construct | Syntax | Semantic (Meaning) | Example |
 |----------------------|--------|---------------------|---------|
 | Addition             | `+`    | Adds two values     | `a + b` |
@@ -57,6 +59,9 @@
 ---
 
 ## 📝 Assignment Operator  
+ 
+Assigns a value to a variable.
+
 | Programming Construct | Syntax | Semantic (Meaning) | Example |
 |----------------------|--------|---------------------|---------|
 | Assignment           | `=`    | Assigns value to variable | `x = 10;` |
@@ -64,6 +69,9 @@
 ---
 
 ## 🔁 Increment / Decrement Operators  
+ 
+Used to increase or decrease a value by 1.
+
 | Programming Construct | Syntax | Semantic (Meaning) | Example |
 |----------------------|--------|---------------------|---------|
 | Increment            | `++`   | Increases value by 1 | `x++`, `++x` |
@@ -75,6 +83,9 @@
 ---
 
 ## 🔍 Relational Operators  
+
+Used to compare two values.
+
 | Programming Construct | Syntax | Semantic (Meaning) | Example |
 |----------------------|--------|---------------------|---------|
 | Equal to             | `==`   | Checks if values are equal | `a == b` |
@@ -87,6 +98,9 @@
 ---
 
 ## 🔐 Logical Operators  
+
+Used to combine multiple conditions.
+
 | Programming Construct | Syntax | Semantic (Meaning) | Example |
 |----------------------|--------|---------------------|---------|
 | Logical AND          | `&&`   | True if both conditions are true | `a && b` |
@@ -96,6 +110,9 @@
 ---
 
 ## 🧠 Operator Precedence  
+  
+Defines the order in which operators are evaluated.
+
 | Precedence Level | Syntax | Semantic (Meaning) | Example |
 |------------------|--------|---------------------|---------|
 | 1 (Highest)      | `++`, `--`, `!` | Unary operations | `++x`, `!flag` |
@@ -170,6 +187,9 @@ int main() {
 ---
 
 ### 5. ⚙️ Preprocessor  
+**Definition**:  
+The preprocessor runs before compilation and handles directives like `#include`.
+
 ```cpp
 // The preprocessor processes `#include <iostream>`
 // It includes the iostream header file, which declares stream objects like cout, cin, cerr.
@@ -178,28 +198,26 @@ int main() {
 ---
 
 ### 6. 🧩 Compiler  
-- Translates source code to object code  
-- Checks syntax and type rules
+**Definition**:  
+Translates source code into object code and checks for syntax errors.
 
 ---
 
 ### 7. 🔗 Linker  
-- Links object code with standard libraries  
-- Resolves references like `cout`, `endl`
+**Definition**:  
+Links object code with standard libraries and resolves external references.
 
 ---
 
 ### 8. 🚚 Loader  
-- Loads executable into memory  
-- Prepares runtime environment
+**Definition**:  
+Loads the executable into memory and prepares it for execution.
 
 ---
 
 ### 9. ▶️ Execution  
-- Program starts at `main()`  
-- Variables initialized  
-- Operations performed  
-- Output displayed:
+**Definition**:  
+Runs the program starting from `main()`, performs operations, and displays output.
 
 ```
 Total Marks: 185
