@@ -19,7 +19,7 @@ int main() {
 
 | Construct                | Syntax in C++                 | Semantic in C++                                                           | Example                                     |
 | ------------------------ | ----------------------------- | ------------------------------------------------------------------------- | ------------------------------------------- |
-| Preprocessor Directive | `#include <header>`           | Tells preprocessor to include a header file like iostream for I/O streams | `#include <iostream>`                       |
+| Preprocessor Directive | `#include <header>`           | Tells preprocessor to include a header file.                                | `#include <iostream>`                       |
 | Namespace Usage          | `using namespace identifier;` | Enables direct use of standard objects without `std::` prefix             | `using namespace std;`                      |
 | Main Function            | `int main()`                  | Defines the program’s entry point; returns an integer to the OS           | `int main() { cout << "Hello"; return 0; }` |
 
