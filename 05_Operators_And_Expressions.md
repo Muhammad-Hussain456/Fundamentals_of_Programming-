@@ -1,197 +1,150 @@
-## ⚙️ What Are Operators, Operands, and Expressions in C++  
-**سی پلس پلس میں آپریٹرز، آپرینڈز اور ایکسپریشنز کیا ہیں؟**
-
-### 🔹 Operators  
-**Definition**:  
-Operators are special symbols used to perform operations on variables and values.  
-**آپریٹرز** خاص علامات ہوتی ہیں جو ویری ایبلز اور ویلیوز پر عمل انجام دیتی ہیں۔
-
-**Examples**:  
-- `+` for addition  
-- `-` for subtraction  
-- `*` for multiplication  
-- `=` for assignment  
-- `==` for comparison
+# ⚙️ Operators and Expressions in C++  
+**سی پلس پلس میں آپریٹرز اور ایکسپریشنز**
 
 ---
 
-### 🔹 Operands  
-**Definition**:  
-Operands are the values or variables on which operators act.  
-**آپریٹرز** جن ویلیوز یا ویری ایبلز پر عمل کرتے ہیں، انہیں **آپریینڈز** کہتے ہیں۔
+## 📘 What Are Operators, Operands, Expressions, and Operations?
 
-**Examples**:  
-```cpp
-int sum = 2 * 6;
-```
-- `2` and `6` are operands  
-- `*` is the operator
+### 🔹 Operator  
+| Programming Construct | Syntax | Semantic (Meaning) | Example |
+|----------------------|--------|---------------------|---------|
+| Operator             | `+`, `-`, `*`, `=` | Symbol that performs an action | `a + b` |
+
+**Urdu**:  
+آپریٹرز خاص علامات ہوتی ہیں جو ویری ایبلز اور ویلیوز پر عمل انجام دیتی ہیں۔
 
 ---
 
+### 🔹 Operand  
+| Programming Construct | Syntax | Semantic (Meaning) | Example |
+|----------------------|--------|---------------------|---------|
+| Operand              | `a`, `b`, `5`, `3` | Value or variable used in operation | `a + b` → `a`, `b` are operands |
 
-### 🔹 Expressions  
-**Definition**:  
-Expressions are combinations of operands and operators that produce a result.  
-**ایکسپریشنز** ویری ایبلز، ویلیوز اور آپریٹرز کا مجموعہ ہوتی ہیں جو کوئی نتیجہ دیتی ہیں۔
-
-**Examples**:
-```cpp
-int a = 5, b = 3;
-int sum = a + b;       // Expression: a + b → result is 8
-bool check = a > b;    // Expression: a > b → result is true
-float avg = (a + b) / 2.0; // Expression with multiple operators
-```
+**Urdu**:  
+آپریینڈز وہ ویلیوز یا ویری ایبلز ہیں جن پر آپریٹر عمل کرتا ہے۔
 
 ---
 
-## ⚙️ Operation 
-  
-An **operation** is the action performed by an **operator** on one or more **operands** to produce a result.
+### 🔹 Expression  
+| Programming Construct | Syntax | Semantic (Meaning) | Example |
+|----------------------|--------|---------------------|---------|
+| Expression           | `a + b`, `x = 10` | Combination of operands and operators that produces a result | `int sum = a + b;` |
 
-  **آپریشن** وہ عمل ہے جو ایک **آپریٹر** اپنے **آپریینڈز** پر انجام دیتا ہے تاکہ کوئی نتیجہ حاصل ہو
-  
+**Urdu**:  
+ایکسپریشنز ویری ایبلز، ویلیوز اور آپریٹرز کا مجموعہ ہوتی ہیں جو کوئی نتیجہ دیتی ہیں۔
 
-### 🔹 Example:
-```cpp
-int a = 5, b = 3;
-int sum = a + b;
-```
-- `+`, `=`  → operators 
-- `a` and `b` → operands  
-- `a + b` → operation
-- int sum = a + b;  → Expression
-  
-- result is 8
 ---
 
+### 🔹 Operation  
+| Programming Construct | Syntax | Semantic (Meaning) | Example |
+|----------------------|--------|---------------------|---------|
+| Operation            | `a + b` | Action performed by operator on operands | `int sum = a + b;` → result is 8 |
+
+**Urdu**:  
+آپریشن وہ عمل ہے جو آپریٹر اپنے آپریینڈز پر انجام دیتا ہے۔
+
+---
 
 ## ➕ Arithmetic Operators  
-Used for basic mathematical operations.  
-بنیادی ریاضی کے عمل کے لیے استعمال ہوتے ہیں۔
-
-| Operator | Syntax Example     | Semantic in C++                          |
-|----------|--------------------|------------------------------------------|
-| `+`      | `a + b`            | Adds two values                          |
-| `-`      | `a - b`            | Subtracts second value from first        |
-| `*`      | `a * b`            | Multiplies two values                    |
-| `/`      | `a / b`            | Divides first value by second            |
-| `%`      | `a % b`            | Returns remainder of division            |
+| Programming Construct | Syntax | Semantic (Meaning) | Example |
+|----------------------|--------|---------------------|---------|
+| Addition             | `+`    | Adds two values     | `a + b` |
+| Subtraction          | `-`    | Subtracts second from first | `a - b` |
+| Multiplication       | `*`    | Multiplies two values | `a * b` |
+| Division             | `/`    | Divides first by second | `a / b` |
+| Modulus              | `%`    | Returns remainder   | `a % b` |
 
 ---
 
 ## 📝 Assignment Operator  
-Assigns a value to a variable.  
-ویری ایبل کو ویلیو دینے کے لیے استعمال ہوتا ہے۔
-
-| Operator | Syntax Example     | Semantic in C++                          |
-|----------|--------------------|------------------------------------------|
-| `=`      | `x = 10;`          | Assigns 10 to variable `x`               |
+| Programming Construct | Syntax | Semantic (Meaning) | Example |
+|----------------------|--------|---------------------|---------|
+| Assignment           | `=`    | Assigns value to variable | `x = 10;` |
 
 ---
 
 ## 🔁 Increment / Decrement Operators  
-Used to increase or decrease a value by 1.  
-ویلیو کو 1 بڑھانے یا گھٹانے کے لیے استعمال ہوتے ہیں۔
+| Programming Construct | Syntax | Semantic (Meaning) | Example |
+|----------------------|--------|---------------------|---------|
+| Increment            | `++`   | Increases value by 1 | `x++`, `++x` |
+| Decrement            | `--`   | Decreases value by 1 | `x--`, `--x` |
 
-| Operator | Syntax Example     | Semantic in C++                          |
-|----------|--------------------|------------------------------------------|
-| `++`     | `x++` or `++x`     | Increments value by 1                    |
-| `--`     | `x--` or `--x`     | Decrements value by 1                    |
-
-> `x++` is **post-increment** (value used first, then increased)  
-> `++x` is **pre-increment** (value increased first, then used)
+> `x++` → post-increment  
+> `++x` → pre-increment
 
 ---
 
 ## 🔍 Relational Operators  
-Used to compare two values.  
-دو ویلیوز کا موازنہ کرنے کے لیے استعمال ہوتے ہیں۔
-
-| Operator | Syntax Example     | Semantic in C++                          |
-|----------|--------------------|------------------------------------------|
-| `==`     | `a == b`           | Checks if values are equal               |
-| `!=`     | `a != b`           | Checks if values are not equal           |
-| `>`      | `a > b`            | Checks if first is greater than second   |
-| `<`      | `a < b`            | Checks if first is less than second      |
-| `>=`     | `a >= b`           | Checks if first is greater or equal      |
-| `<=`     | `a <= b`           | Checks if first is less or equal         |
+| Programming Construct | Syntax | Semantic (Meaning) | Example |
+|----------------------|--------|---------------------|---------|
+| Equal to             | `==`   | Checks if values are equal | `a == b` |
+| Not equal to         | `!=`   | Checks if values are not equal | `a != b` |
+| Greater than         | `>`    | Checks if first is greater | `a > b` |
+| Less than            | `<`    | Checks if first is less | `a < b` |
+| Greater or equal     | `>=`   | Checks if first ≥ second | `a >= b` |
+| Less or equal        | `<=`   | Checks if first ≤ second | `a <= b` |
 
 ---
 
 ## 🔐 Logical Operators  
-Used to combine multiple conditions.  
-متعدد شرائط کو جوڑنے کے لیے استعمال ہوتے ہیں۔
-
-| Operator | Syntax Example     | Semantic in C++                          |
-|----------|--------------------|------------------------------------------|
-| `&&`     | `a && b`           | Logical AND — true if both are true      |
-| `||`     | `a || b`           | Logical OR — true if at least one is true|
-| `!`      | `!a`               | Logical NOT — reverses the condition     |
+| Programming Construct | Syntax | Semantic (Meaning) | Example |
+|----------------------|--------|---------------------|---------|
+| Logical AND          | `&&`   | True if both conditions are true | `a && b` |
+| Logical OR           | `||`   | True if at least one is true | `a || b` |
+| Logical NOT          | `!`    | Reverses the condition | `!a` |
 
 ---
 
 ## 🧠 Operator Precedence  
-Defines the order in which operators are evaluated.  
-یہ ترتیب بتاتی ہے کہ آپریٹرز کس ترتیب سے عمل میں آئیں گے۔
+| Precedence Level | Syntax | Semantic (Meaning) | Example |
+|------------------|--------|---------------------|---------|
+| 1 (Highest)      | `++`, `--`, `!` | Unary operations | `++x`, `!flag` |
+| 2                | `*`, `/`, `%`   | Multiplication, division, modulus | `a * b`, `a / b` |
+| 3                | `+`, `-`         | Addition, subtraction | `a + b`, `a - b` |
+| 4                | `<`, `>`, `<=`, `>=` | Relational comparisons | `a < b`, `a >= b` |
+| 5                | `==`, `!=`       | Equality checks | `a == b`, `a != b` |
+| 6                | `&&`             | Logical AND | `a && b` |
+| 7                | `||`             | Logical OR | `a || b` |
+| 8 (Lowest)       | `=`              | Assignment | `x = 10` |
 
-### 🔢 Precedence Table (High to Low)
-
-| Precedence Level | Operators                      | Description                          |
-|------------------|--------------------------------|--------------------------------------|
-| 1 (Highest)      | `++`, `--`, `!`                | Unary operators                      |
-| 2                | `*`, `/`, `%`                  | Multiplication, division, modulus    |
-| 3                | `+`, `-`                       | Addition, subtraction                |
-| 4                | `<`, `>`, `<=`, `>=`           | Relational comparisons               |
-| 5                | `==`, `!=`                     | Equality checks                      |
-| 6                | `&&`                           | Logical AND                          |
-| 7                | `||`                           | Logical OR                           |
-| 8 (Lowest)       | `=`                            | Assignment                           |
-
-> Operators with higher precedence are evaluated first.  
+> Higher precedence operators are evaluated first.  
 > Equal precedence is resolved **left to right**, except assignment (`=`), which is **right to left**.
 
 ---
 
-
-
-
-
-## Example Problem:
+## 🧩 Example Problem
 
 Create variables for student marks, height, grade, and pass status. Assign values and display them.
 
-## 🧩 Step-by-Step Solution 
+---
+
+## 🧠 Step-by-Step Solution
 
 ### 1. ✅ Problem Definition  
-
-Create a program that calculates the total and average marks of a student using arithmetic operators, and checks if the student passed using relational and logical operators.
+Calculate total and average marks using arithmetic operators, and check pass status using relational and logical operators.
 
 ---
 
-### 2. 🧠 Problem Analysis  
-
-- Declare three integer variables for marks in three subjects.  
-- Use arithmetic operators to calculate total and average.  
-- Use relational and logical operators to check if the student passed (average ≥ 50).  
-- Display all results.
-
+### 2. 🔍 Problem Analysis  
+- Declare three `int` variables for marks.  
+- Use `+` and `/` for total and average.  
+- Use `>=` and `&&` to check pass condition.  
+- Display results using `cout`.
 
 ---
 
 ### 3. 🧮 Design Algorithm  
-**Steps**:
-1. Start the program.
-2. Declare and initialize three `int` variables: `mark1`, `mark2`, `mark3`.
-3. Calculate `total = mark1 + mark2 + mark3`.
-4. Calculate `average = total / 3`.
-5. Check if `average >= 50` and all marks ≥ 40.
-6. Display total, average, and pass/fail result.
-7. End the program.
+1. Start program  
+2. Declare `mark1`, `mark2`, `mark3`  
+3. Calculate `total = mark1 + mark2 + mark3`  
+4. Calculate `average = total / 3.0`  
+5. Check if average ≥ 50 and all marks ≥ 40  
+6. Display results  
+7. End program
 
 ---
 
-### 4. 💻 Coding 
+### 4. 💻 Coding
 ```cpp
 #include <iostream>
 using namespace std;
@@ -218,32 +171,35 @@ int main() {
 
 ### 5. ⚙️ Preprocessor  
 ```cpp
-// The preprocessor processes `#include <iostream>` and other directives. 
-// Includes the I/O stream header file so `cout` and `endl` can be used.
+// The preprocessor processes `#include <iostream>`
+// It includes the iostream header file, which declares stream objects like cout, cin, cerr.
 ```
+
 ---
 
 ### 6. 🧩 Compiler  
-- Converts the source code into object code.  
-- Checks for syntax errors and type compatibility.
+- Translates source code to object code  
+- Checks syntax and type rules
 
 ---
 
 ### 7. 🔗 Linker  
-- Links object code with standard libraries.  
+- Links object code with standard libraries  
+- Resolves references like `cout`, `endl`
 
 ---
 
 ### 8. 🚚 Loader  
-- Loads the executable code into memory.  
+- Loads executable into memory  
+- Prepares runtime environment
 
 ---
 
 ### 9. ▶️ Execution  
-- CPU executes program from `main() function`.  
-- Variables are initialized.  
-- Arithmetic and logical operations are performed.  
-- Output is displayed:
+- Program starts at `main()`  
+- Variables initialized  
+- Operations performed  
+- Output displayed:
 
 ```
 Total Marks: 185
@@ -251,8 +207,6 @@ Average Marks: 61.6667
 Passed: 1
 ```
 
-> Note: `Passed: 1` means `true`. If the condition fails, it would show `0`.
+> `Passed: 1` means `true`. If failed, it would show `0`.
 
 ---
-
-
