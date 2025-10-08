@@ -10,7 +10,7 @@ Operators are special symbols that perform actions on variables and values.
 
 | Programming Construct | Syntax | Semantic (Meaning) | Example |
 |----------------------|--------|---------------------|---------|
-| Operator             | `+`, `-`, `*`, `=` | Symbol that performs an action | `a - b`,`2 + 4`, `c / 5`, `b = 6`, `etc` → `-`, `+`, `/`, `=` are operators.  |
+| Operator             | `+`, `-`, `*`, `=` | Symbol that performs an action | `a - b`,`2 + 4`, `c / 5`, `b = 6`, `etc`. Here,  `-`, `+`, `/`, `=` are operators.  |
 
 ---
 
@@ -20,7 +20,7 @@ Operands are the values or variables on which operators act.
 
 | Programming Construct | Syntax | Semantic (Meaning) | Example |
 |----------------------|--------|---------------------|---------|
-| Operand              | `a`, `b`, `5`, `3` | Value or variable used in operation | `a + b`,`2 + 4`, `c / 5`, `b = 6`, `etc`. →  `a`, `b`, `2`, `4`,`c`, `5`, `6`, are operands |
+| Operand              | `a`, `b`, `5`, `3` | Value or variable used in operation | `a + b`,`2 + 4`, `c / 5`, `b = 6`, `etc`. Here,  `a`, `b`, `2`, `4`,`c`, `5`, `6`, are operands |
 
 ---
 
@@ -30,7 +30,7 @@ An operation is the action performed by an operator on operands.
 
 | Programming Construct | Syntax | Semantic (Meaning) | Example |
 |----------------------|--------|---------------------|---------|
-| Operation            | `a + b` | Action performed by operator on operands | `int sum = a + b;` → `a + b` , `sum = a + b` are operations.|
+| Operation            | `a + b` | Action performed by operator on operands | `int sum = a + b;`. Here, `a + b` , `sum = a + b` are operations.|
 
 ---
 
@@ -176,7 +176,8 @@ int main() {
     int total = mark1 + mark2 + mark3;
     float average = total / 3.0;
 
-    bool passed = average >= 50
+bool passed = (average >= 50) && (mark1 >= 40) && (mark2 >= 40) && (mark3 >= 40);
+
     cout << "Total Marks: " << total << endl;
     cout << "Average Marks: " << average << endl;
     cout << "Passed: " << passed << endl;
