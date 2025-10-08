@@ -10,7 +10,7 @@ Operators are special symbols that perform actions on variables and values.
 
 | Programming Construct | Syntax | Semantic (Meaning) | Example |
 |----------------------|--------|---------------------|---------|
-| Operator             | `+`, `-`, `*`, `=` | Symbol that performs an action | `a + b` |
+| Operator             | `+`, `-`, `*`, `=` | Symbol that performs an action | `a - b`,`2 + 4`, `c / 5`, `b = 6`, `etc` → `-`, `+`, `/`, `=` are operators.  |
 
 ---
 
@@ -20,17 +20,7 @@ Operands are the values or variables on which operators act.
 
 | Programming Construct | Syntax | Semantic (Meaning) | Example |
 |----------------------|--------|---------------------|---------|
-| Operand              | `a`, `b`, `5`, `3` | Value or variable used in operation | `a + b` → `a`, `b` are operands |
-
----
-
-### 🔹 Expression  
-
-An expression is a combination of operands and operators that produces a result.
-
-| Programming Construct | Syntax | Semantic (Meaning) | Example |
-|----------------------|--------|---------------------|---------|
-| Expression           | `a + b`, `x = 10` | Complete construct that evaluates to a value | `int sum = a + b;` |
+| Operand              | `a`, `b`, `5`, `3` | Value or variable used in operation | `a + b`,`2 + 4`, `c / 5`, `b = 6`, `etc`. →  `a`, `b`, `2`, `4`,`c`, `5`, `6`, are operands |
 
 ---
 
@@ -40,9 +30,21 @@ An operation is the action performed by an operator on operands.
 
 | Programming Construct | Syntax | Semantic (Meaning) | Example |
 |----------------------|--------|---------------------|---------|
-| Operation            | `a + b` | Action performed by operator on operands | `int sum = a + b;` → result is 8 |
+| Operation            | `a + b` | Action performed by operator on operands | `int sum = a + b;` → `a + b` , `sum = a + b` are operations.|
 
 ---
+
+
+### 🔹 Expression  
+
+An expression is a combination of operands and operators that produces a result.
+
+| Programming Construct | Syntax | Semantic (Meaning) | Example |
+|----------------------|--------|---------------------|---------|
+| Expression           | `a + b`, `x = 10` | Complete construct that evaluates to a value | `int sum = a + b;`, `float mul = 4 * 2`, `bool answer = true`, `etc` are expressions. |
+
+---
+
 
 ## ➕ Arithmetic Operators  
   
