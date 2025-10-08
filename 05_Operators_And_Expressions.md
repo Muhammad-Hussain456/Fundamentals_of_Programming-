@@ -174,8 +174,7 @@ int main() {
     int total = mark1 + mark2 + mark3;
     float average = total / 3.0;
 
-    bool passed = (average >= 50) && (mark1 >= 40) && (mark2 >= 40) && (mark3 >= 40);
-
+    bool passed = average >= 50
     cout << "Total Marks: " << total << endl;
     cout << "Average Marks: " << average << endl;
     cout << "Passed: " << passed << endl;
