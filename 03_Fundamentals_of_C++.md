@@ -167,6 +167,3 @@ Passed: 1
 5. **Execution** – CPU runs code from `main()`. Variables initialized, output displayed.
 
 ```
-
-Do you want me to make that too?
-```
