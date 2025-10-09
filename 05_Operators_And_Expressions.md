@@ -8,7 +8,7 @@
   
 Operators are special symbols that perform actions on variables and values.
 
-| Programming Construct | Syntax | Semantic (Meaning) | Example |
+| Construct | Syntax | Semantic (Meaning) | Example |
 |----------------------|--------|---------------------|---------|
 | Operator             | `+`, `-`, `*`, `=` | Symbol that performs an action | `a - b`,`2 + 4`, `c / 5`, `b = 6`, `etc`. Here,  `-`, `+`, `/`, `=` are operators.  |
 
