@@ -15,6 +15,10 @@ int main() {
 }
 ````
 
+### constructs:
+
+**Programming constructs** are the fundamental building blocks used to create programs. That's why, we should understand the definition of each construct , syntax, semantic and examples that follow syntax.
+
 ### 🔍 Syntax and Semantics
 
 | Construct                | Syntax in C++                 | Semantic in C++                                                           | Example                                     |
@@ -41,9 +45,9 @@ bool isPassed;
 
 | Construct      | Syntax in C++                | Semantic in C++                              | Example                          |
 | -------------- | ---------------------------- | -------------------------------------------- | -------------------------------- |
-| Declaration    | `datatype variable;`         | Declares a variable with a specific datatype | `int age; float height;`         |
-| Initialization | `datatype variable = value;` | Declares and assigns an initial value        | `int age = 25; float pi = 3.14;` |
-| Assignment     | `variable = value;`          | Updates the value of a variable              | `age = 30;`                      |
+| variable Declaration    | `datatype variable;`         | Declares a variable with a specific datatype | `int age; float height;`         |
+| variable Initialization | `datatype variable = value;` | Declares and assigns an initial value        | `int age = 25; float pi = 3.14;` |
+| variable Assignment     | `variable = value;`          | Updates the value of a variable              | `age = 30;`                      |
 
 ---
 
@@ -113,8 +117,8 @@ int y = (int)x;   // explicit
 
 | Type     | Syntax in C++                     | Semantic in C++                                   | Example                          |
 | -------- | --------------------------------- | ------------------------------------------------- | -------------------------------- |
-| Implicit | `datatype var1 = var2;`           | Automatically converts datatype of var2 to var1   | `int a = 5; float b = a;`        |
-| Explicit | `datatype var1 = (datatype)var2;` | Manually casts datatype of var2 to specified type | `float x = 5.9; int y = (int)x;` |
+| Implicit Type Conversion | `datatype var1 = var2;`           | Automatically converts datatype of var2 to var1   | `int a = 5; float b = a;`        |
+| Explicit Type Conversion| `datatype var1 = (datatype)var2;` | Manually casts datatype of var2 to specified type | `float x = 5.9; int y = (int)x;` |
 
 ---
 
