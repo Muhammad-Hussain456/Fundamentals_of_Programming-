@@ -91,7 +91,7 @@ cout << "You are " << age << " years old.";
 
 | Construct       | Syntax in C++           | Semantic in C++                       | Example                   |
 | --------------- | ----------------------- | ------------------------------------- | ------------------------- |
-| Output          | `cout << expression;`   | Displays text or values on the screen | `cout << "Hello World";`  |
+| Output          | `cout << expression/statement;`   | Displays text or values on the screen | `cout << "Hello World";`  |
 | Input           | `cin >> variable;`      | Receives input from the user          | `int age; cin >> age;`    |
 | Combined Output | `cout << var1 << var2;` | Displays multiple values in sequence  | `cout << "Age: " << age;` |
 
