@@ -18,7 +18,7 @@ Operators are special symbols that perform actions on variables and values.
  
 Operands are the values or variables on which operators act.
 
-| Programming Construct | Syntax | Semantic (Meaning) | Example |
+| Construct | Syntax | Semantic (Meaning) | Example |
 |----------------------|--------|---------------------|---------|
 | Operand              | `a`, `b`, `5`, `3` | Value or variable used in operation | `a + b`,`2 + 4`, `c / 5`, `b = 6`, `etc`. Here,  `a`, `b`, `2`, `4`,`c`, `5`, `6`, are operands |
 
@@ -28,7 +28,7 @@ Operands are the values or variables on which operators act.
 
 An operation is the action performed by an operator on operands.
 
-| Programming Construct | Syntax | Semantic (Meaning) | Example |
+| Construct | Syntax | Semantic (Meaning) | Example |
 |----------------------|--------|---------------------|---------|
 | Operation            | `a + b` | Action performed by operator on operands | `int sum = a + b;`. Here, `a + b` , `sum = a + b` are operations.|
 
@@ -39,7 +39,7 @@ An operation is the action performed by an operator on operands.
 
 An expression is a combination of operands and operators that produces a result.
 
-| Programming Construct | Syntax | Semantic (Meaning) | Example |
+| Construct | Syntax | Semantic (Meaning) | Example |
 |----------------------|--------|---------------------|---------|
 | Expression           | `a + b`, `x = 10` | Complete construct that evaluates to a value | `int sum = a + b;`, `float mul = 4 * 2`, `bool answer = true`, `etc` are expressions. |
 
@@ -50,7 +50,7 @@ An expression is a combination of operands and operators that produces a result.
   
 Used for basic mathematical operations.
 
-| Programming Construct | Syntax | Semantic (Meaning) | Example |
+| Construct | Syntax | Semantic (Meaning) | Example |
 |----------------------|--------|---------------------|---------|
 | Addition             | `+`    | Adds two values     | `a + b` |
 | Subtraction          | `-`    | Subtracts second from first | `a - b` |
@@ -64,7 +64,7 @@ Used for basic mathematical operations.
  
 Assigns a value to a variable.
 
-| Programming Construct | Syntax | Semantic (Meaning) | Example |
+| Construct | Syntax | Semantic (Meaning) | Example |
 |----------------------|--------|---------------------|---------|
 | Assignment           | `=`    | Assigns value to variable | `x = 10;` |
 
@@ -74,7 +74,7 @@ Assigns a value to a variable.
  
 Used to increase or decrease a value by 1.
 
-| Programming Construct | Syntax | Semantic (Meaning) | Example |
+| Construct | Syntax | Semantic (Meaning) | Example |
 |----------------------|--------|---------------------|---------|
 | Increment            | `++`   | Increases value by 1 | `x++`, `++x` |
 | Decrement            | `--`   | Decreases value by 1 | `x--`, `--x` |
@@ -88,7 +88,7 @@ Used to increase or decrease a value by 1.
 
 Used to compare two values.
 
-| Programming Construct | Syntax | Semantic (Meaning) | Example |
+| Construct | Syntax | Semantic (Meaning) | Example |
 |----------------------|--------|---------------------|---------|
 | Equal to             | `==`   | Checks if values are equal | `a == b` |
 | Not equal to         | `!=`   | Checks if values are not equal | `a != b` |
@@ -103,7 +103,7 @@ Used to compare two values.
 
 Used to combine multiple conditions.
 
-| Programming Construct | Syntax | Semantic (Meaning) | Example |
+| Construct | Syntax | Semantic (Meaning) | Example |
 |----------------------|--------|---------------------|---------|
 | Logical AND          | `&&`   | True if both conditions are true | `a && b` |
 | Logical OR           | `||`   | True if at least one is true | `a || b` |
