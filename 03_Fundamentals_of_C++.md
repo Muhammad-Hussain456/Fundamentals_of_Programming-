@@ -17,7 +17,7 @@ int main() {
 
 ### constructs:
 
-**Programming constructs** are the fundamental building blocks used to create programs. That's why, we should understand the definition of each construct , syntax, semantic and examples that follow syntax.
+**Programming constructs** are the fundamental building blocks used to create programs. That's why, we should understand the syntax, semantic and examples of each construct.
 
 ### 🔍 Syntax and Semantics
 
