@@ -132,6 +132,45 @@ Programmers write instructions in languages like C, C#, C++, Java, Python.
 
 ---
 
+### Evolution of Programming Languages۔                                                                                   
+پروگرامنگ لینگویجز کا ارتقا
+
+How programming languages changed and improved step by step from old to modern.
+
+پروگرامنگ لینگویجز میں وقت کے ساتھ ہونے والی تبدیلی اور بہتری۔
+
+1. **Machine Language (مشین لینگویج) – 1940s**  
+   - Programs written only in **0s and 1s (binary code)**.  
+   - Directly understood by computer hardware.  
+   - Very hard for humans to write and understand.  
+
+   **مشین لینگویج (1940s)**  
+   - پروگرام صرف **0 اور 1** میں لکھے جاتے تھے۔  
+   - یہ زبان براہِ راست کمپیوٹر سمجھتا تھا۔  
+   - انسانوں کے لیے لکھنا اور سمجھنا بہت مشکل تھا۔  
+
+---
+
+2. **Assembly Language (اسمبلی لینگویج) – 1950s**  
+   - Used short symbolic words (mnemonics) like **ADD, SUB, MOV** instead of 0s and 1s.  
+   - Needed an **Assembler (اسمبلر)** to translate into machine language.  
+
+   **اسمبلی لینگویج (1950s)**  
+   - اس میں **ADD, SUB, MOV** جیسے الفاظ استعمال ہوتے تھے بجائے 0 اور 1 کے۔  
+   - اسے مشین لینگویج میں بدلنے کے لیے **اسمبلر** کی ضرورت تھی۔  
+
+---
+
+3. **High-Level Languages (ہائی لیول لینگویجز) – late 1950s to present**  
+   - Programs written in English-like words.  
+   - Needed a **Compiler (کمپائلر)** or **Interpreter (انٹرپریٹر)**.  
+   - Examples: **FORTRAN (1957), COBOL (1959), BASIC (1964), Pascal (1970), C (1972)****C++ (1983), Java (1995), C# (2000)**, **Python, JavaScript, PHP, Swift (2014), Kotlin (2016), Rust (2010), Go (2009), TypeScript (2012)**.  
+
+
+
+---
+
+
 ### Why Do We Use Programming Languages?
 
 We use programming languages to instruct computer to solve a problem.
