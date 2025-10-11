@@ -221,7 +221,7 @@ A translators translates  high level language code to object code(machine langua
 اسمبلر – اسمبلی کو مشین کوڈ میں بدلتا ہے۔
 ---
 
-## Object Code
+### Object Code
 
 Object code is the output of a translator (such as a compiler or an assembler, but not an interpreter). It consists of machine-readable instructions (usually in binary form) that are not directly executable until they are linked with other object modules and libraries.
 
