@@ -197,6 +197,11 @@ Computer cannot understand high level programming language, that's why, **Transl
 کمپیوٹر مشین زبان چلاتا ہے۔
 
 
+
+## **Source Code and Source File**  
+A program written in a high-level programming language is called a **source code**. Similarly, the file containing the source code is called the **source file**.
+
+
 ## Translators
 
 A translators translates  high level language code to object code(machine language code).
