@@ -98,6 +98,11 @@ int main() {
     return 0;
 }
 ```
+
+## **Source Code and Source File**  
+A program written in a high-level programming language is called a **source code**. Similarly, the file containing the source code is called the **source file**.
+
+
 یہ پروگرام دو نمبروں کا مجموعہ دکھاتا ہے
 ## **File**  
 A **file** is the basic unit of storage on a computer. It can contain anything: text, program, media, etc.  
