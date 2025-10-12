@@ -115,7 +115,9 @@ It depends on the **CPU architecture**.
 In a **32-bit system**, one **word = 4 bytes**.  
 The CPU fetches or stores **4 bytes at a time**.
 
+## Figure - Address, Content in address, and Word in Memory 
 
+![Alt Text](Figures/03_memory_address%26word.png)
 
 ---
 
