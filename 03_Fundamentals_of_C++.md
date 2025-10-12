@@ -172,7 +172,9 @@ Larger types occupy **consecutive addresses**.
 
 ### Storage and range of Data types (Signed and Unsigned)
 
-**note:**  In 2ⁿ, n => number of bits
+**note:** 
+To learn how to find the range using the formula, see the section **Why Range is different for signed and Unsigned DataTypes**
+
 
 | Data Type | Storage (Bytes) | Example Values | Range Formula | Range | Purpose / Use Case |
 | :--- | :---: | :--- | :--- | :--- | :--- |
@@ -209,12 +211,18 @@ In **unsigned types**, all bits are used for the value, allowing only positive n
   here **n** => number of bits.
   
 **Example:-**
+
 **Question/Problem:**
+
  Find the **range** for **signed int** and **unsigned int** Data type.
+ 
 
 **Answer/Solution:**
+
 For **int** or **signed int**:
+
 **Formula:**
+
 −2ⁿ⁻¹ to (2ⁿ⁻¹ − 1) 
 (As we know, storage unit for *int* is 4 bytes = 32 bits)
  
