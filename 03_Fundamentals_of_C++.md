@@ -168,8 +168,9 @@ Use cout to display all values.
 ---
 
 💻 Code
-
+```cpp
 #include <iostream>
+
 using namespace std;
 
 int main() {
@@ -185,7 +186,7 @@ int main() {
     return 0;
 }
 
-
+```
 ---
 
 🧾 Output
