@@ -102,7 +102,11 @@ The **CPU uses these addresses** to read or write data.
 
 **Definition:**  
 A **word** is the **standard unit of data** a CPU can process in one operation.  
+
+The **word size** determines how much data the CPU can process at once.
+
 It depends on the **CPU architecture**.
+
 
 | **Architecture** | **Word Size** |
 |-------------------|---------------|
