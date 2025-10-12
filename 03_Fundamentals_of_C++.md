@@ -139,6 +139,7 @@ height → float
 grade → char
 
 passed → bool
+
 Use cout to display all values.
 
 
