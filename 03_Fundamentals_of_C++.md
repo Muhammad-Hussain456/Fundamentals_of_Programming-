@@ -203,26 +203,49 @@ In **signed types**, one bit is reserved for the sign (0 = positive, 1 = negativ
 **Formula** → −2ⁿ⁻¹ to (2ⁿ⁻¹ − 1)
 here **n** => number of bits
 
-**Example:** signed short int → −32,768 to +32,767
-
-
 In **unsigned types**, all bits are used for the value, allowing only positive numbers.
 
 **Formula** → 0 to (2ⁿ − 1)
   here **n** => number of bits.
   
-**Example:** unsigned short int → 0 to 65,535
+**Example:-**
+**Question/Problem:**
+ Find the **range** for **signed int** and **unsigned int** Data type.
+
+**Answer/Solution:**
+For **int** or **signed int**:
+**Formula:**
+−2ⁿ⁻¹ to (2ⁿ⁻¹ − 1) 
+(As we know, storage unit for *int* is 4 bytes = 32 bits)
+ 
+−2ⁿ⁻¹ = -2³²⁻¹
+          = -2³¹
+          = −2,147,483,648
+
+2ⁿ⁻¹ − 1 = 2³²⁻¹ - 1
+               = 2³¹ - 1
+               = 2,147,483,648 - 1 
+              = 2,147,483,647
+
+So the **range** for **int*" or **signed int** is −2,147,483,648  to 2,147,483,647.
+
+For **unsigned int**:
+**Formula:**
+0 to (2ⁿ − 1) 
+
+(As we know, storage unit for *int* is 4 bytes = 32 bits)
+
+2ⁿ − 1 = 2³² - 1
+            = 4,294,967,296 - 1
+            = 4,294,967,295
+
+So the **range** for **unsigned int** is 0  to 4,294,967,295.
 
 
----
 
-```cpp
-int FirstNumber = 2000000000;   // Correct
-int SecondNumber = 3000000000;  // Incorrect, out of range
-float pi = 3.14159;             // Fractional number
-char letter = 'A';              // Single character
-bool passed = true;             // True or False
-```
+
+**Note:** Same formulas are used to find range for all other datatypes.
+
 
 ---
 
