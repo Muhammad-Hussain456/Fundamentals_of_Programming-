@@ -50,13 +50,13 @@ bool isPassed;
 | variable Assignment     | `variable = value;`          | Updates the value of a variable              | `age = 30;`                      |
 
 
-# ⚙️ Memory Concepts in Computing
+## ⚙️ Memory Concepts in Computing
 
 Understanding how data is stored, addressed, and processed in memory is fundamental to computer architecture and programming.
 
 ---
 
-## 🧩 1. Bit
+### 🧩 1. Bit
 
 **Definition:**  
 A **bit (binary digit)** is the **smallest unit of data** in a computer.
@@ -69,7 +69,7 @@ It can be either **0** or **1**.
 
 ---
 
-## 💾 2. Byte
+### 💾 2. Byte
 
 **Definition:**  
 A **byte** is a group of **8 bits**.
@@ -82,7 +82,7 @@ It is the **basic addressable unit** of memory in most computer systems.
 
 ---
 
-## 🧠 3. Address in Memory
+### 🧠 3. Address in Memory
 
 **Definition:**  
 Every **byte in memory** has a **unique address**, like house numbers on a street.  
@@ -98,7 +98,7 @@ The **CPU uses these addresses** to read or write data.
 
 ---
 
-## 📏 4. Word in Memory
+### 📏 4. Word in Memory
 
 **Definition:**  
 A **word** is the **standard unit of data** a CPU can process in one operation.  
