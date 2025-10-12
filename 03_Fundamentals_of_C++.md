@@ -172,6 +172,8 @@ Larger types occupy **consecutive addresses**.
 
 ### Storage and range of Data types (Signed and Unsigned)
 
+**note:** n => number of bits
+
 | Data Type | Storage (Bytes) | Example Values | Range Formula | Range | Purpose / Use Case |
 | :--- | :---: | :--- | :--- | :--- | :--- |
 | **signed char** | 1 | -100, 0, 100 | −2⁷ to (2⁷−1) | −128 to 127 | Small signed numbers or characters |
@@ -192,21 +194,24 @@ Larger types occupy **consecutive addresses**.
 
 
 ---
+### Why Range is different for signed and Unsigned DataTypes 
 
-🧩 Explanation
+🧩 **Explanation**
 
-In signed types, one bit is reserved for the sign (0 = positive, 1 = negative), leaving the rest for the value.
+In **signed types**, one bit is reserved for the sign (0 = positive, 1 = negative), leaving the rest for the value.
 
-Formula → −2ⁿ⁻¹ to (2ⁿ⁻¹ − 1)
+**Formula** → −2ⁿ⁻¹ to (2ⁿ⁻¹ − 1)
+here **n** => number of bits
 
-Example: signed short int → −32,768 to +32,767
+**Example:** signed short int → −32,768 to +32,767
 
 
-In unsigned types, all bits are used for the value, allowing only positive numbers.
+In **unsigned types**, all bits are used for the value, allowing only positive numbers.
 
-Formula → 0 to (2ⁿ − 1)
-
-Example: unsigned short int → 0 to 65,535
+**Formula** → 0 to (2ⁿ − 1)
+  here **n** => number of bits.
+  
+**Example:** unsigned short int → 0 to 65,535
 
 
 ---
