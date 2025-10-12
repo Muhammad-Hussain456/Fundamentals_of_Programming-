@@ -172,7 +172,7 @@ Larger types occupy **consecutive addresses**.
 
 ### Storage and range of Data types (Signed and Unsigned)
 
-**note:** 
+**Note:** 
 To learn how to find the range using the formula, see the section **Why Range is different for signed and Unsigned DataTypes**
 
 
@@ -203,11 +203,13 @@ To learn how to find the range using the formula, see the section **Why Range is
 In **signed types**, one bit is reserved for the sign (0 = positive, 1 = negative), leaving the rest for the value.
 
 **Formula** → −2ⁿ⁻¹ to (2ⁿ⁻¹ − 1)
+
 here **n** => number of bits
 
 In **unsigned types**, all bits are used for the value, allowing only positive numbers.
 
 **Formula** → 0 to (2ⁿ − 1)
+
   here **n** => number of bits.
   
 **Example:-**
@@ -224,28 +226,41 @@ For **int** or **signed int**:
 **Formula:**
 
 −2ⁿ⁻¹ to (2ⁿ⁻¹ − 1) 
+
 (As we know, storage unit for *int* is 4 bytes = 32 bits)
  
 −2ⁿ⁻¹ = -2³²⁻¹
-          = -2³¹
-          = −2,147,483,648
+
+      = -2³¹
+      
+      = −2,147,483,648
+      
 
 2ⁿ⁻¹ − 1 = 2³²⁻¹ - 1
-               = 2³¹ - 1
-               = 2,147,483,648 - 1 
-              = 2,147,483,647
+
+         = 2³¹ - 1
+         
+         = 2,147,483,648 - 1 
+         
+         = 2,147,483,647
+         
 
 So the **range** for **int*" or **signed int** is −2,147,483,648  to 2,147,483,647.
 
 For **unsigned int**:
+
 **Formula:**
+
 0 to (2ⁿ − 1) 
 
 (As we know, storage unit for *int* is 4 bytes = 32 bits)
 
 2ⁿ − 1 = 2³² - 1
-            = 4,294,967,296 - 1
-            = 4,294,967,295
+
+       = 4,294,967,296 - 1
+       
+       = 4,294,967,295
+       
 
 So the **range** for **unsigned int** is 0  to 4,294,967,295.
 
