@@ -170,19 +170,48 @@ Larger types occupy **consecutive addresses**.
 ---
 
 
-### Storage and range of Data types
-| **Data Type** | **Storage** | **Example Values** | **Range Formula** | **Range (32-bit System)** | **Purpose** | **Example Code** |
-|----------------|--------------|--------------------|-------------------|----------------------------|--------------|------------------|
-| **int** | 4 bytes (32 bits) | 10, -5, 200 | Signed: −(2ⁿ⁻¹) → (2ⁿ⁻¹ − 1)<br>Unsigned: 0 → (2ⁿ − 1) | −2,147,483,648 → 2,147,483,647 | Whole numbers | `int a = 100;` |
-| **short int** | 2 bytes (16 bits) | -300, 500 | Signed: −(2¹⁵) → (2¹⁵ − 1) | −32,768 → 32,767 | Small whole numbers | `short int s = 32000;` |
-| **long int** | 4 or 8 bytes | 2000000000 | 32-bit: −(2³¹) → (2³¹ − 1)<br>64-bit: −(2⁶³) → (2⁶³ − 1) | System-dependent | Large whole numbers | `long int l = 5000000000;` |
-| **float** | 4 bytes (32 bits) | 5.9, -3.14 | IEEE 754 format (1 sign bit, 8 exponent bits, 23 mantissa bits) | ≈ 3.4 × 10⁻³⁸ → 3.4 × 10³⁸ | Decimal numbers | `float f = 3.14;` |
-| **double** | 8 bytes (64 bits) | 3.14159265 | IEEE 754 format (1 sign, 11 exponent, 52 mantissa bits) | ≈ 1.7 × 10⁻³⁰⁸ → 1.7 × 10³⁰⁸ | High precision decimals | `double d = 3.14159265;` |
-| **long double** | 10–16 bytes | Very large decimals | Extended precision IEEE 754 | Very large range | Scientific calculations | `long double ld = 1.23e100;` |
-| **char** | 1 byte (8 bits) | 'A', '%', 'b' | Signed: −(2⁷) → (2⁷ − 1)<br>Unsigned: 0 → (2⁸ − 1) | −128 → 127 / 0 → 255 | Single characters | `char grade = 'A';` |
-| **bool** | 1 byte (8 bits) | true, false | — | 0 or 1 | Logical conditions | `bool isPassed = true;` |
-```cpp
+### Storage and range of Data types (Signed and Unsigned)
 
+| Data Type | Storage (Bytes) | Example Values | Range Formula | Range | Purpose / Use Case |
+| :--- | :---: | :--- | :--- | :--- | :--- |
+| **signed char** | 1 | -100, 0, 100 | −2⁷ to (2⁷−1) | −128 to 127 | Small signed numbers or characters |
+| **unsigned char** | 1 | 0, 50, 255 | 0 to (2⁸−1) | 0 to 255 | Small positive numbers, binary data |
+| **signed short int** | 2 | -30000, 0, 30000 | −2¹⁵ to (2¹⁵−1) | −32,768 to 32,767 | Small signed integers |
+| **unsigned short int** | 2 | 0, 20000, 65000 | 0 to (2¹⁶−1) | 0 to 65,535 | Small positive integers |
+| **signed int** | 4 | -100000, 0, 500000 | −2³¹ to (2³¹−1) | −2,147,483,648 to 2,147,483,647 | General-purpose signed integers |
+| **unsigned int** | 4 | 0, 1000000, 4000000000 | 0 to (2³²−1) | 0 to 4,294,967,295 | General-purpose positive integers |
+| **signed long int** | 4 or 8 | -1000000000, 0, 2000000000 | −2³¹ to (2³¹−1) or −2⁶³ to (2⁶³−1) | Platform dependent | Large signed integers |
+| **unsigned long int** | 4 or 8 | 0, 1000000000, 4000000000 | 0 to (2³²−1) or 0 to (2⁶⁴−1) | Platform dependent | Large positive integers |
+| **signed long long int** | 8 | -10¹⁸, 0, 10¹⁸ | −2⁶³ to (2⁶³−1) | −9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 | Very large signed integers |
+| **unsigned long long int** | 8 | 0, 10¹⁸ | 0 to (2⁶⁴−1) | 0 to 18,446,744,073,709,551,615 | Very large positive integers |
+| **float** | 4 | 3.14, -2.5 | IEEE 754 | ±3.4 × 10⁻³⁸ to ±3.4 × 10³⁸ | Decimal numbers (single precision) |
+| **double** | 8 | 3.14159, -0.001 | IEEE 754 | ±1.7 × 10⁻³⁰⁸ to ±1.7 × 10³⁰⁸ | Decimal numbers (double precision) |
+| **long double** | 12 or 16 | 3.1415926535 | IEEE 754 | ±3.4 × 10⁻⁴⁹³² to ±1.1 × 10⁴⁹³² | High precision decimals |
+| **bool** | 1 | true, false | — | 0 or 1 | Logical values (True/False) |
+| **char** | 1 | 'A', 'b', '7' | — | ASCII range (0–255) | Single character storage |
+
+
+---
+
+🧩 Explanation
+
+In signed types, one bit is reserved for the sign (0 = positive, 1 = negative), leaving the rest for the value.
+
+Formula → −2ⁿ⁻¹ to (2ⁿ⁻¹ − 1)
+
+Example: signed short int → −32,768 to +32,767
+
+
+In unsigned types, all bits are used for the value, allowing only positive numbers.
+
+Formula → 0 to (2ⁿ − 1)
+
+Example: unsigned short int → 0 to 65,535
+
+
+---
+
+```cpp
 int FirstNumber = 2000000000;   // Correct
 int SecondNumber = 3000000000;  // Incorrect, out of range
 float pi = 3.14159;             // Fractional number
