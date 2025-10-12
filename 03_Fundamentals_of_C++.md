@@ -128,9 +128,46 @@ int y = (int)x;   // explicit
 
 Create variables for student marks, height, grade, and pass status. Assign values and display them.
 
-### Coding
+---
 
-```cpp
+🔍 Analysis
+
+marks → int
+
+height → float
+
+grade → char
+
+passed → bool
+Use cout to display all values.
+
+
+
+---
+
+🪜 Algorithm
+
+1. Start
+
+
+2. Declare variables
+
+
+3. Assign values
+
+
+4. Display using cout
+
+
+5. End
+
+
+
+
+---
+
+💻 Code
+
 #include <iostream>
 using namespace std;
 
@@ -144,20 +181,18 @@ int main() {
     cout << "Height: " << height << endl;
     cout << "Grade: " << grade << endl;
     cout << "Passed: " << passed << endl;
-
     return 0;
 }
-```
 
-**Output**:
 
-```
+---
+
+🧾 Output
+
 Marks: 85
 Height: 5.9
 Grade: A
 Passed: 1
-```
-
 > Note: `true` is displayed as `1` because `cout` prints boolean values as integers by default.
 
 ---
