@@ -130,6 +130,8 @@ int y = (int)x;   // explicit
 | **Spacing**     | `cout << " " ;` or inside quotes `" "` | Adds space between outputs                     | `cout << "Hello" << " " << "World";`  | Hello World   |
 
 
+
+
 ## 🧪 Example Program
 
 ### Problem
