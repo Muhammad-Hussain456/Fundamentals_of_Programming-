@@ -172,7 +172,7 @@ Larger types occupy **consecutive addresses**.
 
 ### Storage and range of Data types (Signed and Unsigned)
 
-**note:** n => number of bits
+**note:**  In 2ⁿ, n => number of bits
 
 | Data Type | Storage (Bytes) | Example Values | Range Formula | Range | Purpose / Use Case |
 | :--- | :---: | :--- | :--- | :--- | :--- |
