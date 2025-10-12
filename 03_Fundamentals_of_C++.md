@@ -122,6 +122,14 @@ int y = (int)x;   // explicit
 
 ---
 
+### 🔍 Syntax and Semantics for Next line and Spacing 
+
+| Construct       | Syntax Example                      | Semantics / Meaning                            | Example Code                          | Output        |
+|-----------------|-------------------------------------|------------------------------------------------|----------------------------------------|---------------|
+| **Next Line**   | `cout << "\n";` or `cout << endl;` | Moves cursor to the next line (`endl` also flushes buffer) | `cout << "Hello\nWorld";`             | Hello<br>World |
+| **Spacing**     | `cout << " " ;` or inside quotes `" "` | Adds space between outputs                     | `cout << "Hello" << " " << "World";`  | Hello World   |
+
+
 ## 🧪 Example Program
 
 ### Problem
