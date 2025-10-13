@@ -130,7 +130,7 @@ The CPU fetches or stores **4 bytes at a time**.
 Each data type occupies a specific number of **bytes (memory cells)**, and each byte has its own **address**.  
 Larger types occupy **consecutive addresses**.
 
-| **Data Type** | **Typical Size** | **Memory Allocation** | **Example (Starting Address = 1000)** |
+| **Data Type** | **Storage(*Addresses allocated in memory)*(Bytes)**(Typical Size)** | **Memory Allocation** | **Example (Starting Address = 1000)** |
 |----------------|------------------|------------------------|---------------------------------------|
 | `char` | 1 byte | Stored at one address | 1000 |
 | `short` | 2 bytes | Occupies 2 consecutive bytes | 1000–1001 |
