@@ -130,7 +130,7 @@ The CPU fetches or stores **4 bytes at a time**.
 Each data type occupies a specific number of **bytes (memory cells)**, and each byte has its own **address**.  
 Larger types occupy **consecutive addresses**.
 
-| **Data Type** | **Storage(*Addresses allocated in memory)*(Bytes)**(Typical Size)** | **Memory Allocation** | **Example (Starting Address = 1000)** |
+| **Data Type** | **Storage(Addresses allocated in memory)(Bytes)(Typical Size)** | **Memory Allocation** | **Example (Starting Address = 1000)** |
 |----------------|------------------|------------------------|---------------------------------------|
 | `char` | 1 byte | Stored at one address | 1000 |
 | `short` | 2 bytes | Occupies 2 consecutive bytes | 1000–1001 |
@@ -156,7 +156,7 @@ Larger types occupy **consecutive addresses**.
 
 ### 🧮 Binary Representation of C++ Data Types
 
-| **Data Type** | Storage(*Addresses allocated in memory)*(Bits)** | **Example Value** | **Example Binary Representation** |
+| **Data Type** | Storage(Addresses allocated in memory)(Bits)(Typical Size)| **Example Value** | **Example Binary Representation** |
 |----------------|----------------------------------|-------------------|-----------------------------------|
 | **int** | 32 bits | `10`, `-10` | `10 → 00000000 00000000 00000000 00001010` <br> `-10 → 11111111 11111111 11111111 11110110` *(two’s complement)* |
 | **short int** | 16 bits | `5`, `-5` | `5 → 00000000 00000101` <br> `-5 → 11111111 11111011` *(two’s complement)* |
@@ -176,7 +176,7 @@ Larger types occupy **consecutive addresses**.
 To learn how to find the range using the formula, see the section **Why Range is different for signed and Unsigned DataTypes**
 
 
-| Data Type | Storage(addresses allocated in memory)(Bytes) | Example Values | Range Formula | Range | Purpose / Use Case |
+| Data Type | Storage(Addresses allocated in memory)(Bytes)(Typical Size) | Example Values | Range Formula | Range | Purpose / Use Case |
 | :--- | :---: | :--- | :--- | :--- | :--- |
 | **signed char** | 1 | -100, 0, 100 | −2⁷ to (2⁷−1) | −128 to 127 | Small signed numbers or characters |
 | **unsigned char** | 1 | 0, 50, 255 | 0 to (2⁸−1) | 0 to 255 | Small positive numbers, binary data |
