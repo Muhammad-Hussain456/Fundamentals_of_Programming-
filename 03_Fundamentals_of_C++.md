@@ -155,23 +155,6 @@ Larger types occupy **consecutive addresses**.
 ---
 
 
-
-### 🧮 Binary Representation of C++ Data Types
-
-| **Data Type** | Storage(Addresses allocated in memory)(Bits)(Typical Size)| **Example Value** | **Example Binary Representation** |
-|----------------|----------------------------------|-------------------|-----------------------------------|
-| **int** | 32 bits | `10`, `-10` | `10 → 00000000 00000000 00000000 00001010` <br> `-10 → 11111111 11111111 11111111 11110110` *(two’s complement)* |
-| **short int** | 16 bits | `5`, `-5` | `5 → 00000000 00000101` <br> `-5 → 11111111 11111011` *(two’s complement)* |
-| **long int** | 32 or 64 bits (system-dependent) | `100000` | 32-bit: `00000000 00000000 00000001 10000100` |
-| **float** | 32 bits (IEEE 754 format) | `5.5` | Sign = 0, Exponent = 10000001, Mantissa = 01100000000000000000000 → `01000000101100000000000000000000` |
-| **double** | 64 bits (IEEE 754 format) | `3.14` | Sign = 0, Exponent = 10000000000, Mantissa = 10010010000111111011011 → `0100000000001001001000011111101101101110000101000111101011100000` |
-| **long double** | 80–128 bits (extended precision) | `1.23e5` | Binary layout depends on compiler/architecture |
-| **char** | 8 bits | `'A'` | `'A' → 01000001` |
-| **bool** | 1 bit (stored as 1 byte) | `true`, `false` | `true → 00000001` <br> `false → 00000000` |
-
----
-
-
 ### Storage and range of Data types (Signed and Unsigned)
 
 **Note:** 
