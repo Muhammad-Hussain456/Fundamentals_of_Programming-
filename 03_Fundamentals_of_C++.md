@@ -175,24 +175,25 @@ Larger types occupy **consecutive addresses**.
 **Note:** 
 To learn how to find the range using the formula, see the section **Why Range is different for signed and Unsigned DataTypes**
 
+**Note:** In the table below, **n** = number of bits.
 
 | Data Type | Storage(Addresses allocated in memory)(Bytes)(Typical Size) | Example Values | Range Formula | Range | Purpose / Use Case |
 | :--- | :---: | :--- | :--- | :--- | :--- |
-| **signed char** | 1 | -100, 0, 100 | −2⁷ to (2⁷−1) | −128 to 127 | Small signed numbers or characters |
-| **unsigned char** | 1 | 0, 50, 255 | 0 to (2⁸−1) | 0 to 255 | Small positive numbers, binary data |
-| **signed short int** | 2 | -30000, 0, 30000 | −2¹⁵ to (2¹⁵−1) | −32,768 to 32,767 | Small signed integers |
-| **unsigned short int** | 2 | 0, 20000, 65000 | 0 to (2¹⁶−1) | 0 to 65,535 | Small positive integers |
-| **signed int** | 4 | -100000, 0, 500000 | −2³¹ to (2³¹−1) | −2,147,483,648 to 2,147,483,647 | General-purpose signed integers |
-| **unsigned int** | 4 | 0, 1000000, 4000000000 | 0 to (2³²−1) | 0 to 4,294,967,295 | General-purpose positive integers |
-| **signed long int** | 4 or 8 | -1000000000, 0, 2000000000 | −2³¹ to (2³¹−1) or −2⁶³ to (2⁶³−1) | Platform dependent | Large signed integers |
-| **unsigned long int** | 4 or 8 | 0, 1000000000, 4000000000 | 0 to (2³²−1) or 0 to (2⁶⁴−1) | Platform dependent | Large positive integers |
-| **signed long long int** | 8 | -10¹⁸, 0, 10¹⁸ | −2⁶³ to (2⁶³−1) | −9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 | Very large signed integers |
-| **unsigned long long int** | 8 | 0, 10¹⁸ | 0 to (2⁶⁴−1) | 0 to 18,446,744,073,709,551,615 | Very large positive integers |
-| **float** | 4 | 3.14, -2.5 | IEEE 754 | ±3.4 × 10⁻³⁸ to ±3.4 × 10³⁸ | Decimal numbers (single precision) |
-| **double** | 8 | 3.14159, -0.001 | IEEE 754 | ±1.7 × 10⁻³⁰⁸ to ±1.7 × 10³⁰⁸ | Decimal numbers (double precision) |
-| **long double** | 12 or 16 | 3.1415926535 | IEEE 754 | ±3.4 × 10⁻⁴⁹³² to ±1.1 × 10⁴⁹³² | High precision decimals |
-| **bool** | 1 | true, false | — | 0 or 1 | Logical values (True/False) |
-| **char** | 1 | 'A', 'b', '7' | — | ASCII range (0–255) | Single character storage |
+| **signed char** | 1(8 bits) | -100, 0, 100 | −2ⁿ⁻¹ to (2ⁿ⁻¹ − 1) | −128 to 127 | Small signed numbers or characters |
+| **unsigned char** | 1(8 bits) | 0, 50, 255 |  0 to (2ⁿ − 1) | 0 to 255 | Small positive numbers, binary data |
+| **signed short int** | 2(16 bits) | -30000, 0, 30000 | −2ⁿ⁻¹ to (2ⁿ⁻¹ − 1) | −32,768 to 32,767 | Small signed integers |
+| **unsigned short int** | 2(16 bits) | 0, 20000, 65000 |  0 to (2ⁿ − 1) | 0 to 65,535 | Small positive integers |
+| **signed int** | 4(32 bits) | -100000, 0, 500000 | −2ⁿ⁻¹ to (2ⁿ⁻¹ − 1) | −2,147,483,648 to 2,147,483,647 | General-purpose signed integers |
+| **unsigned int** | 4(32 bits) | 0, 1000000, 4000000000 |  0 to (2ⁿ − 1) | 0 to 4,294,967,295 | General-purpose positive integers |
+| **signed long int** | 4(32 bits) or 8(64 bits) | -1000000000, 0, 2000000000 | −2ⁿ⁻¹ to (2ⁿ⁻¹ − 1) or −2⁶³ to (2⁶³−1) | Platform dependent | Large signed integers |
+| **unsigned long int** | 4(32 bits) or 8(64 bits) | 0, 1000000000, 4000000000 |  0 to (2ⁿ − 1) | Platform dependent | Large positive integers |
+| **signed long long int** | 8(64 bits) | -10¹⁸, 0, 10¹⁸ | −2ⁿ⁻¹ to (2ⁿ⁻¹ − 1) | −9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 | Very large signed integers |
+| **unsigned long long int** | 8(64 bits) | 0, 10¹⁸ |  0 to (2ⁿ − 1) | 0 to 18,446,744,073,709,551,615 | Very large positive integers |
+| **float** | 4(32 bits) | 3.14, -2.5 | IEEE 754 | ±3.4 × 10⁻³⁸ to ±3.4 × 10³⁸ | Decimal numbers (single precision) |
+| **double** | 8(64 bits) | 3.14159, -0.001 | IEEE 754 | ±1.7 × 10⁻³⁰⁸ to ±1.7 × 10³⁰⁸ | Decimal numbers (double precision) |
+| **long double** | 12(96 bits) or 16(120 bits) | 3.1415926535 | IEEE 754 | ±3.4 × 10⁻⁴⁹³² to ±1.1 × 10⁴⁹³² | High precision decimals |
+| **bool** | 1(8 bits) | true, false | — | 0 or 1 | Logical values (True/False) |
+
 
 
 ---
