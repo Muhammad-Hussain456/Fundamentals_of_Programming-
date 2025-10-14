@@ -125,6 +125,13 @@ The CPU fetches or stores **4 bytes at a time**.
 
 ---
 
+## 💡 Data Types and Range (حد)
+
+**Data types** define what type of data a variable can store.
+ڈیٹا ٹائپ بتاتا ہے کہ ویری ایبل کس قسم کا ڈیٹا رکھ سکتا ہے۔
+**Range** tells the limits of that type. حد یہ بتاتی ہے کہ ویری ایبل میں کس حد تک کی ویلیو محفوظ کی جا سکتی ہے۔
+
+
 ## 🧮 5. How Each Data Type Gets an Address or Word in Memory
 
 Each data type occupies a specific number of **bytes (memory cells)**, and each byte has its own **address**.  
@@ -148,11 +155,6 @@ Larger types occupy **consecutive addresses**.
 ---
 
 
-## 💡 Data Types and Range (حد)
-
-**Data types** define what type of data a variable can store.
-ڈیٹا ٹائپ بتاتا ہے کہ ویری ایبل کس قسم کا ڈیٹا رکھ سکتا ہے۔
-**Range** tells the limits of that type. حد یہ بتاتی ہے کہ ویری ایبل میں کس حد تک کی ویلیو محفوظ کی جا سکتی ہے۔
 
 ### 🧮 Binary Representation of C++ Data Types
 
