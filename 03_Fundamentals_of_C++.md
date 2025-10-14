@@ -185,7 +185,7 @@ To learn how to find the range using the formula, see the section **Why Range is
 | **unsigned short int** | 2(16 bits) | 0, 20000, 65000 |  0 to (2ⁿ − 1) | 0 to 65,535 | Small positive integers |
 | **signed int** | 4(32 bits) | -100000, 0, 500000 | −2ⁿ⁻¹ to (2ⁿ⁻¹ − 1) | −2,147,483,648 to 2,147,483,647 | General-purpose signed integers |
 | **unsigned int** | 4(32 bits) | 0, 1000000, 4000000000 |  0 to (2ⁿ − 1) | 0 to 4,294,967,295 | General-purpose positive integers |
-| **signed long int** | 4(32 bits) or 8(64 bits) | -1000000000, 0, 2000000000 | −2ⁿ⁻¹ to (2ⁿ⁻¹ − 1) or −2⁶³ to (2⁶³−1) | Platform dependent | Large signed integers |
+| **signed long int** | 4(32 bits) or 8(64 bits) | -1000000000, 0, 2000000000 | −2ⁿ⁻¹ to (2ⁿ⁻¹ − 1) | Platform dependent | Large signed integers |
 | **unsigned long int** | 4(32 bits) or 8(64 bits) | 0, 1000000000, 4000000000 |  0 to (2ⁿ − 1) | Platform dependent | Large positive integers |
 | **signed long long int** | 8(64 bits) | -10¹⁸, 0, 10¹⁸ | −2ⁿ⁻¹ to (2ⁿ⁻¹ − 1) | −9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 | Very large signed integers |
 | **unsigned long long int** | 8(64 bits) | 0, 10¹⁸ |  0 to (2ⁿ − 1) | 0 to 18,446,744,073,709,551,615 | Very large positive integers |
