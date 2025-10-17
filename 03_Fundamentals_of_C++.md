@@ -298,10 +298,10 @@ int y = (int)x;   // explicit
 | Type     | Syntax in C++                     | Semantic in C++                                   | Example                          |
 | -------- | --------------------------------- | ------------------------------------------------- | -------------------------------- |
 | Implicit Type Conversion | `datatype var1 = var2;`           | Automatically converts datatype of var2 to var1   | `int a = 5; float b = a;`        |
-| Explicit Type Conversion| `datatype var1 = (datatype)var2;` | Manually casts datatype of var2 to specified type | `float x = 5.9; int y = (int)x;` |
+| Explicit Type Conversion| `datatype var1 = (datatype)var2; / datatype var = (datatype)(value); / datatype var1 = static_cast<datatype> (var2);` | Manually casts datatype of var2 to specified type | `float x = 5.9; int y = (int)x;` |
 
 
-### Different ways Explicit Type conversion:-
+### Different ways of Explicit Type conversion:-
 
 **1. datatype var1 = (datatype)var2;**	
         
