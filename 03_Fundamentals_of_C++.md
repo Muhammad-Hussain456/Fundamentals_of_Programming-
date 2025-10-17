@@ -300,6 +300,62 @@ int y = (int)x;   // explicit
 | Implicit Type Conversion | `datatype var1 = var2;`           | Automatically converts datatype of var2 to var1   | `int a = 5; float b = a;`        |
 | Explicit Type Conversion| `datatype var1 = (datatype)var2;` | Manually casts datatype of var2 to specified type | `float x = 5.9; int y = (int)x;` |
 
+
+### Different ways Explicit Type conversion:-
+
+**1. datatype var1 = (datatype)var2;**	
+        
+**Example:-**
+```cpp
+  float a = 5.7;
+  int b  = (int)a;	
+
+ ```
+**2. datatype var = (datatype)(value);**
+
+**Example:-**
+```cpp
+int b =(int)(7.8);	
+        
+```
+
+
+
+**3. datatype var1 = static_cast<datatype> (var2);**
+     
+**Example:-**
+
+```cpp
+  float a = 5.7;
+  int b = static_cast<int>(b);	
+
+```
+
+**4. datatype var = static_cast<datatype> (value);**
+
+ **Example:-**
+ 
+ ```cpp
+  int b = static_cast<int>(6.3);	
+        
+ ```
+
+Ap Jo Kam krna Chahtay h us hisab sy in m sy ksi ka b use kr sktay h.
+Ya phir agr ap variable m store nahi krna Chahtay aur srf output p type convert kr k show krna Chahtay h to simple **cout** k zrye b kr sktay Hain.
+Jesay ki:-
+
+```cpp
+cout <<< "datatype converted: " << static_cast<int>(10.2);
+```
+Or
+```cpp
+cout << " datatype converted: " << (int)(12.4);
+```
+Or
+```cpp
+int a = 5.9;
+cout << "datatype converted: " << (int)a;
+```
 ---
 
 ### 🔍 Syntax and Semantics for Next line and Spacing 
