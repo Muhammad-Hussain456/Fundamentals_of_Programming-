@@ -359,7 +359,7 @@ cout << "datatype converted: " << (int)a;
 ---
 
 ## Escape sequences 
-Escape sequences in C++ are special character combinations that begin with a backslash (\) and represent characters that are either non-printable or have special meaning in formatting. They're commonly used in strings and character literals.
+Escape sequences in C++ are special character combinations that begin with a backslash**(\) ** and represent characters have special meaning in formatting. They're commonly used in strings and character literals.
 
 ### 🔍 Syntax and Semantics for Escape sequences 
 
@@ -375,7 +375,7 @@ Escape sequences in C++ are special character combinations that begin with a bac
 
 std::endl and \n both seem to do the same thing but there is a precise difference between them. 
 
-- **endl** is a manipulator that inserts a new line and flushes the stream(output buffer), **\n** Escape sequence character that only inserts a new line.
+- **endl** is a manipulator that inserts a new line and ensures that data is sent to the intended output, such as a file or console, without delay, while  **\n** is an Escape Sequence Character that only inserts a new line.
 
 - **endl** doesn't occupy any memory but **\n** occupies 1 byte memory as it is a character.
 
