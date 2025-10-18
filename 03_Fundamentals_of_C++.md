@@ -358,14 +358,17 @@ cout << "datatype converted: " << (int)a;
 ```
 ---
 
-### 🔍 Syntax and Semantics for Next line and Spacing 
+## Escape sequences 
+Escape sequences in C++ are special character combinations that begin with a backslash (\) and represent characters that are either non-printable or have special meaning in formatting. They're commonly used in strings and character literals.
 
-| Construct       | Syntax Example                      | Semantics / Meaning                            | Example Code                          | Output        |
-|-----------------|-------------------------------------|------------------------------------------------|----------------------------------------|---------------|
-| **Next Line**   | `cout << "\n";` or `cout << endl;` | Moves cursor to the next line (`endl` also flushes buffer) | `cout << "Hello\nWorld";`             | Hello<br>World |
-| **Spacing**     | `cout << " " ;` or inside quotes `" "` | Adds space between outputs                     | `cout << "Hello" << " " << "World";`  | Hello World   |
+### 🔍 Syntax and Semantics for Escape sequences 
 
-
+| Escape Sequence | Syntax Example         | Semantics / Meaning                        |
+|------------------|------------------------|--------------------------------------------|
+| `\n`             | `cout << "Line1\nLine2";` | Inserts a newline; moves cursor to next line |
+| `\t`             | `cout << "A\tB";`        | Inserts a horizontal tab space              |
+| `\"`             | `cout << "\"Quoted\"";`  | Inserts double quotation marks              |
+| `\\`             | `cout << "C:\\Path";`    | Inserts a backslash character               |
 
 
 ## 🧪 Example Program
