@@ -6,6 +6,7 @@
 
 A string in C++ is a sequence of characters enclosed in double quotes " " and is used to represent text.
 
+It is any value enclosed in " " .
 
 We use the preprocessor directive `#include <string>`, which includes the `<string>` header file that allows us to use `std::string` class to create string objects in a C++ program.
 
