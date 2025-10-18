@@ -40,7 +40,7 @@ Store and display personalized greeting using `std::string`.
 
 ### 🔍 Problem Analysis  
 - Use `std::string` for name and city  
-- Use `getline()` for input  
+- Use `cin >>` or `getline()` for input  
 - Concatenate strings  
 - Display using `cout`
 
