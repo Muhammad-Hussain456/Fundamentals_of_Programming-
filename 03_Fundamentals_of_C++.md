@@ -359,7 +359,7 @@ cout << "datatype converted: " << (int)a;
 ---
 
 ## Escape sequences 
-Escape sequences in C++ are special character combinations that begin with a backslash**(\) ** and represent characters have special meaning in formatting. They're commonly used in strings and character literals.
+Escape sequences in C++ are special character combinations that begin with a backslash`(\)` and represent characters have special meaning in formatting. They're commonly used in strings and character literals.
 
 ### 🔍 Syntax and Semantics for Escape sequences 
 
