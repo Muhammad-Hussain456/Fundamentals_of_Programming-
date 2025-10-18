@@ -23,25 +23,50 @@ Operands are the values or variables on which operators act.
 | Operand              | `a`, `b`, `5`, `3` | Value or variable used in operation | `a + b`,`2 + 4`, `c / 5`, `b = 6`, `etc`. Here,  `a`, `b`, `2`, `4`,`c`, `5`, `6`, are operands |
 
 ---
-
-### 🔹 Operation  
-
-An operation is the action performed by an operator on operands.
-
-| Construct | Syntax | Semantic (Meaning) | Example |
-|----------------------|--------|---------------------|---------|
-| Operation            | `a + b` | Action performed by operator on operands | `int sum = a + b;`. Here, `a + b` , `sum = a + b` are operations.|
-
----
-
-
 ### 🔹 Expression  
 
 An expression is a combination of operands and operators that produces a result.
 
 | Construct | Syntax | Semantic (Meaning) | Example |
 |----------------------|--------|---------------------|---------|
-| Expression           | `a + b`, `x = 10` | Complete construct that evaluates to a value | `int sum = a + b;`, `float mul = 4 * 2`, `bool answer = true`, `etc` are expressions. |
+| Expression           | `a + b`, `x = 10` | Complete construct that evaluates to a value | `sum = a + b`, ` mul = 4 * 2`, `answer = true`, `etc` are expressions. |
+
+---
+
+### 🧩 Statement
+
+A **statement** is a complete instruction that tells the computer to **perform an action**.  
+Each statement in C++ ends with a **semicolon (;)**.
+
+**Examples:**
+- `int a;` → Declaration statement (creates a variable)  
+- `a = 5;` → Assignment statement (stores a value)  
+- `cout << a;` → Output statement (displays a value)  
+- `if (a > 0) cout << "Positive";` → Conditional statement (controls program flow)  
+- `for (int i = 0; i < 5; i++) cout << i;` → Loop statement (repeats actions)  
+- `return 0;` → Return statement (ends a function and returns a value)  
+- etc. 
+
+### 🧩 Is `a = 5` an Expression?
+
+✅ Yes — `a = 5` is an **expression**,  
+because it **produces a value** (the value assigned to `a`, which is `5`).
+
+But when you add a **semicolon** → `a = 5;`  
+it becomes an **assignment statement**,  
+because now it **performs an action** (assigns 5 to `a`).
+
+---
+
+### 🔹 Operation  
+
+An **operation** is the action performed by an **operator** on **operands**, or by an entire **expression** or **statement** to produce a result.
+
+It can occur within an **expression** or a **statement**, and multiple operations may happen in a single line of code.
+
+| Construct | Syntax | Semantic (Meaning) | Example |
+|------------|---------|--------------------|----------|
+| Operation | expression / statement | The action performed by an operator on operands, or by an entire expression or statement. | `int sum = a + b;` → <br>• `+` operator performs an addition operation between operands `a` and `b`. <br>• The expression `a + b` performs an addition operation. <br>• The expression `sum = a + b` performs addition and assignment operations. <br>• The statement `int sum = a + b;` performs three operations: declaration, addition, and initialization. |
 
 ---
 
