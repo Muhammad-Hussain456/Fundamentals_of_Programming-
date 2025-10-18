@@ -279,6 +279,18 @@ cout << "You are " << age << " years old.";
 | Input           | `cin >> variable;`      | Receives input from the user          | `int age; cin >> age;`    |
 | Combined Output | `cout << value1 << value2;` | Displays multiple values in sequence  | `cout << "Age: " << age;` |
 
+### 🧩 `cout << value;`
+
+- **`cout`** → stands for **console output** (from `<iostream>` header)  
+- **`<<`** → is the **insertion operator**, which sends data to the output stream  
+- **`value`** → can be anything that produces data, such as:  
+  - a **string** → `"Hello"`  
+  - a **number** → `42`  
+  - a **variable** → `age`  
+  - an **operation** → `a + b` => addition operation 
+  - an **expression** → `(x * y) / 2`  
+  - a **statement** → cout << "The sum is: " << (a + b);
+
 ---
 
 ## 🔄 Type Conversion
