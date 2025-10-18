@@ -17,7 +17,7 @@ We use the preprocessor directive `#include <string>`, which includes the `<stri
 | Construct              | Syntax in C++                     | Semantic in C++                                                   | Example                                      |
 |------------------------|-----------------------------------|-------------------------------------------------------------------|----------------------------------------------|
 | Header File Inclusion  | `#include <string>`               | Adds the `<string>` header file.                                  | `#include <string>`                          |
-| String Declaration     | `string variable;`                | Declares an empty string variable.                                 | `string msg;`                                |
+| String Declaration     | `string variable;`                | Declares an empty string variable(object).                                 | `string msg;`                                |
 | String Initialization  | `string variable = "text";`       | Declares and assigns a string value                               | `string name = "Ali";`                       |
 | String Concatenation   | `str1 + str2`                     | Joins two strings together                                        | `"Hello " + name`                            |
 | String Input (single word) | `cin >> variable;`            | Reads input until first space (single word only)                  | `cin >> name;`                               |
