@@ -61,7 +61,7 @@ Create a simple program that use two different variables to stores two string va
 
 ## 🧮 Algorithm  
 1. Start the program  
-2. Declare two string variables: `name`, `city`  
+2. Declare two string variables.  
 3. Assign values to both variables  
 4. Display the values using `cout`  
 5. End the program
