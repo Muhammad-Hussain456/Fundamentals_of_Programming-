@@ -101,8 +101,9 @@ City: Skardu
 Ask the user for their name and city, then display a welcome message.  
 
 ## 🧩 Problem Definition  
+
 we need user's name and city to display a welcome message to them.  
-صارف سے اس کا نام اور شہر پوچھیں، پھر خوش آمدیدی پیغام دکھائیں۔
+
 ---
 
 ## 🔍 Problem Analysis  
