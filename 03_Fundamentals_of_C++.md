@@ -305,7 +305,7 @@ You can display **multiple values** in one line by chaining them with the **inse
 ```cpp
 int number = 5;
 cout << "The value stored in number variable is: " << var << endl;
-
+```
 ---
 
 ## 🔄 Type Conversion
