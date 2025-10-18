@@ -17,6 +17,10 @@ program structure, variables, assignments, input/output operations, data types, 
 
 arithmetic, assignment, increment/decrement, relational and logical operators, precedence.
 
+### Strings in C++
+
+string header file, string declaration/initialization, literals.
+
 
 ### Control structures I (selection statements):
 
@@ -38,9 +42,9 @@ one‑dimensional and multi‑dimensional arrays, array operations, passing arra
 defining/calling functions, passing arguments (by value/reference), return values, scope/lifetime, recursion.
 
 
-### Strings: 
+### Arrays of Strings: 
 
-string declaration/initialization, literals, C string library, arrays of strings, std::string usage.
+ arrays of strings
 
 
 ### Structures:
