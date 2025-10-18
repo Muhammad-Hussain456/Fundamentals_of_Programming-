@@ -107,48 +107,45 @@ we need user's name and city to display a welcome message to them.
 ---
 
 ## 🔍 Problem Analysis  
-- Use `std::string` to store name and city  
-- Use `cin >>` for single-word input (name)  
-- Use `getline()` for multi-word input (city)  
+- Use `std::string` to store name and city
+- Use `getline()` for multi-word input (name)  
+- Use `cin >>` for single-word input (city)  
 - Use `cout` to display the final message  
-- Use `cin.ignore()` to handle input buffer
 
 ---
 
 ## 🧮 Algorithm  
 1. Start the program  
 2. Declare string variables: `name`, `city`  
-3. Input name using `cin >>`  
-4. Clear buffer using `cin.ignore()`  
-5. Input city using `getline()`  
+3. Input full name using `getline()`    
+5. Input city using `cin >>`  
 6. Concatenate and display message  
 7. End the program
 
 ## 💻 Program
 
 ```cpp
+
 #include <iostream>
 #include <string>
 using namespace std;
 
 int main() {
-    string name;  
+    string fullName;  
     string city; 
 
     cout << "Enter your full name: ";
-    cin >> name;  // reads one word only
-
-    cin.ignore(); // clears leftover newline
+    getline(cin, fullName);  // reads full line including spaces
 
     cout << "Enter your city: ";
-    getline(cin, city);  // reads full line including spaces
+    cin >> city;  // reads one word only
 
-    cout << "Welcome " << name << " from " << city << "!" << endl;
+    cout << "Welcome " << fullName << " from " << city << "!" << endl;
 
     return 0;
 }
-```
 
+```
 ---
 
 ### 🧪 Sample Input
