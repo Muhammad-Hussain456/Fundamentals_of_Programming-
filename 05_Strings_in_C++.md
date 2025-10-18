@@ -27,58 +27,6 @@ We use the preprocessor directive `#include <string>`, which includes the `<stri
 
 ---
 
-## 🧩 Example Problem
-
-Write a program that takes user's name and city, then displays a welcome message.
-
----
-
-## 🧠 Step-by-Step Solution
-
-### ✅ Problem Definition  
-Store and display personalized greeting using `std::string`.
-
-### 🔍 Problem Analysis  
-- Use `std::string` for name and city  
-- Use `cin >>` or `getline()` for input  
-- Concatenate strings  
-- Display using `cout`
-
-### 🧮 Design Algorithm  
-1. Start program  
-2. Declare `name`, `city`  
-3. Take input using `getline()`  
-4. Create message using `+` operator  
-5. Display message  
-6. End program
-
----
-
-### 💻 Coding
-```cpp
-#include <iostream>
-#include <string>
-using namespace std;
-
-int main() {
-    string name;
-    string city;
-
-    cout << "Enter your name: ";
-    getline(cin, name);
-
-    cout << "Enter your city: ";
-    getline(cin, city);
-
-    string message = "Welcome " + name + " from " + city + "!";
-
-    cout << message << endl;
-
-    return 0;
-}
-```
----
-
 ### 🔍 `cin >>` vs `getline(cin, ...)`
 
 | Feature / خصوصیت         | `cin >>`                                      | `getline(cin, variable)`                                  |
@@ -89,6 +37,132 @@ int main() {
 | 📤 Stored Result          | `"Ali"`                                       | `"Ali Raza"`                                               |
 | ✅ Use Case / استعمال کب کریں | For single-word input (e.g., roll number)     | For full names, addresses, or sentences                    |
 | ⚠️ Limitation / حد         | Cannot read multi-word input                  | Requires flushing leftover newline if used after `cin >>`  |
+
+---
+
+## 🧩 Example Problem 1  
+
+Store a name and city in string variables and display them.  
+
+---
+
+## ✅ Problem Definition  
+
+Create a simple program that use two different variables to stores two string values and prints them using `cout`.  
+
+---
+
+## 🔍 Problem Analysis  
+- Use `std::string` to store name and city  
+- Assign values directly to variables  
+- Use `cout` to display output
+
+---
+
+## 🧮 Algorithm  
+1. Start the program  
+2. Declare two string variables: `name`, `city`  
+3. Assign values to both variables  
+4. Display the values using `cout`  
+5. End the program
+
+---
+
+## 💻 Program
+
+```cpp
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+
+    string fullName = "Muslim Ali";
+    string city = "Skradu";
+
+    cout << "Full Name: " << fullName << endl;
+    cout << "City: " << city << endl;
+
+    return 0;
+}
+```
+
+---
+
+### 🧪 Output
+```
+Full Name: Muslim Ali
+City: Skardu
+```
+
+
+### ✅ Example Problem 2
+
+Ask the user for their name and city, then display a welcome message.  
+
+## 🧩 Problem Definition  
+we need user's name and city to display a welcome message to them.  
+صارف سے اس کا نام اور شہر پوچھیں، پھر خوش آمدیدی پیغام دکھائیں۔
+---
+
+## 🔍 Problem Analysis  
+- Use `std::string` to store name and city  
+- Use `cin >>` for single-word input (name)  
+- Use `getline()` for multi-word input (city)  
+- Use `cout` to display the final message  
+- Use `cin.ignore()` to handle input buffer
+
+---
+
+## 🧮 Algorithm  
+1. Start the program  
+2. Declare string variables: `name`, `city`  
+3. Input name using `cin >>`  
+4. Clear buffer using `cin.ignore()`  
+5. Input city using `getline()`  
+6. Concatenate and display message  
+7. End the program
+
+## 💻 Program
+
+```cpp
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    string name;  
+    string city; 
+
+    cout << "Enter your full name: ";
+    cin >> name;  // reads one word only
+
+    cin.ignore(); // clears leftover newline
+
+    cout << "Enter your city: ";
+    getline(cin, city);  // reads full line including spaces
+
+    cout << "Welcome " << name << " from " << city << "!" << endl;
+
+    return 0;
+}
+```
+
+---
+
+### 🧪 Sample Input
+```
+Enter your full name: Sartaj ALi
+Enter your city: Skardu
+```
+
+### 📤 Output
+```
+Welcome Sartaj from Skardu!
+```
+
+---
+
 
 
 
