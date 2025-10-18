@@ -371,6 +371,15 @@ Escape sequences in C++ are special character combinations that begin with a bac
 | `\\`             | `cout << "C:\\Path";`    | Inserts a backslash character               |
 
 
+### std::endl vs \n in C++
+
+std::endl and \n both seem to do the same thing but there is a precise difference between them. 
+
+- **endl** is a manipulator that inserts a new line and flushes the stream(output buffer), **\n** Escape sequence character that only inserts a new line.
+
+- **endl** doesn't occupy any memory but **\n** occupies 1 byte memory as it is a character.
+
+
 ## 🧪 Example Program
 
 ### Problem
