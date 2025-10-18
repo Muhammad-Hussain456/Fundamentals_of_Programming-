@@ -23,7 +23,7 @@ We use the preprocessor directive `#include <string>`, which includes the `<stri
 | String Concatenation   | `str1 + str2`                     | Joins two strings together                                        | `"Hello " + name`                            |
 | String Input (single word) | `cin >> variable;`            | Reads input until first space (single word only)                  | `cin >> name;`                               |
 | String Input (full line)   | `getline(cin, variable);`     | Reads entire line including spaces                                | `getline(cin, name);`                        |
-| String Output          | `cout << variable;`               | Displays string on screen                                         | `cout << name;`                              |
+| String Output          | `cout << variable/value;`               | Displays string on screen                                         | `cout << name;`, `cout << "Hello";`                            |
 
 
 ---
