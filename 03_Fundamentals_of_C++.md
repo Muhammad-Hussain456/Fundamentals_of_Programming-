@@ -282,7 +282,7 @@ cout << "You are " << age << " years old.";
 ---
 ### 🧩 `cout << value;`
 
-The `cout` statement is used to **display output** on the screen.  
+The `cout` is used to **display output** on the screen.  
 The **`value`** part can be **anything that produces data**.
 
 **`value` can be:**
