@@ -279,17 +279,32 @@ cout << "You are " << age << " years old.";
 | Input           | `cin >> variable;`      | Receives input from the user          | `int age; cin >> age;`    |
 | Combined Output | `cout << value1 << value2;` | Displays multiple values in sequence  | `cout << "Age: " << age;` |
 
+---
 ### 🧩 `cout << value;`
 
-- **`cout`** → stands for **console output** (from `<iostream>` header)  
-- **`<<`** → is the **insertion operator**, which sends data to the output stream  
-- **`value`** → can be anything that produces data, such as:  
-  - a **string** → `"Hello"`  
-  - a **number** → `42`  
-  - a **variable** → `age`  
-  - an **operation** → `a + b` => addition operation 
-  - an **expression** → `(x * y) / 2`  
-  - a **statement** → cout << "The sum is: " << (a + b);
+The `cout` statement is used to **display output** on the screen.  
+The **`value`** part can be **anything that produces data**.
+
+**`value` can be:**
+- a **string** → `"Hello"`  
+- a **number** → `42`  
+- a **variable** → `age`  
+- an **operation** → `a + b`  
+- an **expression** → `(x * y) / 2`  
+- an **assignment statement** → `(a = b + c)` ✅ (returns a value)
+
+⚠️ **But not a declaration statement** like `int a;` — that causes an error.
+
+---
+
+### 🧩 Multiple Values in `cout`
+
+You can display **multiple values** in one line by chaining them with the **insertion operator (`<<`)**.
+
+**Example:**
+```cpp
+int number = 5;
+cout << "The value stored in number variable is: " << var << endl;
 
 ---
 
