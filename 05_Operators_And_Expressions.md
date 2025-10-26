@@ -52,20 +52,6 @@ Each statement in C++ ends with a **semicolon (;)**.
 
 ---
 
-### 🧩 In C++,  Is `a = 5` an Expression?
-
-✅ Yes — `a = 5` is an **expression**,  
-because it **produces a value** (the value assigned to `a`, which is `5`).
-
-But when you add a **semicolon** → `a = 5;`  
-it becomes an **statement**,  
-because now it is a **complete instruction that can be executed** (assigns 5 to `a`)
-
-🧠 **Summary:**
-- `a = 5` → **Expression** (produces value 5)  
-- `a = 5;` → **Statement** (it is a complete instruction.)
----
-
 
 ### 🔹 Operation
 
