@@ -291,9 +291,9 @@ The **`value`** part can be **anything that produces data**.
 - a **variable** → `age`  
 - an **operation** → `a + b`  
 - an **expression** → `(x * y) / 2`  
-- an **assignment statement** → `(a = b + c)` ✅ (returns a value)
+  
 
-⚠️ **But not a declaration statement** like `int a;` — that causes an error.
+⚠️ **But not statements** like `int a;`, `a = a + b; , etc` — that causes an error.
 
 ---
 
