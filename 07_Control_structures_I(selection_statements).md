@@ -161,5 +161,3 @@ int main() {
 }
 ```
 ---
-
-Would you like to continue with **Control Structures II: Loops (for, while, do-while)** next? Or dive into **functions, arrays, or error handling**?
