@@ -61,7 +61,7 @@ It can occur within an **expression** or a **statement**, and multiple operation
 
 | Construct | Syntax | Semantic (Meaning) | Example |
 |------------|---------|--------------------|----------|
-| Operation | expression / statement | The action performed by an operator on operands, or by an entire expression or statement. | `int sum = a + b;` → <br>• `+` operator performs an addition operation between operands `a` and `b`. <br>• The expression `a + b` performs an addition operation. <br>• The expression `sum = a + b` performs addition and assignment operations. <br>• The statement `int sum = a + b;` performs three operations: declaration, addition, and initialization. |
+| Operation | expression / statement | The action performed by an operator on operands, or by an entire expression or statement. | `int sum = a + b;` → <br>• `+` operator performs an addition operation between operands `a` and `b`. <br>• The expression `a + b` performs an addition operation. <br>• The statement `int sum = a + b;` performs three operations: declaration, addition, and initialization. |
 
 ---
 
