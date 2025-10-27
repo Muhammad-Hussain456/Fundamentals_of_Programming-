@@ -1,51 +1,57 @@
-## 🧭 Control Structures I: Selection Statements (C++)
+## 🧭 Control Structures I(C++):
 
+---
+
+## 🔍 Expressions in C++
+
+An **expression** is any valid combination of operands and operators that evaluates to a value.
+
+### ✅ Types of Expressions
+
+| 🧩 Type            | ✅ Syntax                          | 📘 Semantic Meaning                                      | 💡 Example                      |
+|--------------------|------------------------------------|----------------------------------------------------------|---------------------------------|
+| Arithmetic         | `operand1 + operand2`              | Performs math operations                                 | `a + b` → adds `a` and `b`      |
+| Relational         | `operand1 > operand2`              | Compares values, returns `true` or `false`               | `score > 50` → `true` if score is above 50 |
+| Logical            | `condition1 && condition2`         | Combines Compares values, or Boolean results and returns `true` or `false`                 | `(x > 5) && (y < 10)` → `true` if both are true |
+| Assignment         | `variable = value`                 | Assigns a value to a variable                            | `x = 10` → assigns 10 to `x`    |
+| Unary              | `!condition`                       | Operates on a single operand                             | `!flag` → negates `flag`        |
+| Compound           | `variable += value`                | Combines arithmetic and assignment                       | `x += 5` → adds 5 to `x`         |
+
+---
+
+## 🧾 Statements in C++
+
+A **statement** is a complete instruction that performs an action. It may contain expressions.
+
+### ✅ Types of Statements
+
+| 🧩 Type                  | ✅ Syntax Example                  | 📘 Semantic Meaning                                      | 💡 Example                      |
+|--------------------------|------------------------------------|----------------------------------------------------------|---------------------------------|
+| Expression Statement     | `expression;`                      | Evaluates an expression and ends with `;`                | `x = 5;`                        |
+| Declaration Statement    | `type variable;`                   | Declares a variable                                      | `int score;`                   |
+| Compound Statement       | `{ statement1; statement2; }`      | Groups multiple statements                               | `{ int x = 5; cout << x; }`    |
+| Selection Statement      | `if`, `if-else`, `switch`          | Chooses between paths based on conditions                | `if (x > 0) cout << x;`        |
+| Iteration Statement      | `for`, `while`, `do-while`         | Repeats actions based on conditions                      | `while (x < 10) x++;`          |
+| Jump Statement           | `break`, `continue`, `return`      | Alters control flow directly                             | `return 0;`                    |
+
+---
+
+### Selection Statement
 Selection statements in C++ allow your program to **make decisions** based on conditions.
 
----
+### 🧠 `if` Statement
 
-## 🔍 Logical Expressions
-
-Logical expressions return either **true (1)** or **false (0)** and are used in decision-making.
-
-**Examples:**
+#### ✅ Syntax
 ```cpp
-a > b              // true if a is greater than b
-x == 10            // true if x equals 10
-(x >= 50) && (y >= 50)  // true if both x and y are ≥ 50
-```
-
----
-
-## 🔍 Logical Expressions – Syntax, Semantics, and Examples
-
-| 🔣 Syntax                          | 📘 Semantic/Meaning                                      | 💡 Example                            |
-|-----------------------------------|----------------------------------------------------------|---------------------------------------|
-| `operand1 == operand2`            | Checks if both operands are equal                        | `5 == 5` → `true`                     |
-| `operand1 != operand2`            | Checks if operands are not equal                         | `5 != 3` → `true`                     |
-| `operand1 > operand2`             | Checks if left operand is greater than right             | `7 > 4` → `true`                      |
-| `operand1 < operand2`             | Checks if left operand is less than right                | `3 < 9` → `true`                      |
-| `operand1 >= operand2`            | Checks if left operand is greater than or equal to right | `6 >= 6` → `true`                     |
-| `operand1 <= operand2`            | Checks if left operand is less than or equal to right    | `2 <= 5` → `true`                     |
-| `(condition1) && (condition2)`    | True if **both** conditions are true                     | `(5 > 3) && (2 < 4)` → `true`         |
-| `condition1 \|\| condition2`    | True if **at least one** condition is true               | `(5 > 3) \|\| (2 > 4)` → `true`         |
-| `!(condition)`                    | True if the condition is **false**                       | `!(5 == 3)` → `true`                  |
-
----
-
-## 🧠 `if` Statement
-
-**Semantic:**  
-Executes a block of code **only if** the condition is true.
-
-```cpp
-// Syntax:
 if (condition) {
     // code to execute if condition is true
 }
 ```
 
-**Example:**
+#### 📘 Semantic
+Executes the block only if the condition evaluates to `true`.
+
+#### 💡 Example
 ```cpp
 int score = 75;
 if (score >= 50) {
@@ -55,13 +61,10 @@ if (score >= 50) {
 
 ---
 
-## 🔁 `if-else` Statement
+### 🔁 `if-else` Statement
 
-**Semantic:**  
-Executes one block if the condition is true, another if false.
-
+#### ✅ Syntax
 ```cpp
-// Syntax:
 if (condition) {
     // true block
 } else {
@@ -69,7 +72,10 @@ if (condition) {
 }
 ```
 
-**Example:**
+#### 📘 Semantic
+Executes one block if the condition is true, another if false.
+
+#### 💡 Example
 ```cpp
 int score = 45;
 if (score >= 50) {
@@ -81,13 +87,10 @@ if (score >= 50) {
 
 ---
 
-## 🧩 Nested `if` Statement
+### 🧩 Nested `if` Statement
 
-**Semantic:**  
-An `if` inside another `if`. Used for **multi-level decisions**.
-
+#### ✅ Syntax
 ```cpp
-// Syntax:
 if (condition1) {
     if (condition2) {
         // code if both conditions are true
@@ -95,7 +98,10 @@ if (condition1) {
 }
 ```
 
-**Example:**
+#### 📘 Semantic
+Allows multi-level decision-making by nesting conditions.
+
+#### 💡 Example
 ```cpp
 int score = 85;
 if (score >= 50) {
@@ -111,13 +117,10 @@ if (score >= 50) {
 
 ---
 
-## 🔀 `switch` Statement
+### 🔀 `switch` Statement
 
-**Semantic:**  
-Used for **multi-way branching** based on a single variable.
-
+#### ✅ Syntax
 ```cpp
-// Syntax:
 switch (expression) {
     case value1:
         // code for value1
@@ -130,60 +133,21 @@ switch (expression) {
 }
 ```
 
-**Example:**
+#### 📘 Semantic
+Selects one of many possible blocks to execute based on a single expression.
+
+### 💡 Example
 ```cpp
 char grade = 'B';
 switch (grade) {
-    case 'A':
-        cout << "Excellent";
-        break;
-    case 'B':
-        cout << "Good";
-        break;
-    case 'C':
-        cout << "Fair";
-        break;
-    case 'F':
-        cout << "Fail";
-        break;
-    default:
-        cout << "Invalid grade";
+    case 'A': cout << "Excellent"; break;
+    case 'B': cout << "Good"; break;
+    case 'C': cout << "Fair"; break;
+    case 'F': cout << "Fail"; break;
+    default: cout << "Invalid grade";
 }
 ```
+
 ---
 
-## 🧪 Example Problem: Grade Evaluation
-
-### ✅ Problem:
-Evaluate a student's grade and display a message using `if-else` and `switch`.
-
-### 💻 Code:
-```cpp
-#include <iostream>
-using namespace std;
-
-int main() {
-    int marks = 78;
-    char grade;
-
-    if (marks >= 80)
-        grade = 'A';
-    else if (marks >= 70)
-        grade = 'B';
-    else if (marks >= 60)
-        grade = 'C';
-    else
-        grade = 'F';
-
-    switch (grade) {
-        case 'A': cout << "Excellent"; break;
-        case 'B': cout << "Good"; break;
-        case 'C': cout << "Fair"; break;
-        case 'F': cout << "Fail"; break;
-        default: cout << "Invalid grade";
-    }
-
-    return 0;
-}
-```
----
+Would you like this exported into your Markdown or Word template next? I can also prepare a bilingual version with Urdu translations for each semantic label and comment.
