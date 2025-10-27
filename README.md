@@ -24,7 +24,7 @@ string header file, string declaration/initialization, literals.
 
 ### Control structures I (selection statements):
 
-logical expressions, if, else, nested if, switch.
+Expressions and statements types with syntax and semantics , if, else, nested if, switch.
 
 
 ### Control structures II (loops):
