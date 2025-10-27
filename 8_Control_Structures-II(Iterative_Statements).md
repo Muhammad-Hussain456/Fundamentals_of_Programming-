@@ -1,4 +1,4 @@
-# 🔁 Control Structures II (C++): Loops
+# 🔁 Control Structures II (C++): Iterative Statements / Loops
 
 Loops in C++ allow a program to **repeat a block of code** multiple times based on a condition or range.
 
@@ -95,5 +95,3 @@ for (int i = 0; i < 3; i++) {
 ```
 
 ---
-
-Would you like this added to your Markdown or Word template next? I can also prepare a bilingual version with Urdu translations or visual diagrams for loop flow.
