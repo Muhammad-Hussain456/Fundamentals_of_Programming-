@@ -28,7 +28,7 @@ x == 10            // true if x equals 10
 | `operand1 >= operand2`            | Checks if left operand is greater than or equal to right | `6 >= 6` → `true`                     |
 | `operand1 <= operand2`            | Checks if left operand is less than or equal to right    | `2 <= 5` → `true`                     |
 | `(condition1) && (condition2)`    | True if **both** conditions are true                     | `(5 > 3) && (2 < 4)` → `true`         |
-| `(condition1) || (condition2)`    | True if **at least one** condition is true               | `(5 > 3) || (2 > 4)` → `true`         |
+| `condition1 `||` condition2`    | True if **at least one** condition is true               | `(5 > 3) || (2 > 4)` → `true`         |
 | `!(condition)`                    | True if the condition is **false**                       | `!(5 == 3)` → `true`                  |
 
 ---
