@@ -1,27 +1,45 @@
-## 🧭 Control Structures I: Selection Statements
+## 🧭 Control Structures I: Selection Statements (C++)
 
-Selection statements allow your program to **choose different paths** based on conditions. These are essential for implementing logic and making decisions.
+Selection statements in C++ allow your program to **make decisions** based on conditions.
 
 ---
 
 ## 🔍 Logical Expressions
 
-Logical expressions evaluate to either **true (1)** or **false (0)** and are used in selection statements.
+Logical expressions return either **true (1)** or **false (0)** and are used in decision-making.
 
 **Examples:**
 ```cpp
-a > b        // true if a is greater than b
-x == 10      // true if x equals 10
+a > b              // true if a is greater than b
+x == 10            // true if x equals 10
 (x >= 50) && (y >= 50)  // true if both x and y are ≥ 50
 ```
 
 ---
 
-## 🧠 if Statement
+## 🔍 Logical Expressions – Syntax, Semantics, and Examples
 
+| 🔣 Syntax                          | 📘 Semantic/Meaning                                      | 💡 Example                            |
+|-----------------------------------|----------------------------------------------------------|---------------------------------------|
+| `operand1 == operand2`            | Checks if both operands are equal                        | `5 == 5` → `true`                     |
+| `operand1 != operand2`            | Checks if operands are not equal                         | `5 != 3` → `true`                     |
+| `operand1 > operand2`             | Checks if left operand is greater than right             | `7 > 4` → `true`                      |
+| `operand1 < operand2`             | Checks if left operand is less than right                | `3 < 9` → `true`                      |
+| `operand1 >= operand2`            | Checks if left operand is greater than or equal to right | `6 >= 6` → `true`                     |
+| `operand1 <= operand2`            | Checks if left operand is less than or equal to right    | `2 <= 5` → `true`                     |
+| `(condition1) && (condition2)`    | True if **both** conditions are true                     | `(5 > 3) && (2 < 4)` → `true`         |
+| `(condition1) || (condition2)`    | True if **at least one** condition is true               | `(5 > 3) || (2 > 4)` → `true`         |
+| `!(condition)`                    | True if the condition is **false**                       | `!(5 == 3)` → `true`                  |
+
+---
+
+## 🧠 `if` Statement
+
+**Semantic:**  
 Executes a block of code **only if** the condition is true.
 
 ```cpp
+// Syntax:
 if (condition) {
     // code to execute if condition is true
 }
@@ -37,11 +55,13 @@ if (score >= 50) {
 
 ---
 
-## 🔁 if-else Statement
+## 🔁 `if-else` Statement
 
+**Semantic:**  
 Executes one block if the condition is true, another if false.
 
 ```cpp
+// Syntax:
 if (condition) {
     // true block
 } else {
@@ -61,11 +81,13 @@ if (score >= 50) {
 
 ---
 
-## 🧩 Nested if Statement
+## 🧩 Nested `if` Statement
 
+**Semantic:**  
 An `if` inside another `if`. Used for **multi-level decisions**.
 
 ```cpp
+// Syntax:
 if (condition1) {
     if (condition2) {
         // code if both conditions are true
@@ -89,11 +111,13 @@ if (score >= 50) {
 
 ---
 
-## 🔀 switch Statement
+## 🔀 `switch` Statement
 
+**Semantic:**  
 Used for **multi-way branching** based on a single variable.
 
 ```cpp
+// Syntax:
 switch (expression) {
     case value1:
         // code for value1
@@ -119,11 +143,13 @@ switch (grade) {
     case 'C':
         cout << "Fair";
         break;
+    case 'F':
+        cout << "Fail";
+        break;
     default:
         cout << "Invalid grade";
 }
 ```
-
 ---
 
 ## 🧪 Example Problem: Grade Evaluation
