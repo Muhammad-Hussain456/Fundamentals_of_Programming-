@@ -1,73 +1,72 @@
-# 🔁 Control Structures II (Python): Iterative_Statements / loops
+# 🔁 Control Structures II (C++): Loops
 
-Iterative Statements / loops allow your program to **repeat actions** efficiently based on conditions or sequences.
+Loops in C++ allow a program to **repeat a block of code** multiple times based on a condition or range.
 
 ---
 
 ## 🔄 `for` Loop
 
 ### ✅ Syntax
-```python
-for variable in iterable:
-    # code block to execute
+```cpp
+for (initialization; condition; update) {
+    // code block to execute
+}
 ```
 
-### 📘 Semantic  
-Iterates over each item in a sequence (like a list, string, or range).
+### 📘 Semantic Meaning  
+Executes the loop block a fixed number of times. Initialization runs once, then the condition is checked before each iteration. The update runs after each iteration.
 
 ### 💡 Example
-```python
-for i in range(5):
-    print("Iteration", i)
+```cpp
+for (int i = 0; i < 5; i++) {
+    cout << "Iteration " << i << endl;
+}
 ```
-This prints numbers from 0 to 4.
 
 ---
 
 ## 🔁 `while` Loop
 
 ### ✅ Syntax
-```python
-while condition:
-    # code block to execute
+```cpp
+while (condition) {
+    // code block to execute
+}
 ```
 
-### 📘 Semantic  
-Repeats the block **as long as** the condition is `True`.
+### 📘 Semantic Meaning  
+Executes the loop block **as long as** the condition is true. The condition is checked **before** each iteration.
 
 ### 💡 Example
-```python
-count = 0
-while count < 5:
-    print("Count:", count)
-    count += 1
+```cpp
+int count = 0;
+while (count < 5) {
+    cout << "Count: " << count << endl;
+    count++;
+}
 ```
 
 ---
 
-## 🔁 `do-while` Equivalent in Python
-
-Python does **not** have a built-in `do-while` loop, but you can simulate it using `while True` and a `break`.
+## 🔁 `do-while` Loop
 
 ### ✅ Syntax
-```python
-while True:
-    # code block
-    if not condition:
-        break
+```cpp
+do {
+    // code block to execute
+} while (condition);
 ```
 
-### 📘 Semantic  
-Executes the block **at least once**, then repeats based on a condition.
+### 📘 Semantic Meaning  
+Executes the loop block **at least once**, then repeats **as long as** the condition is true. The condition is checked **after** each iteration.
 
 ### 💡 Example
-```python
-count = 0
-while True:
-    print("Count:", count)
-    count += 1
-    if count >= 5:
-        break
+```cpp
+int count = 0;
+do {
+    cout << "Count: " << count << endl;
+    count++;
+} while (count < 5);
 ```
 
 ---
@@ -75,20 +74,26 @@ while True:
 ## 🔁 Nested Loops
 
 ### ✅ Syntax
-```python
-for outer in range(n):
-    for inner in range(m):
-        # code block
+```cpp
+for (int i = 0; i < outerLimit; i++) {
+    for (int j = 0; j < innerLimit; j++) {
+        // nested loop block
+    }
+}
 ```
 
-### 📘 Semantic  
-A loop inside another loop. Useful for grids, matrices, or combinations.
+### 📘 Semantic Meaning  
+A loop inside another loop. The inner loop completes all its iterations for each iteration of the outer loop.
 
 ### 💡 Example
-```python
-for i in range(3):
-    for j in range(2):
-        print(f"i={i}, j={j}")
+```cpp
+for (int i = 0; i < 3; i++) {
+    for (int j = 0; j < 2; j++) {
+        cout << "i = " << i << ", j = " << j << endl;
+    }
+}
 ```
 
 ---
+
+Would you like this added to your Markdown or Word template next? I can also prepare a bilingual version with Urdu translations or visual diagrams for loop flow.
