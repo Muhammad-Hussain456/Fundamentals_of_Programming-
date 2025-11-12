@@ -9,7 +9,7 @@ An **expression** is any valid combination of operands and operators that evalua
 
 ### ✅ Types of Expressions
 
-| 🧩 Type        | ✅ Syntax           | 📘 Semantic Meaning                                      | 💡 Example          |
+| 🧩 Type        | ✅ Syntax           | 📘 Semantic                                      | 💡 Example          |
 |----------------|----------------------------------|----------------------------------------------------------|----------------------------------------|
 | **Arithmetic** | `operand1 operator operand2`     | Performs mathematical operations                         | `a + b` → adds `a` and `b`             |
 | **Relational** | `operand1 operator operand2`     | Compares values and returns `true` or `false`            | `score > 50` → `true` if score above 50 |
@@ -27,7 +27,7 @@ It may contain expressions.
 
 ### ✅ Types of Statements
 
-| 🧩 Type           | ✅ Syntax              | 📘 Semantic Meaning                                 | 💡 Example         |
+| 🧩 Type           | ✅ Syntax              | 📘 Semantic                                 | 💡 Example         |
 |-------------------|----------------------------------|----------------------------------------------------|---------------------------------------|
 | **Expression**    | `expression;`                    | Evaluates an expression                            | `x = 5;` assigns 5 to x               |
 | **Declaration**   | `type variable;`                 | Declares a variable                                | `int score;` creates variable score    |
@@ -52,37 +52,43 @@ if (condition) {
     // code if condition is true
 }
 
-📘 Semantic
+```
+
+#### 📘 Semantic
 
 Executes block only if condition is true.
 
-💡 Example
-
+#### 💡 Example
+```cpp
 int score = 75;
 if (score >= 50) {
     cout << "Passed";
 }
+
 // Output: Passed
 
-
+```
 ---
 
-🔁 if-else Statement
+### 🔁 if-else Statement
 
-✅ Syntax
+#### ✅ Syntax
 
+```cpp
 if (condition) {
     // true block
 } else {
     // false block
 }
 
-📘 Semantic
+```
+
+#### 📘 Semantic
 
 Executes one block if true, another if false.
 
-💡 Example
-
+#### 💡 Example
+```cpp
 int score = 45;
 if (score >= 50) {
     cout << "Passed";
@@ -91,25 +97,27 @@ if (score >= 50) {
 }
 // Output: Failed
 
-
+```
 ---
 
-🧩 Nested if Statement
+### 🧩 Nested if Statement
 
-✅ Syntax
-
+#### ✅ Syntax
+```cpp
 if (condition1) {
     if (condition2) {
         // code if both are true
     }
 }
 
-📘 Semantic
+```
+
+#### 📘 Semantic
 
 Used for multi-level decision-making.
 
-💡 Example
-
+#### 💡 Example
+```cpp
 int score = 85;
 if (score >= 50) {
     if (score >= 80) {
@@ -122,13 +130,13 @@ if (score >= 50) {
 }
 // Output: Grade: A
 
-
+```
 ---
 
-🔀 switch Statement
+### 🔀 switch Statement
 
-✅ Syntax
-
+#### ✅ Syntax
+```cpp
 switch (expression) {
     case value1:
         // code
@@ -140,12 +148,14 @@ switch (expression) {
         // code if no match
 }
 
-📘 Semantic
+```
+
+#### 📘 Semantic
 
 Executes one of many possible blocks based on the value of the expression.
 
-💡 Example
-
+#### 💡 Example
+```cpp
 char grade = 'B';
 switch (grade) {
     case 'A': cout << "Excellent"; break;
@@ -156,5 +166,5 @@ switch (grade) {
 }
 // Output: Good
 
-
+```
 ---
