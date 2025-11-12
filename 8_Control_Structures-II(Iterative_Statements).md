@@ -13,7 +13,7 @@ for (initialization; condition; update) {
 }
 ```
 
-### 📘 Semantic Meaning  
+### 📘 Semantic  
 Executes the loop block a fixed number of times. Initialization runs once, then the condition is checked before each iteration. The update runs after each iteration.
 
 ### 💡 Example
@@ -34,7 +34,7 @@ while (condition) {
 }
 ```
 
-### 📘 Semantic Meaning  
+### 📘 Semantic  
 Executes the loop block **as long as** the condition is true. The condition is checked **before** each iteration.
 
 ### 💡 Example
@@ -57,7 +57,7 @@ do {
 } while (condition);
 ```
 
-### 📘 Semantic Meaning  
+### 📘 Semantic 
 Executes the loop block **at least once**, then repeats **as long as** the condition is true. The condition is checked **after** each iteration.
 
 ### 💡 Example
@@ -82,7 +82,7 @@ for (int i = 0; i < outerLimit; i++) {
 }
 ```
 
-### 📘 Semantic Meaning  
+### 📘 Semantic  
 A loop inside another loop. The inner loop completes all its iterations for each iteration of the outer loop.
 
 ### 💡 Example
