@@ -210,7 +210,7 @@ float MultiplyNumbers() {
 
 ### Clear Distinction
 
-**Parameters -** What function EXPECTS (in definition)
+**Parameters -** What function EXPECTS as input(during definition function)
 ```cpp
 // name and age are PARAMETERS
 void registerStudent(string name, int age) {
@@ -218,7 +218,7 @@ void registerStudent(string name, int age) {
 }
 ```
 
-**Arguments -** What you actually PASS (in function call)
+**Arguments -** What you actually PASS (during function call)
 ```cpp
 // "Muslim" and 16 are ARGUMENTS
 registerStudent("Muslim", 16);
