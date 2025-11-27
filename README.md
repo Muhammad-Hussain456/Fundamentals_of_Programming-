@@ -32,14 +32,14 @@ Expressions and statements types with syntax and semantics , if, else, nested if
 for, while, do‑while, nested loops.
 
 
-### Arrays: 
-
-one‑dimensional and multi‑dimensional arrays, array operations, passing arrays to functions.
-
-
 ### Functions:
 
 defining/calling functions, passing arguments (by value/reference), return values, scope/lifetime, recursion.
+
+
+### Arrays: 
+
+one‑dimensional and multi‑dimensional arrays, array operations, passing arrays to functions.
 
 
 ### Arrays of Strings: 
