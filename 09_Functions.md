@@ -98,10 +98,10 @@ void greetStudent(string name) {
 greetStudent("Muslim");
 ```
 
-## 📝 B. Based on Parameters and Return
+## 📝 B. Based on Parameters and Return type
 
-### 1. Functions with Parameters
-**Definition:** Functions that accept input values
+### 1. Functions with Parameters but no return value
+**Definition:** Functions that accept input values, perform action but return nothing 
 
 **Syntax:**
 ```cpp
@@ -127,8 +127,30 @@ serveLunch("Sartaj", "Paratha");
 - Different results based on different inputs
 - Processing user-specific data
 
-### 2. Functions without Parameters
-**Definition:** Functions that don't need any input
+
+### 2. Functions with parameters and return values
+**Definition:** Functions that take input, perform action and return value
+
+**Examples:**
+```cpp
+// Returns value
+int calculateTotalMarks(int math, int science) {
+    return math + science;
+}
+
+string getGrade(int marks) {
+    if(marks >= 90) return "A+";
+    else return "A";
+}
+
+// Using returned values
+int total = calculateTotalMarks(85, 92);
+string grade = getGrade(total);
+```
+
+
+### 3. Functions without Parameters and no return value
+**Definition:** Functions that don't need any input and return nothing 
 
 **Syntax:**
 ```cpp
@@ -158,38 +180,29 @@ displaySchoolRules();
 - Same action every time
 - Displaying fixed information
 
-### 3. Functions that Return Values
-**Definition:** Functions that give back a result
+
+
+### 4. Functions without any parameter but with return value
+**Definition:** Functions that perform action and return value
 
 **Examples:**
 ```cpp
-// Returns value
-int calculateTotalMarks(int math, int science) {
-    return math + science;
+// with return value
+int addNumbers() {
+    int a = 8;
+    int b = 6;
+    int c = a + b;
+
+  return c;
 }
 
-string getGrade(int marks) {
-    if(marks >= 90) return "A+";
-    else return "A";
-}
+float MultiplyNumbers() {
+    int a = 5;
+    int b = 3;
+    int c = a * b;
+    cout << c << endl;
 
-// Using returned values
-int total = calculateTotalMarks(85, 92);
-string grade = getGrade(total);
-```
-
-### 4. Void Functions (No Return)
-**Definition:** Functions that perform action but don't return value
-
-**Examples:**
-```cpp
-// No return value
-void displayWelcome() {
-    cout << "🎉 Welcome to Our School!";
-}
-
-void printLine() {
-    cout << "------------------------";
+    return 0;
 }
 ```
 
