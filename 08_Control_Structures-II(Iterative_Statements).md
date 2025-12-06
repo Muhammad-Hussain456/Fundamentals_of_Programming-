@@ -90,7 +90,7 @@ for (int i = 0; i < outerLimit; i++) {
 ### 📘 Semantic  
 A loop inside another loop.  
 - The **outer loop** controls rows (or higher dimension).  
-- The **inner loop** completes all its iterations for each iteration of the outer loop.  
+- The **inner loop** usually controls columns and completes all its iterations for each iteration of the outer loop.  
 
 ### 💡 Example
 ```cpp
