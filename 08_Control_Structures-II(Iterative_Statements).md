@@ -160,4 +160,3 @@ do {
 This distinction helps in modeling real-world structures like seating charts, hotel floors, or student-subject mappings.
 ```
 
-Would you like me to also prepare a **side-by-side Urdu translation** for each section so learners can instantly connect both languages in one document?
