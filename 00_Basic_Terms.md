@@ -21,6 +21,7 @@
 **Example (Natural Language):**
 "I am learning English."
 میں انگریزی سیکھ رہا ہوں۔
+
 "I learning am English۔
 
 
