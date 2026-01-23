@@ -44,6 +44,7 @@ int y = x / 0; // Syntax correct, but semantic error
 
 کوڈ درست ہے مگر تقسیم بر صفر کی غلطی ہے۔
 **Example (Natural Language):**
+
 "I drank the book."
 یہ جملہ گرامر کے لحاظ سے درست مگر مطلب میں بے معنی ہے۔
 
