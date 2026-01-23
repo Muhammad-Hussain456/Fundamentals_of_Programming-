@@ -21,8 +21,7 @@
 **Example (Natural Language):**
 "I am learning English."
 میں انگریزی سیکھ رہا ہوں۔
-"I learning am English."
-یہ جملہ صحیح گرامر کے باوجود غیر مناسب ہے۔
+"I learning am English۔
 
 
 ### Semantics
