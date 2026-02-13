@@ -95,17 +95,18 @@ A two-dimensional array stores elements in rows and columns (tabular form).
 dataType arrayName[rows][columns];
 
 #### 💻 Example
-
+``cpp
 int matrix[2][3] = {
     {1, 2, 3},
     {4, 5, 6}
 };
-
+``
+``cpp
 Column
           0  1  2
 Row 0     1  2  3
 Row 1     4  5  6
-
+``
 First index → row
 
 Second index → column
