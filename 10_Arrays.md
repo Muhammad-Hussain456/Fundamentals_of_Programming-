@@ -268,7 +268,7 @@ Sab se bari value identify karna.
 
 
 ---
-### 📤 Passing Arrays to Functions
+#### 📤 Passing Arrays to Functions
 
 ```cpp
 void printArray(int arr[], int size) {
@@ -280,6 +280,7 @@ void printArray(int arr[], int size) {
 Arrays are passed by reference → original array changes if modified in function.
 
 Efficient way to handle large data.
+
 ---
 
 
