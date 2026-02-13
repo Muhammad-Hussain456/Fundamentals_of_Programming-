@@ -1,6 +1,6 @@
-📦 Arrays in C++
+# 📦 Arrays in C++
 
-🔹 What is an Array?
+## 🔹 What is an Array?
 
 An array is a collection of elements of the same data type stored in contiguous memory locations (in rows or in both rows and columns).
 Array ek data structure hai jo ek hi data type ki multiple values ko memory mein lagatar (continuous) store karta hai (rows mein ya rows aur columns dono mein).
@@ -11,7 +11,7 @@ Yeh ek hi variable name ke zariye multiple values (rows mein ya rows aur columns
 
 ---
 
-🧠 Core Concepts
+### 🧠 Core Concepts
 
 All elements must be of the same data type.
 Sab elements ek hi data type ke hote hain.
@@ -22,7 +22,7 @@ Memory lagatar hoti hai, beech mein gap nahi hota.
 Index starts from 0.
 Index hamesha 0 se start hota hai.
 
-Loops in arrays:
+### Loops in arrays:
 
 Single loop → 1D arrays ke liye
 
@@ -35,18 +35,18 @@ Reason: Loops allow us to automatically access, traverse, update, or process all
 
 ---
 
-🧩 Types of Arrays
+## 🧩 Types of Arrays
 
-1️⃣ One-Dimensional Array (1D)
+### 1️⃣ One-Dimensional Array (1D)
 
 A one-dimensional array stores elements in a single row (linear form).
 1D array values ko ek seedhi line ya row mein store karta hai.
 
-✅ Syntax
+#### ✅ Syntax
 
 dataType arrayName[size];
 
-💻 Example
+#### 💻 Example
 
 int marks[5] = {80, 75, 90, 60, 85};
 
@@ -56,7 +56,7 @@ Value:  80  75  90  60  85
 marks[2] gives 90.
 marks[2] teesri value return karta hai.
 
-📌 Real-Life Use Cases
+#### 📌 Real-Life Use Cases
 
 Student marks
 
@@ -67,7 +67,7 @@ Daily temperatures
 Product prices
 
 
-🧠 Analogy
+#### 🧠 Analogy
 
 Think of a train with seats in a single row 🚆:
 
@@ -80,21 +80,21 @@ Passenger = value
 
 Har seat ko directly access kar sakte ho, jaise marks[2] = seat number 3 ka passenger.
 
-Traversal: Single loop automatically checks each seat (element).
+#### Traversal: Single loop automatically checks each seat (element).
 
 
 ---
 
-2️⃣ Two-Dimensional Array (2D)
+### 2️⃣ Two-Dimensional Array (2D)
 
 A two-dimensional array stores elements in rows and columns (tabular form).
 2D array data ko rows aur columns mein table ki tarah store karta hai.
 
-✅ Syntax
+#### ✅ Syntax
 
 dataType arrayName[rows][columns];
 
-💻 Example
+#### 💻 Example
 
 int matrix[2][3] = {
     {1, 2, 3},
@@ -114,7 +114,7 @@ Second index → column
 matrix[1][2] returns 6.
 Pehla index row ko aur doosra column ko represent karta hai.
 
-📌 Real-Life Use Cases
+#### 📌 Real-Life Use Cases
 
 Attendance sheet of students (rows = students, columns = days)
 
@@ -125,7 +125,7 @@ Chess board (rows and columns = board squares)
 Seating layout of a theater
 
 
-🧠 Analogy
+#### 🧠 Analogy
 
 Excel sheet 📋:
 
@@ -138,21 +138,21 @@ Cell = marks
 
 Access = matrix[1][2] = second student’s third subject marks.
 
-Traversal: Nested loops needed because we first select a row (outer loop), then iterate columns (inner loop).
+#### Traversal: Nested loops needed because we first select a row (outer loop), then iterate columns (inner loop).
 
 
 ---
 
-3️⃣ Multi-Dimensional Array
+### 3️⃣ Multi-Dimensional Array
 
 Array with more than 2 dimensions.
 2 se zyada brackets wale arrays ko multi-dimensional kehte hain.
 
-✅ Example
+#### ✅ Example
 
 int arr[2][3][4];
 
-📌 Real-Life Use Cases
+#### 📌 Real-Life Use Cases
 
 3D games → coordinates (x, y, z)
 
@@ -161,7 +161,7 @@ int arr[2][3][4];
 Image pixels (height × width × RGB color channels)
 
 
-🧠 Analogy
+#### 🧠 Analogy
 
 Think of a building with floors, rooms, and cabinets 🏢:
 
@@ -175,7 +175,7 @@ Cabinet/item = third index
 
 ---
 
-🔁 Nested Loops in Multi-Dimensional Arrays
+#### 🔁 Nested Loops in Multi-Dimensional Arrays
 
 Outer loop → rows (or first dimension)
 
@@ -203,9 +203,9 @@ Reason: Har element ko systematically access karne ke liye.
 
 ---
 
-🔧 Common Array Operations
+### 🔧 Common Array Operations
 
-1️⃣ Traversing
+#### 1️⃣ Traversing
 
 for(int i = 0; i < 5; i++)
     cout << marks[i] << " ";
@@ -216,7 +216,7 @@ Har element ko ek ek karke visit karna.
 
 ---
 
-2️⃣ Searching
+#### 2️⃣ Searching
 
 if(marks[i] == 90)
     cout << "Found";
@@ -227,7 +227,7 @@ Kisi khas value ko dhoondhna.
 
 ---
 
-3️⃣ Updating
+#### 3️⃣ Updating
 
 marks[2] = 100;
 
@@ -237,7 +237,7 @@ Kisi element ki value change karna.
 
 ---
 
-4️⃣ Summation
+#### 4️⃣ Summation
 
 sum += marks[i];
 
@@ -247,7 +247,7 @@ Sab values ko add karna.
 
 ---
 
-5️⃣ Finding Maximum
+#### 5️⃣ Finding Maximum
 
 Finding the largest element.
 Sab se bari value identify karna.
@@ -255,7 +255,7 @@ Sab se bari value identify karna.
 
 ---
 
-📤 Passing Arrays to Functions
+### 📤 Passing Arrays to Functions
 
 void printArray(int arr[], int size) {
     for(int i = 0; i < size; i++)
@@ -270,7 +270,7 @@ Efficient way to handle large data.
 
 ---
 
-🧠 Final Conceptual Understanding
+### 🧠 Final Conceptual Understanding
 
 Type	Storage	Loops Needed	Analogy	Real-Life Use
 
@@ -279,7 +279,7 @@ Type	Storage	Loops Needed	Analogy	Real-Life Use
 Multi-D	>2 dimensions	Multiple nested loops	Building floors/rooms 🏢	3D games, images
 
 
-Loops in arrays:
+### Loops in arrays:
 
 Enable automatic access, traversal, update, and processing of all elements efficiently.
 
