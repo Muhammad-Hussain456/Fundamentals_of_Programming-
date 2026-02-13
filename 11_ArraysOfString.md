@@ -202,31 +202,78 @@ David Eva Frank
 
 ---
 
-🧠 Summary
+### Program demonstrating 1D String Array
+```cpp
+#include <iostream>
+#include <string>
+using namespace std;
 
-Operation	Example
+// Function to print 1D array
+void printArray(string arr[], int size) {
+    for(int i = 0; i < size; i++)
+        cout << arr[i] << " ";
+    cout << endl;
+}
 
-Declare & Initialize	string fruits[3] = {"Apple","Banana","Mango"};
-Access	fruits[0] → Apple
-Traverse	for(int i=0;i<3;i++) cout<<fruits[i];
-Search	if(fruits[i]=="Mango")
-Update	fruits[1]="Orange";
-Concatenate	Combine all strings into one sentence
-Pass to Function	printStrings(fruits, 3);
-2D Array	string seats[2][3]; seats[1][2] = "Frank";
+int main() {
+    string fruits[3] = {"Apple", "Banana", "Mango"};
 
+    cout << "Original Array: ";
+    printArray(fruits, 3);
 
-Loops:
+    // Searching and updating
+    for(int i = 0; i < 3; i++) {
+        if(fruits[i] == "Banana") {
+            fruits[i] = "Orange"; // Update
+            cout << "Banana updated to Orange at index " << i << endl;
+        }
+    }
 
-Single loop → 1D string array
+    cout << "Updated Array: ";
+    printArray(fruits, 3);
 
-Nested loops → 2D string array
+    return 0;
+}
+```
+---
 
+### Program demonstrating 2D Or Multi-Dimensional String Array
 
-Real-Life Analogies:
+```cpp
+#include <iostream>
+#include <string>
+using namespace std;
 
-Shelf of books, classroom seating chart, menu list, student names.
+// Function to print 2D array
+void printMatrix(string matrix[][3], int rows) {
+    for(int i = 0; i < rows; i++) {
+        for(int j = 0; j < 3; j++)
+            cout << matrix[i][j] << " ";
+        cout << endl;
+    }
+}
 
+int main() {
+    string seats[2][3] = { {"Alice", "Bob", "Charlie"}, {"David", "Eva", "Frank"} };
 
+    cout << "Original 2D Array:" << endl;
+    printMatrix(seats, 2);
 
+    // Searching
+    for(int i = 0; i < 2; i++) {
+        for(int j = 0; j < 3; j++) {
+            if(seats[i][j] == "Eva") {
+                cout << "Found Eva at row " << i << ", column " << j << endl;
+            }
+        }
+    }
+
+    // Updating
+    seats[0][2] = "Grace";
+    cout << "Updated 2D Array:" << endl;
+    printMatrix(seats, 2);
+
+    return 0;
+}
+```
 ---
