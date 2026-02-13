@@ -268,6 +268,19 @@ Sab se bari value identify karna.
 
 
 ---
+### 📤 Passing Arrays to Functions
+
+```cpp
+void printArray(int arr[], int size) {
+    for(int i = 0; i < size; i++)
+        cout << arr[i] << " ";
+}
+```
+
+Arrays are passed by reference → original array changes if modified in function.
+
+Efficient way to handle large data.
+---
 
 
 ### Program Demonstrating All Common Array Operations
@@ -325,18 +338,6 @@ int main() {
     return 0;
 }
 ```
-### 📤 Passing Arrays to Functions
-
-```cpp
-void printArray(int arr[], int size) {
-    for(int i = 0; i < size; i++)
-        cout << arr[i] << " ";
-}
-```
-
-Arrays are passed by reference → original array changes if modified in function.
-
-Efficient way to handle large data.
 
 
 
