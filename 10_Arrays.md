@@ -340,7 +340,7 @@ int main() {
 }
 ```
 
-### Program Demonstrating All Common Array Operations(Two or multiple dimensional array)
+### Program Demonstrating All Common Array Operations(Two or multi-dimensional array)
 ```cpp
 #include <iostream>
 using namespace std;
