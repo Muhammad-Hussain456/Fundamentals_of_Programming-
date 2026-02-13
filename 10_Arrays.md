@@ -284,7 +284,7 @@ Efficient way to handle large data.
 ---
 
 
-### Program Demonstrating All Common Array Operations
+### Program Demonstrating All Common Array Operations(One dimensional array)
 ```cpp
 #include <iostream>
 using namespace std;
@@ -340,6 +340,73 @@ int main() {
 }
 ```
 
+### Program Demonstrating All Common Array Operations(Two or multiple dimensional array)
+```cpp
+#include <iostream>
+using namespace std;
+
+// Function to print a 2D array
+void printMatrix(int matrix[][3], int rows) {
+    for(int i = 0; i < rows; i++) {
+        for(int j = 0; j < 3; j++)
+            cout << matrix[i][j] << " ";
+        cout << endl;
+    }
+}
+
+int main() {
+    // 1️⃣ Declare and initialize a 2D array (2x3)
+    int matrix[2][3] = { {1, 2, 3}, {4, 5, 6} };
+    int rows = 2;
+    int cols = 3;
+
+    cout << "Original Matrix:" << endl;
+    printMatrix(matrix, rows);
+
+    // 2️⃣ Traversing
+    cout << "Traversing Matrix:" << endl;
+    for(int i = 0; i < rows; i++) {
+        for(int j = 0; j < cols; j++)
+            cout << matrix[i][j] << " ";
+        cout << endl;
+    }
+
+    // 3️⃣ Searching for 5
+    bool found = false;
+    for(int i = 0; i < rows; i++) {
+        for(int j = 0; j < cols; j++) {
+            if(matrix[i][j] == 5) {
+                cout << "Found 5 at row " << i << ", column " << j << endl;
+                found = true;
+            }
+        }
+    }
+    if(!found)
+        cout << "5 not found" << endl;
+
+    // 4️⃣ Updating: change matrix[1][2] to 10
+    matrix[1][2] = 10;
+    cout << "After Updating matrix[1][2]:" << endl;
+    printMatrix(matrix, rows);
+
+    // 5️⃣ Summation of all elements
+    int sum = 0;
+    for(int i = 0; i < rows; i++)
+        for(int j = 0; j < cols; j++)
+            sum += matrix[i][j];
+    cout << "Sum of all elements: " << sum << endl;
+
+    // 6️⃣ Finding Maximum
+    int max = matrix[0][0];
+    for(int i = 0; i < rows; i++)
+        for(int j = 0; j < cols; j++)
+            if(matrix[i][j] > max)
+                max = matrix[i][j];
+    cout << "Maximum element: " << max << endl;
+
+    return 0;
+}
+```
 
 
 ---
