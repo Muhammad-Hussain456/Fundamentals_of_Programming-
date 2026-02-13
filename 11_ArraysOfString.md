@@ -30,6 +30,7 @@ int main() {
     cout << fruits[0] << endl; // Output: Apple
     return 0;
 }
+```
 
 fruits[0] → first string
 
@@ -53,8 +54,10 @@ Access any box by its number (index).
 
 Use a loop to visit all elements:
 
+```cpp
 for(int i = 0; i < 3; i++)
     cout << fruits[i] << " ";
+```
 
 Output: Apple Banana Mango
 
@@ -65,11 +68,13 @@ Analogy: Teacher calling all student names one by one.
 
 🔍 Searching in String Arrays
 
+```cpp
 string searchName = "Mango";
 for(int i = 0; i < 3; i++) {
     if(fruits[i] == searchName)
         cout << searchName << " found at index " << i << endl;
 }
+```
 
 Finds the position of a string in the array.
 
@@ -81,9 +86,11 @@ Real-Life: Check if a city exists in a list of cities.
 
 ✏️ Updating a String in Array
 
+```cpp
 fruits[1] = "Orange";
 cout << fruits[1]; // Output: Orange
 
+```
 Changes the value of an element.
 
 Analogy: Replacing a book in a shelf with a new one.
@@ -96,10 +103,12 @@ Analogy: Replacing a book in a shelf with a new one.
 
 You can concatenate strings:
 
+```cpp
 string allFruits = "";
 for(int i = 0; i < 3; i++)
     allFruits += fruits[i] + " ";
 cout << allFruits;
+```
 
 Output: Apple Mango Orange
 
@@ -113,6 +122,7 @@ Real-Life: Listing all menu items in a single line.
 
 🔧 Passing String Arrays to Functions
 
+```cpp
 void printStrings(string arr[], int size) {
     for(int i = 0; i < size; i++)
         cout << arr[i] << " ";
@@ -124,6 +134,8 @@ int main() {
     printStrings(fruits, 3);
     return 0;
 }
+
+```
 
 Arrays are passed by reference.
 
@@ -137,6 +149,7 @@ Changes inside the function affect the original array.
 
 A 2D string array stores rows and columns of strings.
 
+```cpp
 string seats[2][3] = {
     {"Alice", "Bob", "Charlie"},
     {"David", "Eva", "Frank"}
@@ -149,6 +162,7 @@ seats[0][0] → Alice
 
 seats[1][2] → Frank
 
+```
 
 Analogy:
 Classroom seating chart 🏫:
@@ -165,12 +179,15 @@ Each cell = student name
 
 🔁 Nested Loops for 2D String Arrays
 
+```cpp
 for(int i = 0; i < 2; i++) {         // rows
     for(int j = 0; j < 3; j++) {     // columns
         cout << seats[i][j] << " ";
     }
     cout << endl;
 }
+
+```
 
 Outer loop → selects row
 
