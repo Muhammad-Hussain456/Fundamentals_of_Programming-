@@ -48,11 +48,14 @@ dataType arrayName[size];
 
 #### 💻 Example
 
+```cpp
 int marks[5] = {80, 75, 90, 60, 85};
 
+```
+```cpp
 Index:   0   1   2   3   4
 Value:  80  75  90  60  85
-
+```
 marks[2] gives 90.
 marks[2] teesri value return karta hai.
 
@@ -151,7 +154,10 @@ Array with more than 2 dimensions.
 
 #### ✅ Example
 
+```cpp
 int arr[2][3][4];
+
+```
 
 #### 📌 Real-Life Use Cases
 
@@ -182,7 +188,7 @@ Outer loop → rows (or first dimension)
 
 Inner loop → columns (or second dimension)
 
-
+```cpp
 for(int i = 0; i < 2; i++) {        // rows
     for(int j = 0; j < 3; j++) {    // columns
         cout << matrix[i][j] << " ";
@@ -190,6 +196,7 @@ for(int i = 0; i < 2; i++) {        // rows
     cout << endl;
 }
 
+```
 Rule:
 
 1D array → single loop
@@ -208,20 +215,22 @@ Reason: Har element ko systematically access karne ke liye.
 
 #### 1️⃣ Traversing
 
+```cpp
 for(int i = 0; i < 5; i++)
     cout << marks[i] << " ";
 
 Visiting each element one by one.
 Har element ko ek ek karke visit karna.
 
-
+```
 ---
 
 #### 2️⃣ Searching
 
+```cpp
 if(marks[i] == 90)
     cout << "Found";
-
+```
 Finding a specific value.
 Kisi khas value ko dhoondhna.
 
@@ -229,9 +238,9 @@ Kisi khas value ko dhoondhna.
 ---
 
 #### 3️⃣ Updating
-
+```cpp
 marks[2] = 100;
-
+```
 Changing an element value.
 Kisi element ki value change karna.
 
@@ -240,8 +249,9 @@ Kisi element ki value change karna.
 
 #### 4️⃣ Summation
 
+```cpp
 sum += marks[i];
-
+```
 Adding all elements.
 Sab values ko add karna.
 
@@ -258,10 +268,12 @@ Sab se bari value identify karna.
 
 ### 📤 Passing Arrays to Functions
 
+```cpp
 void printArray(int arr[], int size) {
     for(int i = 0; i < size; i++)
         cout << arr[i] << " ";
 }
+```
 
 Arrays are passed by reference → original array changes if modified in function.
 
