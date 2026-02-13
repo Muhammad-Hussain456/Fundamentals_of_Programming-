@@ -43,8 +43,11 @@ A one-dimensional array stores elements in a single row (linear form).
 1D array values ko ek seedhi line ya row mein store karta hai.
 
 #### ✅ Syntax
-
+##### Declaration:
 dataType arrayName[size];
+
+##### Initialization 
+dataType arrayName[size] = {values};
 
 #### 💻 Example
 
@@ -94,8 +97,12 @@ A two-dimensional array stores elements in rows and columns (tabular form).
 2D array data ko rows aur columns mein table ki tarah store karta hai.
 
 #### ✅ Syntax
-
+##### Declaration:
 dataType arrayName[rows][columns];
+
+##### Initialization 
+dataType arrayName[rows][columns] = {values};
+
 
 #### 💻 Example
 ```cpp
@@ -115,7 +122,7 @@ First index → row
 Second index → column
 
 
-matrix[1][2] returns 6.
+matrix[1][2] returns 6 means value 6 is present at row 1 and column 2.
 Pehla index row ko aur doosra column ko represent karta hai.
 
 #### 📌 Real-Life Use Cases
