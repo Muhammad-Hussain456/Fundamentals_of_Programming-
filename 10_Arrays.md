@@ -269,6 +269,62 @@ Sab se bari value identify karna.
 
 ---
 
+
+### Program Demonstrating All Common Array Operations
+```cpp
+#include <iostream>
+using namespace std;
+
+// Function to print an array
+void printArray(int arr[], int size) {
+    for(int i = 0; i < size; i++)
+        cout << arr[i] << " ";
+    cout << endl;
+}
+
+int main() {
+    // 1️⃣ Declare and initialize an array
+    int marks[5] = {80, 75, 90, 60, 85};
+    int size = 5;
+
+    cout << "Original Array: ";
+    printArray(marks, size);
+
+    // 2️⃣ Traversing
+    cout << "Traversing: ";
+    for(int i = 0; i < size; i++)
+        cout << marks[i] << " ";
+    cout << endl;
+
+    // 3️⃣ Searching for 90
+    for(int i = 0; i < size; i++) {
+        if(marks[i] == 90) {
+            cout << "Found 90 at index " << i << endl;
+        }
+    }
+
+    // 4️⃣ Updating: change marks[2] to 100
+    marks[2] = 100;
+    cout << "After Updating index 2: ";
+    printArray(marks, size);
+
+    // 5️⃣ Summation
+    int sum = 0;
+    for(int i = 0; i < size; i++)
+        sum += marks[i];
+    cout << "Sum of all elements: " << sum << endl;
+
+    // 6️⃣ Finding Maximum
+    int max = marks[0];
+    for(int i = 1; i < size; i++) {
+        if(marks[i] > max)
+            max = marks[i];
+    }
+    cout << "Maximum element: " << max << endl;
+
+    return 0;
+}
+```
 ### 📤 Passing Arrays to Functions
 
 ```cpp
