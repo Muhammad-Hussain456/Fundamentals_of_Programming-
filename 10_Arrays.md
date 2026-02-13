@@ -112,15 +112,11 @@ int matrix[2][3] = {
 };
 ```
 ```cpp
-Column
-          0  1  2
+          C0 C1 C2
+Index     0  1  2
 Row 0     1  2  3
 Row 1     4  5  6
 ```
-First index → row
-
-Second index → column
-
 
 matrix[1][2] returns 6 means value 6 is present at row 1 and column 2.
 Pehla index row ko aur doosra column ko represent karta hai.
@@ -225,11 +221,11 @@ Reason: Har element ko systematically access karne ke liye.
 ```cpp
 for(int i = 0; i < 5; i++)
     cout << marks[i] << " ";
+```
 
 Visiting each element one by one.
 Har element ko ek ek karke visit karna.
 
-```
 ---
 
 #### 2️⃣ Searching
