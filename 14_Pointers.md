@@ -131,4 +131,3 @@ int main() {
 
 ---
 
-Would you like me to create a **single consolidated program** that demonstrates **all pointer concepts together** (basic usage, arrays, functions, and structures) so you can see them working side by side?
