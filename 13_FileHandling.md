@@ -162,5 +162,3 @@ fstream file("data.txt", ios::in | ios::out | ios::app);
 - Always **open** before use and **close** after use  
 
 ---
-
-Would you like me to create a **single program** that demonstrates **all file operations together** (open, read, write, text, binary) just like we did for arrays and structs? That way you’ll have one consolidated reference.
