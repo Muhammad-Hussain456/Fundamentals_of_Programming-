@@ -166,5 +166,3 @@ int main() {
 | Pointers to Structs  | `Student *ptr` | Dynamic structures |
 
 ---
-
-Would you like me to also show **a complete program** that demonstrates **all struct operations together** (like we did for arrays)? That way you’ll see declaration, array of structs, nested structs, functions, and pointers all in one cohesive example.
